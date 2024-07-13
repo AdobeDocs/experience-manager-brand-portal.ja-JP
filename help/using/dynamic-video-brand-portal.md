@@ -12,7 +12,7 @@ discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
 source-git-commit: beabaa4e5cca4c2554111861b15902cac54ccd4c
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1170'
 ht-degree: 100%
 
 ---
@@ -62,7 +62,7 @@ Brand Portal 上でダイナミックビデオを操作するには、必ず以�
 * **Dynamic Media モードで Experience Manager オーサーを起動する**
 (Brand Portal の設定に使用した) Experience Manager オーサーインスタンスを [Dynamic Media - [!DNL Scene7] モード](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=ja#enabling-dynamic-media-in-scene-mode)または [Dynamic Media - ハイブリッドモード](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html?lang=ja)のいずれかで起動します。または、
 * **Experience Manager オーサーの Dynamic Media Cloud Services を設定する**
-Experience Manager オーサーを実行している Dynamic Media のモード（Scene7 モードまたはハイブリッドモード）に応じて、Experience Manager オーサーの**ツール** | **クラウドサービス** | **Dynamic Media**&#x200B;で [Dynamic Media クラウドサービス（[!DNL Scene7] モード）](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=ja?lang=ja#configuring-dynamic-media-cloud-services) または [Dynamic Media クラウドサービス（ハイブリッドモード）](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html?lang=ja#configuring-dynamic-media-cloud-services)のいずれかを設定します。
+Experience Manager オーサーを実行している Dynamic Media のモード（Scene7 モードまたはハイブリッドモード）に応じて、Experience Manager オーサーの**ツール** | **クラウドサービス** | **Dynamic Media**&#x200B;で [Dynamic Media クラウドサービス（[!DNL Scene7] モード）](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=ja#configuring-dynamic-media-cloud-services) または [Dynamic Media クラウドサービス（ハイブリッドモード）](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html?lang=ja#configuring-dynamic-media-cloud-services)のいずれかを設定します。
 * **Brand Portal の Dynamic Media を設定する**
 Experience Manager オーサーの Dynamic Media クラウド設定に応じて、Brand Portal 管理ツールの [Dynamic Media 設定](#configure-dm-hybrid-settings)または [[!DNL Scene7] 設定](#configure-dm-scene7-settings)を行います。
 Dynamic Media - **[!UICONTROL Scene7]** モードで設定した Experience Manager オーサーインスタンスと、Dynamic Media - ハイブリッドモードで設定した Experience Manager オーサーインスタンスでは、[別々の Brand Portal テナント](#separate-tenants)を使用してください。特に Dynamic Media **[!UICONTROL S7]** と Dynamic Media ハイブリッドの機能を使用する場合、注意が必要です。
@@ -122,7 +122,7 @@ Experience Manager オーサーインスタンスが Dynamic Media ハイブリ�
 
 >[!NOTE]
 >
->[ビデオエンコーディングプロファイル](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html?lang=ja)は Brand Portal には公開されず、代わりに **[!UICONTROL Scene7]** サーバーから取得されます。そのため、ビデオエンコードが Brand Portal で正常に再生されるためには、設定の詳細を Experience Manager オーサーインスタンスの [Dynamic Media クラウドサービス（[!DNL Scene7] モード）](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=ja?lang=ja#configuring-dynamic-media-cloud-services)と同じにする必要があります。
+>[ビデオエンコーディングプロファイル](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html?lang=ja)は Brand Portal には公開されず、代わりに **[!UICONTROL Scene7]** サーバーから取得されます。そのため、ビデオエンコードが Brand Portal で正常に再生されるためには、設定の詳細を Experience Manager オーサーインスタンスの [Dynamic Media クラウドサービス（[!DNL Scene7] モード）](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=ja#configuring-dynamic-media-cloud-services)と同じにする必要があります。
 
 Brand Portal テナントで Dynamic Media 設定をセットアップするには：
 

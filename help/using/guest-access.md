@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
 source-git-commit: 0670b8d372fd2dc5bdb1d0a928601e3e09a6dcf9
-workflow-type: ht
-source-wordcount: '1026'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1040'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## ゲストセッションの開始 {#begin-guest-session}
 
-匿名で Brand Portal に入るには、Brand Portal のようこそ画面で「**[!UICONTROL ゲストとしてアクセスしますか？]**」の横にある「**[!UICONTROL ここをクリックしてください]**」を選択します。CAPTCHA セキュリティチェックを入力して、Brand Portal へのアクセスを許可します。
+匿名でBrand Portalに入るには、「ゲストとしてアクセスしますか？」に対応する **[!UICONTROL ここをクリック]** を選択します **[!UICONTROL 。Brand Portalのようこそ画面で]** きます。 CAPTCHA セキュリティチェックを入力して、Brand Portal へのアクセスを許可します。
 
 ![](assets/bp-login-screen.png)
 

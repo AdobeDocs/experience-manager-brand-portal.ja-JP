@@ -1,8 +1,8 @@
 ---
 title: Lightbox コレクションの管理
-seo-title: Lightbox コレクションの管理
-description: Lightbox は、アセットに容易にアクセスするための特別なタイプのコレクションです。Brand Portal に初めてログインすると、各ユーザー専用の Lightbox が自動的に作成されます。Lightbox コレクションは削除できません。
-seo-description: Lightbox は、アセットに容易にアクセスするための特別なタイプのコレクションです。Brand Portal に初めてログインすると、各ユーザー専用の Lightbox が自動的に作成されます。Lightbox コレクションは削除できません。
+seo-title: Manage the lightbox collection
+description: Lightbox は、アセットに容易にアクセスするための特別なタイプのコレクションです。各ユーザーには、初めてBrand Portalにログインしたときに自動的に作成される専用の Lightbox があります。 Lightbox コレクションは削除できません。
+seo-description: Lightbox is a special type of collection that provides easy access to assets. Each user has an exclusive lightbox that is automatically created when they log in to Brand Portal for the first time. The Lightbox collection cannot be deleted.
 uuid: c074e45e-e63c-4856-947f-5e9e27bc46fb
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -11,9 +11,9 @@ discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
 role: Admin
 exl-id: 84160b81-e321-4920-9a86-e4cce3fa874c
 source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
-workflow-type: ht
-source-wordcount: '284'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 91%
 
 ---
 

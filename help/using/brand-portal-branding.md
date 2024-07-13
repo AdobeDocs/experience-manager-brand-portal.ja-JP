@@ -1,7 +1,7 @@
 ---
-title: 壁紙、ヘッダーおよび電子メールメッセージのカスタマイズ
+title: 壁紙、ヘッダーおよびメールメッセージのカスタマイズ
 seo-title: Customize wallpaper, header, and email message
-description: Brand Portal 管理者は、ユーザーに表示されるインターフェイスをカスタマイズできます。Brand Portal ログインページのために固有の背景画像（壁紙）を選択できます。顧客のブランドに合わせてヘッダー画像を追加したり、アセット共有の電子メールをカスタマイズしたりできます。
+description: Brand Portal管理者は、ユーザーに表示されるインターフェイスを制限付きでカスタマイズできます。 Brand Portalのログインページ用に特定の背景画像（壁紙）を選択できます。 顧客のブランドに合わせてヘッダー画像を追加したり、アセット共有のメールをカスタマイズしたりできます。
 seo-description: Brand Portal administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the Brand Portal login page. You can also add a header image and customize asset sharing emails to match the customer’s brand.
 uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
 content-type: reference
@@ -11,15 +11,15 @@ discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
-# 壁紙、ヘッダーおよび電子メールメッセージのカスタマイズ {#customize-wallpaper-header-and-email-message}
+# 壁紙、ヘッダーおよびメールメッセージのカスタマイズ {#customize-wallpaper-header-and-email-message}
 
-Brand Portal 管理者は、ユーザーに表示されるインターフェイスをカスタマイズできます。Brand Portal ログインページのために固有の背景画像（壁紙）を選択できます。顧客のブランドに合わせてヘッダー画像を追加したり、アセット共有の電子メールをカスタマイズしたりできます。
+Brand Portal管理者は、ユーザーに表示されるインターフェイスを制限付きでカスタマイズできます。 Brand Portalのログインページ用に特定の背景画像（壁紙）を選択できます。 顧客のブランドに合わせてヘッダー画像を追加したり、アセット共有のメールをカスタマイズしたりできます。
 
 ## ログイン画面の壁紙のカスタマイズ {#customize-the-login-screen-wallpaper}
 
@@ -69,8 +69,6 @@ Brand Portal 管理者は、ユーザーに表示されるインターフェイ�
 
    * 「**[!UICONTROL 保存]**」をクリックして、変更を保存します。
 
-
-
 ## ヘッダーのカスタマイズ {#customize-the-header}
 
 Brand Portal にログインすると、ヘッダーが様々な Brand Portal ページに表示されます。
@@ -97,7 +95,7 @@ Brand Portal にログインすると、ヘッダーが様々な Brand Portal �
 
    ![](assets/asset-picker-header.png)
 
-1. ヘッダー画像に URL を含めるには、「**[!UICONTROL 画像 URL]**」ボックスに URL を指定します。外部または内部 URL を指定できます。内部リンクの場合は、
+1. ヘッダー画像に URL を含めるには、「**[!UICONTROL 画像 URL]**」ボックスで URL を指定します。 外部または内部 URL を指定できます。内部リンクの場合は、
    [!UICONTROL `/mediaportal.html/content/dam/mac/tenant_id/tags`] などの相対リンクにすることも可能です。
 このリンクをクリックすると、tags フォルダーに移動します。
 変更内容を保存するには、上部のツールバーの「**[!UICONTROL 保存]**」をクリックします。
@@ -121,11 +119,9 @@ Brand Portal にログインすると、ヘッダーが様々な Brand Portal �
 
    * 「**[!UICONTROL 保存]**」をクリックして、変更を保存します。
 
+## メールメッセージのカスタマイズ {#customize-the-email-messaging}
 
-
-## 電子メールメッセージのカスタマイズ {#customize-the-email-messaging}
-
-アセットをリンクとして共有すると、そのリンクを含む電子メールがユーザーに届きます。管理者は、これらの電子メールのメッセージ内容、つまりロゴ、説明およびフッターをカスタマイズできます。
+アセットをリンクとして共有すると、そのリンクを含むメールがユーザーに届きます。 管理者は、これらのメールのメッセージ、つまりロゴ、説明およびフッターをカスタマイズできます。
 
 1. 上部のツールバーで Experience Manager ロゴをクリックして、管理ツールにアクセスします。
 
@@ -135,14 +131,14 @@ Brand Portal にログインすると、ヘッダーが様々な Brand Portal �
 
    ![](assets/admin-tools-panel-12.png)
 
-1. アセットをリンクとして共有したり電子メールを介してダウンロードしたりする場合や&#x200B;**[!UICONTROL コレクション]**&#x200B;を共有する場合は、ユーザーに電子メール通知が送信されます。電子メールメッセージをカスタマイズするには、**[!UICONTROL ブランディングを設定]**&#x200B;ページの左パネルから「**[!UICONTROL 電子メールメッセージ]**」を選択します。
+1. アセットをリンクとして共有したりメールを介してダウンロードしたりする場合や&#x200B;**[!UICONTROL コレクション]**&#x200B;を共有する場合は、ユーザーにメール通知が送信されます。メールメッセージをカスタマイズするには、**[!UICONTROL ブランディングを設定]**&#x200B;ページの左パネルから「**[!UICONTROL メールメッセージ]**」を選択します。
 
    ![](assets/configure-branding-page-email.png)
 
-1. 送信する電子メールにロゴを追加するには、上部のツールバーの「**[!UICONTROL アップロード]**」をクリックします。
+1. 送信するメールにロゴを追加するには、上部のツールバーの「**[!UICONTROL アップロード]**」をクリックします。
 
-1. 「**[!UICONTROL 説明]**」セクションで、電子メールのヘッダーとフッターのテキストを指定します。変更内容を保存するには、上部のツールバーの「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL 説明]**」セクションで、メールのヘッダーとフッターのテキストを指定します。変更内容を保存するには、上部のツールバーの「**[!UICONTROL 保存]**」をクリックします。
 
    >[!NOTE]
    >
-   >ロゴを推奨サイズで使用していない場合や、ヘッダーやフッターのテキストが推奨単語数を超えている場合は、電子メールメッセージのコンテンツが判読できなくなる場合があります。
+   >ロゴを推奨サイズで使用していない場合や、ヘッダーやフッターのテキストが推奨単語数を超えている場合は、メールメッセージのコンテンツが判読できなくなる場合があります。

@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
 source-git-commit: e3e35ad4be5c082ad7bac7bed8ea20a186d245ad
-workflow-type: ht
-source-wordcount: '969'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1073'
+ht-degree: 94%
 
 ---
 
@@ -43,9 +43,9 @@ Adobe Experience Manager Assets Brand Portal 管理者は、許可された内�
 
    ![](assets/link-sharing.png)
 
-   * 「メールアドレス」ボックスに、リンクを共有するユーザーのメール ID を入力します。リンクを複数のユーザーと共有できます。ユーザーが組織のメンバーの場合は、ドロップダウンリストに表示される候補の中から電子メール ID を選択します。外部ユーザーの場合は、メール ID を入力し、**[!UICONTROL Enter]** キーを押します。メール ID がユーザーの一覧に追加されます。
+   * 「メールアドレス」ボックスに、リンクを共有するユーザーのメール ID を入力します。リンクを複数のユーザーと共有できます。ユーザーが組織のメンバーの場合は、ドロップダウンリストに表示される候補の中からメール ID を選択します。外部ユーザーの場合は、メール ID を入力し、**[!UICONTROL Enter]** キーを押します。メール ID がユーザーの一覧に追加されます。
 
-      ![](assets/link-sharing-text.png)
+     ![](assets/link-sharing-text.png)
 
    * 「**[!UICONTROL 件名]**」ボックスに、共有するアセットの件名を入力します。
    * 必要に応じて、「**[!UICONTROL メッセージ]**」ボックスにメッセージを入力します。
@@ -68,7 +68,7 @@ Adobe Experience Manager Assets Brand Portal 管理者は、許可された内�
 
 ## 共有リンクからのアセットのダウンロード {#download-assets-from-shared-links}
 
-メール内のリンクをクリックして、共有アセットにアクセスします。AEM リンク共有ページが開きます。
+メール内のリンクをクリックして、共有アセットにアクセスします。「AEM リンク共有」ページが開きます。
 
 共有アセットをダウンロードするには：
 
@@ -128,7 +128,7 @@ Adobe Experience Manager Assets Brand Portal 管理者は、許可された内�
 
 ## プレビューおよびサムネールをサポートするアセット形式 {#preview-thumbnail-support}
 
-以下の表に、Brand Portal における様々なアセット形式のサムネールおよびプレビューのサポート状況を示します。
+次のマトリクスは、Brand Portalがサムネールとプレビューをサポートするアセット形式の一覧です。
 
 | アセット形式 | サムネールのサポート | プレビューのサポート |
 |--------------|-------------------|-----------------|
@@ -189,7 +189,7 @@ Adobe Experience Manager Assets Brand Portal 管理者は、許可された内�
 | TAR | 該当なし | ✕ |
 | ZIP | ✓ | ✕ |
 
-以下に、この表で使用する記号の意味を示します。
+次の凡例は、マトリックスで使用される記号を説明しています。
 
 | 記号 | 意味 |
 |---|---|
@@ -214,6 +214,6 @@ Adobe Experience Manager Assets Brand Portal 管理者は、許可された内�
 
    >[!NOTE]
    >
-   >共有されているリンクの表示は、ユーザーごとに異なります。この機能は、テナントのすべてのユーザーが共有するすべてのリンクを表示するものではありません。
+   >共有リンクの表示は、ユーザーごとに異なります。 この機能には、テナントのすべてのユーザーが共有するすべてのリンクは表示されません。
 
 1. 警告メッセージボックスで「**[!UICONTROL 続行]**」をクリックして、共有を解除することを確認します。指定したリンク項目が、共有リンクの一覧から削除されます。

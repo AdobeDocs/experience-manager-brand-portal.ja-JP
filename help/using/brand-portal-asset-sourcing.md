@@ -18,8 +18,8 @@ version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: ht
-source-wordcount: '646'
+workflow-type: tm+mt
+source-wordcount: '647'
 ht-degree: 100%
 
 ---
@@ -112,7 +112,7 @@ Experience Manager Assets 管理者は、アクティブな Brand Portal ユー�
 
 >[!NOTE]
 >
->CSV ファイルの形式は、Admin Console で一括ユーザー読み込み用にサポートされている形式と同じです。電子メールと氏名は必須です。
+>CSV ファイルの形式は、Admin Console で一括ユーザー読み込み用にサポートされている形式と同じです。メールと氏名は必須です。
 
 管理者は、 Admin Console で新規ユーザーを追加できます。詳しくは、[ユーザーの管理](brand-portal-adding-users.md)を参照してください。Admin Console でユーザーを追加したら、これらのユーザーを Brand Portal ユーザー設定ファイルに追加して、投稿フォルダーへのアクセス権を割り当てることができます。
 

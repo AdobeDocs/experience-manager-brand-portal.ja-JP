@@ -1,5 +1,5 @@
 ---
-title: 'Experience Manager Assets での投稿フォルダーの設定と Brand Portal への公開 '
+title: Experience Manager Assets での投稿フォルダーの設定と Brand Portal への公開
 seo-title: Configure and publish contribution folder from Experience Manager Assets to Brand Portal
 description: Experience Manager Assets での投稿フォルダーの設定と Brand Portal への公開について説明します。
 seo-description: Get an insight into configuring and publishing a contribution folder from Experience Manager Assets to Brand Portal.
@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
 source-git-commit: 3845d9fa17e75d59493383303ca0978349ca0401
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 100%
 
@@ -144,7 +144,7 @@ Experience Manager Assets ユーザーは、一連のベースラインアセッ
 
 ## Brand Portal への投稿フォルダーの公開 {#publish-contribution-folder-to-brand-portal}
 
-投稿フォルダーが設定されると、Experience Manager Assets ユーザー（管理者／管理者以外のユーザー）は、Experience Manager Assets から Brand Portal に投稿フォルダーを公開できます。投稿フォルダーへのアクセス権を持つ Brand Portal ユーザーは、公開アクションの完了時に電子メール／パルス通知を受け取ります。
+投稿フォルダーが設定されると、Experience Manager Assets ユーザー（管理者／管理者以外のユーザー）は、Experience Manager Assets から Brand Portal に投稿フォルダーを公開できます。投稿フォルダーへのアクセス権を持つ Brand Portal ユーザーは、公開アクションの完了時にメール／パルス通知を受け取ります。
 
 
 **投稿フォルダーを公開するには：**
@@ -159,4 +159,4 @@ Experience Manager Assets ユーザーは、一連のベースラインアセッ
    
 投稿フォルダーが Brand Portal に公開されると、成功メッセージを受け取ります。
 
-投稿フォルダーに割り当てられた Brand Portal ユーザーに電子メール／パルス通知が送信されます。Brand Portal ユーザーは、投稿フォルダーにアクセスして投稿を開始できます。詳しくは、[Brand Portal での投稿フォルダーへのアセットのアップロードと Experience Manager Assets への投稿フォルダーの公開](brand-portal-publish-contribution-folder-to-aem-assets.md)を参照してください。
+投稿フォルダーに割り当てられた Brand Portal ユーザーにメール／パルス通知が送信されます。Brand Portal ユーザーは、投稿フォルダーにアクセスして投稿を開始できます。詳しくは、[Brand Portal での投稿フォルダーへのアセットのアップロードと Experience Manager Assets への投稿フォルダーの公開](brand-portal-publish-contribution-folder-to-aem-assets.md)を参照してください。

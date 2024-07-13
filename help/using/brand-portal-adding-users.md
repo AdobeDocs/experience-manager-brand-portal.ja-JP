@@ -11,9 +11,9 @@ discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 role: Admin
 exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: ht
-source-wordcount: '2185'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '2167'
+ht-degree: 89%
 
 ---
 
@@ -45,7 +45,7 @@ Comment Type: draft
 
 >[!NOTE]
 >
->Brand Portal へのアクセス権がない新しいユーザーは、Brand Portal のログイン画面からアクセス権を申請できます。詳しくは、[Brand Portal へのアクセス権の申請](../using/brand-portal.md#request-access-to-brand-portal)を参照してください。管理者は、通知領域にアクセス権申請の通知が届いたら、関連する通知をクリックして「**[!UICONTROL アクセス権を付与]**」をクリックします。または、アクセス権申請の電子メールが届いたら、そこに記載されているリンクをクリックします。その後、[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) からユーザーを追加するには、以下の手順 4～7 を行います。
+>Brand Portalへのアクセス権を持たない新規ユーザーは、Brand Portalのログイン画面からアクセスをリクエストできます。 詳しくは、[Brand Portalへのアクセスのリクエスト ](../using/brand-portal.md#request-access-to-brand-portal) を参照してください。 管理者は、通知領域にアクセス権申請の通知が届いたら、関連する通知をクリックして「**[!UICONTROL アクセス権を付与]**」をクリックします。または、アクセス権申請のメールが届いたら、そこに記載されているリンクをクリックします。その後、[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) からユーザーを追加するには、以下の手順 4～7 を行います。
 
 >[!NOTE]
 >
@@ -73,18 +73,18 @@ Comment Type: draft
 
    ![Admin Console でユーザーを追加](assets/admin_console_adduseruserpage.png)
 
-1. ユーザーを追加ダイアログで、追加するユーザーの電子メール ID を入力するか、入力中に表示される候補リストからユーザーを選択します。
+1. ユーザーを追加ダイアログで、追加するユーザーのメール ID を入力するか、入力中に表示される候補リストからユーザーを選択します。
 
    ![Brand Portal へのユーザーの追加](assets/add_user_to_aem_bp.png)
 
 1. 1 つ以上の製品プロファイル（旧称：製品設定）にユーザーを割り当てます。製品プロファイルに割り当てられたユーザーは、Brand Portal にアクセスできます。「**[!UICONTROL この製品のプロファイルを選択してください]**」フィールドから、適切な製品プロファイルを選択します。
-1. 「**[!UICONTROL 保存]**」をクリックします。新しく追加されたユーザーに「ようこそ」のメールが送信されます。招待されたユーザーは、「ようこそ」のメールに記載されているリンクをクリックして、Brand Portal にアクセスできます。ユーザーは、Admin Console で設定されたメール ID（[!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID]、または[!UICONTROL フィードID]）を使用してログインできます。詳しくは、[初回のログイン操作](../using/brand-portal-onboarding.md)を参照してください。
+1. 「**[!UICONTROL 保存]**」をクリックします。新しく追加されたユーザーにウェルカムメールが送信されます。招待されたユーザーは、ウェルカムメールに記載されているリンクをクリックして、Brand Portal にアクセスできます。ユーザーは、Admin Console で設定されたメール ID（[!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID]、または[!UICONTROL フィードID]）を使用してログインできます。詳しくは、[初回のログイン操作](../using/brand-portal-onboarding.md)を参照してください。
 
    >[!NOTE]
    >
    >ユーザーが Brand Portal にログオンできない場合は、組織の管理者が Adobe [!UICONTROL Admin Console] にアクセスして、そのユーザーが存在しており、1 つ以上の製品プロファイルに追加されていることを確認してください。
 
-   管理者権限の付与について詳しくは、[ユーザーへの管理者権限の付与](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers)を参照してください。
+   ユーザーに対する管理者権限の付与については、[ ユーザーに管理者権限を与える ](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers) を参照してください。
 
 ## 製品プロファイルの追加 {#add-a-product-profile}
 
@@ -111,7 +111,7 @@ Comment Type: draft
 
    ![新しい製品プロファイルの追加](assets/admin_console_addproductprofile.png)
 
-1. [!UICONTROL 新しいプロファイルを作成]ページで、プロファイル名、表示名およびプロファイルの説明を入力します。また、ユーザーがプロファイルに追加された場合やプロファイルから削除された場合に電子メールで通知するかどうかも選択します。
+1. [!UICONTROL 新しいプロファイルを作成]ページで、プロファイル名、表示名およびプロファイルの説明を入力します。また、ユーザーがプロファイルに追加された場合やプロファイルから削除された場合にメールで通知するかどうかも選択します。
 
    ![製品プロファイルの作成](assets/admin_console_addaproductprofilecreatenewprofile.png)
 
@@ -150,13 +150,11 @@ Brand Portal グループにユーザーを追加するには、[!UICONTROL Admi
 
    ![Brand Portal で製品プロファイルをマッピングするためのグループ](assets/admin_console_productprofilesalesgroup.png)
 
-   * [!UICONTROL Sales group にユーザーを追加]ページで、追加するユーザーの電子メール ID を入力するか、入力中に表示される候補リストからユーザーを選択します。
+   * [!UICONTROL Sales group にユーザーを追加]ページで、追加するユーザーのメール ID を入力するか、入力中に表示される候補リストからユーザーを選択します。
 
    ![グループへのユーザーの追加](assets/admin_console_addusertosalesgroup.png)
 
    * 「**[!UICONTROL 保存]**」をクリックします。
-
-
 
 1. 製品プロファイルにユーザーを一括で追加するには、以下の手順を実行します。
 
@@ -169,9 +167,10 @@ Brand Portal グループにユーザーを追加するには、[!UICONTROL Admi
    ![CSV でのユーザーの追加](assets/admin_console_addbulkuserscsv.png)
 
    * 「**[!UICONTROL アップロード]**」をクリックします。
-   デフォルトの製品プロファイル Brand Portal にユーザーを追加した場合は、追加したユーザーの電子メール ID 宛に、「ようこそ」の電子メールが送信されます。招待されたユーザーは、「ようこそ」の電子メールに記載されているリンクをクリックし、[!UICONTROL Adobe ID] を使用してサインインすることで、Brand Portal にアクセスできます。詳しくは、[初回のログイン操作](../using/brand-portal-onboarding.md)を参照してください。
 
-   ユーザーをカスタム製品プロファイルや新しい製品プロファイルに追加したときに、そのユーザーに電子メール通知が送信されることはありません。
+   デフォルトの製品プロファイル Brand Portal にユーザーを追加した場合は、追加したユーザーのメール ID 宛に、ウェルカムメールが送信されます。招待されたユーザーは、ウェルカムメールに記載されているリンクをクリックし、[!UICONTROL Adobe ID] を使用してサインインすることで、Brand Portal にアクセスできます。詳しくは、[初回のログイン操作](../using/brand-portal-onboarding.md)を参照してください。
+
+   カスタムまたは新しい製品プロファイルに追加されたユーザーは、メール通知を受信しません。
 
 ## ユーザーへの管理者権限の付与 {#provide-administrator-privileges-to-users}
 
@@ -215,7 +214,7 @@ Brand Portal グループにユーザーを追加するには、[!UICONTROL Admi
 
    >[!NOTE]
    >
-   >Brand Portal は、製品プロファイル管理者（旧称：設定管理者）の権限をサポートしていません。ユーザーに製品プロファイル管理者の権限を割り当てることは避けてください。
+   >Brand Portalでは、製品プロファイル管理者（旧称：設定管理者）権限をサポートしていません。 ユーザーに製品プロファイル管理者の権限を割り当てることは避けてください。
 
 1. 管理者タイプの選択を確認し、「**[!UICONTROL 保存]**」をクリックします。
 
@@ -226,9 +225,9 @@ Brand Portal グループにユーザーを追加するには、[!UICONTROL Admi
 
 ## ユーザーの役割の管理 {#manage-user-roles}
 
-管理者は、Brand Portal でユーザーの役割を変更できます。
+管理者は、Brand Portalのユーザーのロールを変更できます。
 
-管理者の役割以外にも、Brand Portal は、次の役割をサポートしています。
+Brand Portalでは、管理者の役割に加えて、次の役割をサポートしています。
 
 * [!UICONTROL 閲覧者]：この役割を持つユーザーは、管理者から共有されたファイルやフォルダーを表示できます。また、アセットの検索とダウンロードも可能です。ただし、他のユーザーとコンテンツ（ファイル、フォルダー、[!UICONTROL コレクション]）を共有することはできません。
 * [!UICONTROL エディター]：この役割を持つユーザーは、閲覧者の権限をすべて保有します。さらに、他のユーザーとコンテンツ（フォルダー、[!UICONTROL コレクション]、リンク）を共有できます。
@@ -249,12 +248,12 @@ Brand Portal グループにユーザーを追加するには、[!UICONTROL Admi
 
    >[!NOTE]
    >
-   >管理者ユーザーの[!UICONTROL 役割]リストは無効になっています。管理者ユーザーを選択して、役割を変更することはできません。
+   >管理者ユーザーの [!UICONTROL  役割 ] リストは無効になっています。 これらのユーザーを選択して役割を変更することはできません。
 
 
    >[!NOTE]
    >
-   >ユーザーがエディターグループのメンバーの場合は、ユーザーの役割も無効になっています。ユーザーの編集権限を失効するには、エディターグループからそのユーザーを削除するか、グループ全体の役割を「閲覧者」に変更します。
+   >ユーザーがエディターグループのメンバーである場合、ユーザーの役割も無効になります。 ユーザーの編集権限を取り消すには、エディターのグループからユーザーを削除するか、グループ全体の役割を閲覧者に変更します。
 
 
 1. 「**[!UICONTROL 保存]**」をクリックします。対応するユーザーの役割が変更されます。複数のユーザーを選択している場合は、すべてのユーザーの役割が同時に変更されます。
@@ -267,12 +266,12 @@ Brand Portal グループにユーザーを追加するには、[!UICONTROL Admi
 
 管理者は、Brand Portal で特定の権限をユーザー[グループ](../using/brand-portal-adding-users.md#main-pars-title-278567577)に関連付けることができます。**[!UICONTROL ユーザーの役割]**&#x200B;ページの「**[!UICONTROL グループ]**」タブでは、管理者は次の操作を行うことができます。
 
-* ユーザーグループに役割を割り当てる
-* ユーザーグループが Brand Portal から画像ファイル（.jpeg、.tiff、.png、.bmp、.gif、.pjpeg、x-portable-anymap、x-portable-bitmap、x-portable-graymap、x-portable-pixmap、x-rgb、x-xbitmap、x-xpixmap、x-icon、image/photoshop、image/x-photoshop、.psd、image/vnd.adobe.photoshop）のオリジナルのレンディションをダウンロードすることを制限する
+* ユーザーグループへの役割の割り当て
+* ユーザーグループがBrand Portalから画像ファイルのオリジナルのレンディション（.jpeg、.tiff、.png、.bmp、.gif、.pjpeg、x-portable-anymap、x-portable-bitmap、x-portable-graymap、x-portable-pixmap、x-rgb、x-xbitmap、x-xpixmap、x-icon、image/photoshop、image/x-photoshop、.psd、image/vnd.adobe.photoshop）をダウンロードするのを制限します。
 
 >[!NOTE]
 >
->リンクとして共有されたアセットの場合、画像ファイルのオリジナルのレンディションへのアクセス権限は、アセットを共有しているユーザーの権限に基づいて適用されます。
+>リンクとして共有されるアセットの場合、画像ファイルのオリジナルのレンディションへのアクセス権限は、アセットを共有するユーザーの権限に基づいて適用されます。
 
 特定のグループメンバーがオリジナルのレンディションにアクセスするための役割および権限を変更するには、次の手順に従います。
 

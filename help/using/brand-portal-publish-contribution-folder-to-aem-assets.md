@@ -11,8 +11,8 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
 source-git-commit: 606f4389780025f5cf92b11bf8cac464e36be44a
-workflow-type: ht
-source-wordcount: '1471'
+workflow-type: tm+mt
+source-wordcount: '1475'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 ## アセット要件のダウンロード {#download-asset-requirements}
 
-Brand Portal ユーザーは、投稿フォルダーが Experience Manager Assets ユーザーによって共有されるたびに、電子メール／パルス通知を自動的に受け取ります。これにより、アセット要件を確実に理解するための概要（アセット要件）ドキュメントおよびベースラインアセット（参照用コンテンツ）を **SHARED** フォルダーからダウンロードできます。
+Brand Portal ユーザーは、投稿フォルダーが Experience Manager Assets ユーザーによって共有されるたびに、メール／パルス通知を自動的に受け取ります。これにより、アセット要件を確実に理解するための概要（アセット要件）ドキュメントおよびベースラインアセット（参照用コンテンツ）を **SHARED** フォルダーからダウンロードできます。
 
 Brand Portal ユーザーは、アセット要件をダウンロードするために、次のアクティビティを実行します。
 
@@ -122,7 +122,7 @@ Brand Portal ユーザーは、Experience Manager オーサーインスタンス
 
    ![](assets/publish-contribution-folder-to-aem1.png)
 
-公開ワークフローの様々な段階で、電子メール／パルス通知が Brand Portal ユーザーおよび管理者に送信されます。
+公開ワークフローの様々な段階で、メール／パルス通知が Brand Portal ユーザーおよび管理者に送信されます。
 
 1. **キューに登録済み** - Brand Portal で公開ワークフローがトリガーされると、Brand Portal ユーザーおよび Brand Portal 管理者に通知が送信されます。
 
@@ -138,19 +138,19 @@ Brand Portal から Experience Manager Assets に公開したアセット投稿�
 
 * Brand Portal で、**[!UICONTROL ツール]**／**[!UICONTROL アセット投稿のステータス]**&#x200B;に移動します。このレポートには、公開ワークフローの様々な段階におけるすべての公開ジョブのステータスが表示されます。
 
-   ![](assets/contribution-folder-status-v2.png)
+  ![](assets/contribution-folder-status-v2.png)
 
 * Experience Manager Assets（オンプレミス版または Managed Services 版）で、**[!UICONTROL アセット]**／**[!UICONTROL ジョブ]**&#x200B;に移動します。このレポートには、すべての公開ジョブの最終状態（成功またはエラー）が表示されます。
 
-   ![](assets/publishing-status.png)
+  ![](assets/publishing-status.png)
 
 * Experience Manager Assets as a Cloud Service で、**[!UICONTROL アセット]**／**[!UICONTROL ジョブ]**&#x200B;に移動します。
 
-   または、グローバルナビゲーションから&#x200B;**[!UICONTROL ジョブ]**&#x200B;に直接移動できます。
+  または、グローバルナビゲーションから&#x200B;**[!UICONTROL ジョブ]**&#x200B;に直接移動できます。
 
-   このレポートには、Brand Portal から Experience Manager Assets as a Cloud Service へのアセットのインポートなど、すべての公開ジョブの最終状態（成功またはエラー）が表示されます。
+  このレポートには、Brand Portal から Experience Manager Assets as a Cloud Service へのアセットのインポートなど、すべての公開ジョブの最終状態（成功またはエラー）が表示されます。
 
-   ![](assets/cloud-service-job-status.png)
+  ![](assets/cloud-service-job-status.png)
 
 <!--
 >[!NOTE]
@@ -169,7 +169,7 @@ Brand Portal では、12 時間ごとに自動ジョブを実行して、すべ�
 * ジョブで正常に削除された合計アセット数
 * ジョブの実行の結果として使用可能になった合計ストレージ
 
-   ![削除レポート](assets/deletion-reports.png)
+  ![削除レポート](assets/deletion-reports.png)
 
 さらにドリルダウンして、削除ジョブに含まれる各アセットの詳細を表示することもできます。レポートには、アセットのタイトル、サイズ、作成者、削除ステータス、削除時間などの詳細が含まれます。
 
@@ -179,7 +179,6 @@ Brand Portal では、12 時間ごとに自動ジョブを実行して、すべ�
 >
 > * お客様は、アドビカスタマーサポートに対して、自動削除ジョブ機能の無効化と再有効化、または実行頻度の変更をリクエストできます。
 > * この機能は、Experience Manager 6.5.13.0 以降のリリースで使用できます。
-
 
 ### 削除レポートの表示とダウンロード {#view-delete-jobs}
 

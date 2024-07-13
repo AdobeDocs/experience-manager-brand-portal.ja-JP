@@ -12,9 +12,9 @@ discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 role: Admin
 exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -41,7 +41,7 @@ Experience Manager Assets Brand Portal では、各組織が特定のテナン�
 
 ## 一般設定の有効化／無効化 {#enable-disable-general-configurations}
 
-これらの設定を有効化／無効化するには、次のようにします。
+これらの各設定を有効/無効にするには：
 
 1. 管理者権限でログインします。
 1. 管理ツールにアクセスするには、上部のツールバーにある Experience Manager ロゴを選択します。
@@ -60,7 +60,7 @@ Experience Manager Assets Brand Portal では、各組織が特定のテナン�
 
 ## 管理者以外による公開スマートコレクションの作成を許可 {#allow-public-smart-collections-creation-by-non-admins}
 
-「[[!UICONTROL 公開スマートコレクションの作成を許可]](../using/brand-portal-searching.md#main-pars-header-500620467)」設定では、管理者以外のユーザーが検索をスマートコレクションとして保存して、そのテナントの公開スマートコレクションにすることを許可するかどうかを制御できます。この設定はデフォルトで有効です。この設定を無効にすると、管理者以外のユーザーが組織の Brand Portal 上に多数の公開スマートコレクションを作成することを防止できます。
+「[[!UICONTROL 公開スマートコレクションの作成を許可]](../using/brand-portal-searching.md#main-pars-header-500620467)」設定では、管理者以外のユーザーが検索をスマートコレクションとして保存して、そのテナントの公開スマートコレクションにすることを許可するかどうかを制御できます。この設定はデフォルトで有効です。設定を無効にすると、管理者以外のユーザーが組織のBrand Portalで作成した多数の公開スマートコレクションを持つことを防ぐことができます。
 
 <!-- 
 ## Allow download acceleration {#allow-download-acceleration}

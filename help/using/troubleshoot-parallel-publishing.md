@@ -11,9 +11,9 @@ discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
 source-git-commit: 72cd0ebbf05067287d94e1dc4e1b68f5fb6c2888
-workflow-type: ht
-source-wordcount: '953'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '960'
+ht-degree: 96%
 
 ---
 
@@ -33,21 +33,21 @@ Brand Portal と Experience Manager Assets の連携を設定すると、承認�
 
 ## 初めての公開で失敗した場合のトラブルシューティング：公開設定の検証 {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
 
-公開設定を検証するには、次のようにします。
+公開設定を検証するには：
 
-1. エラーログを確認します。
-1. レプリケーションエージェントが作成されているかを確認します。
+1. エラーログを確認します
+1. レプリケーションエージェントが作成されているかどうかを確認
 1. 接続をテストします。
 
 **Cloud Service 作成時のテールログ**
 
-直近のログを確認します。レプリケーションエージェントが作成されているかどうかを確認します。レプリケーションエージェントの作成が失敗している場合は、クラウドサービスに小さな変更を加えることでクラウドサービスを編集します。検証を行い、レプリケーションエージェントが作成されているかをもう一度確認します。作成されていない場合は、サービスを再編集します。
+テールログを確認します。 レプリケーションエージェントが作成されているかどうかを確認します。レプリケーションエージェントの作成が失敗している場合は、クラウドサービスに小さな変更を加えることでクラウドサービスを編集します。検証を行い、レプリケーションエージェントが作成されているかをもう一度確認します。作成されていない場合は、サービスを再編集します。
 
 クラウドサービスを何度か編集しても適切に設定されない場合は、Daycare チケットを発行してください。
 
-**レプリケーションエージェントとの接続テスト**
+**レプリケーションエージェントによる接続のテスト**
 
-ログを参照して、レプリケーションログにエラーが記録されている場合は、次のようにします。
+ログを表示します（レプリケーションログにエラーが見つかった場合）。
 
 1. カスタマーサポートに問い合わせてください。
 
@@ -67,8 +67,7 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 1. `localhost:4502/crx/de/` に移動します（localhost でオーサーインスタンスを実行していると仮定）。:4502:\
    i. `/etc/replication/agents.author/mp_replication` を削除します。
-ii.次を削除します。 
-`/etc/cloudservices/mediaportal/<config_name>`
+ii.を削除します。`/etc/cloudservices/mediaportal/<config_name>` 
 
 1. localhost:4502/useradmin に移動します。\
    i. ユーザー `mac-<tenantid>replication` を検索します。
