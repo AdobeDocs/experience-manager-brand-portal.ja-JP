@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: a219adc020d63897b10dca83d9ce31fd3ebf847c
+source-git-commit: 133ea1fc342e4460e7d0661205c7411a509143eb
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 74%
+source-wordcount: '1005'
+ht-degree: 72%
 
 ---
 
@@ -112,7 +112,7 @@ Brand Portalの右上にある表示セレクターで、使用可能ないず�
 パス列を使用すると、フォルダー階層内のアセットの場所が特定しやすくなります。リソース名をタップまたはクリックして階層の下に移動したり、[ヘッダーのパンくずリスト](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html?lang=ja)を使用して上に戻ったりできます。
 
 <!--
-Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
+Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
  -->
 
 ### リスト表示の表示設定
@@ -234,7 +234,7 @@ Comment Type: draft
 
 これらの表示に加え、3 つのツリー表示を使用して、目的のアセットやフォルダーを表示および選択しながらアセット階層をドリルダウンします。
 
-ツリー表示を開くには、左上のパネルセレクターをタップまたはクリックし、メニューから「**[!UICONTROL コンテンツツリー]**」を選択します。
+ツリービューを開くには、左上のパネルセレクターをクリックし、メニューから **[!UICONTROL コンテンツツリー]** を選択します。
 
 ![](assets/contenttree.png)
 
