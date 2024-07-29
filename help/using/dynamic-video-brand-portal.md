@@ -1,19 +1,15 @@
 ---
 title: Brand Portal でのダイナミックビデオのサポート
-seo-title: Dynamic video support on Brand Portal
 description: Brand Portal でのダイナミックビデオのサポート
-seo-description: Dynamic video support on Brand Portal
-uuid: a3502a4d-3971-4ea4-953c-44ba04446269
 contentOwner: mgulati
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: download-install
-discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: beabaa4e5cca4c2554111861b15902cac54ccd4c
+source-git-commit: ff51a49a958d43c98443d816a92276faae5e9569
 workflow-type: tm+mt
 source-wordcount: '1170'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -106,7 +102,7 @@ Brand Portal と **[!UICONTROL Experience Manager クラウド設定]**&#x200B;�
 ### Dynamic Media Scene7 モードの公開エグレス IP を許可リストに登録する
 
 Dynamic Media **[!UICONTROL Scene7]**（[セキュアプレビューが有効](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html?lang=ja)）を使用して Brand Portal にビデオアセットを配信する場合、**[!UICONTROL Scene7]** はステージング環境または内部アプリケーション用に専用の画像サーバーを設定します。このサーバーへのリクエストはすべて、発信元 IP アドレスをチェックします。受信リクエストが IP アドレスの承認済みリストに含まれていない場合は、失敗のレスポンスが返されます。
-そのため、**[!UICONTROL Scene7]** の会社管理者は、**[!UICONTROL SPS]**（Scene7 公開システム）Flash UI を使用して、自社の&#x200B;**[!UICONTROL セキュアテスト]** 環境用の承認済み IP アドレスリストを設定します。該当するそれぞれの地域のエグレス IP（以下を参照）を、その承認済みリストに必ず追加してください。
+そのため、**[!UICONTROL Scene7]** の会社の管理者が、（SPS **[!UICONTROL （Scene7 Publishing System） Flash UI を使用して、自社の]** セキュアテスト ]**環境用の承認済み IP アドレスリストを設定します**[!UICONTROL 。 該当するそれぞれの地域のエグレス IP（以下を参照）を、その承認済みリストに必ず追加してください。
 これらのいずれかのエグレス IP を許可リストに登録するには、[セキュアテストサービス用アカウントの準備方法](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html?lang=ja#testing-the-secure-testing-service)を参照してください。
 エグレス IP は次のとおりです。
 
