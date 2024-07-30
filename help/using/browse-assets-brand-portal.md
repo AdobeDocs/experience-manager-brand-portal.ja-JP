@@ -5,10 +5,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: ff51a49a958d43c98443d816a92276faae5e9569
+source-git-commit: 4d9d7afa2cd45ea68c2e15338c92aa29ecf09f91
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 31%
+source-wordcount: '1013'
+ht-degree: 30%
 
 ---
 
@@ -109,7 +109,7 @@ Brand Portalの表示セレクターで使用可能ないずれかの表示（�
 パス列を使用すると、フォルダー階層内のアセットの場所を簡単に識別できます。 リソース名をクリックして階層を下に移動し、ヘッダーの [ パンくずリスト ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling) を使用して戻ることができます。
 
 <!--
-Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
+Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click the checkbox. When only some items are selected, it appears with a minus sign. To select all, click the checkbox. To deselect all, click the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
  -->
 
 ### リスト表示の表示設定
@@ -128,7 +128,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ツリー内を上下に移動できます。 リソース名またはリソース名の右側にある山形記号をクリックします。
 
-* タップまたはクリックするとリソース名と山形記号がハイライト表示されます。
+* リソース名と山形記号は、クリックするとハイライト表示されます。
 * サムネールをタップまたはクリックすると、リソースが選択されます。
 * 選択すると、チェックマークがサムネールにオーバーレイ表示され、リソース名がハイライト表示されます。
 * 選択されたリソースの詳細が最後の列に表示されます。
@@ -218,13 +218,13 @@ Deselecting All
 Comment Type: draft
 
 <p>In all cases, as you select items the count of the items selected is displayed at the upper right of the toolbar.</p>
-<p>You can deselect all items and exit selection mode by clicking or tapping the X next to the count.</p>
+<p>You can deselect all items and exit selection mode by clicking the X next to the count.</p>
 -->
 
 <!--
 Comment Type: draft
 
-<p>In all views, all items can be deselected by tapping escape on the keyboard if you are using a desktop device.</p>
+<p>In all views, all items can be deselected by clicking escape on the keyboard if you are using a desktop device.</p>
 -->
 
 ## コンテンツツリー {#content-tree}
