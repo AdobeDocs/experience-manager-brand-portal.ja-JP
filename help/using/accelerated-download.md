@@ -1,19 +1,15 @@
 ---
 title: Brand Portal のダウンロードの高速化
-seo-title: Speed up the Brand Portal downloads
 description: Brand Portal および共有リンクからのダウンロードパフォーマンスを強化します。
-seo-description: Enhance download performance from Brand Portal and the shared links.
-uuid: 2871137e-6471-49a7-872a-841bd92543d1
 contentOwner: Vishabh Gupta
 topic-tags: download-install, download assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: ce765700aaecba4bfff7b55effb05f981b94bdec
+source-git-commit: f931f6576c05d82cea61bda00322425abc9e8d43
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 99%
+source-wordcount: '1009'
+ht-degree: 70%
 
 ---
 
@@ -21,11 +17,11 @@ ht-degree: 99%
 
 <!-- This topic is woefully out of date. It talks at length about using a third party application whose URLs have a variety of problems. Topic should either be deleted or updated entirely to not talk about a specific third party application that Adobe has no control over. It also appears that the third party app is NOT free anymore. -->
 
-Adobe Experience Manager Assets Brand Portal では、インストールオンデマンドアプリケーションである IBM® Aspera Connect との連携により、大きなアセットファイルのダウンロードパフォーマンスを向上させることができます。このアプリケーションは、TCP オーバーヘッドをなくす独自のテクノロジーを使用し、アセットファイルの転送速度を向上させます。この連携により、ダウンロードエクスペリエンスを確実に強化できます。
+Adobe Experience Manager Assets Brand Portal では、インストールオンデマンドアプリケーションである IBM® Aspera Connect との連携により、大きなアセットファイルのダウンロードパフォーマンスを向上させることができます。このアプリケーションは、TCP オーバーヘッドを削除するために独自の技術を使用し、アセットファイルの転送速度を向上させるのに役立ちます。 この統合により、ダウンロード機能が強化されます。
 
 >[!NOTE]
 >
->ダウンロード速度は、ネットワーク帯域幅、サーバーのレイテンシ、クライアントの所在地などの要因によって異なるので、ユーザーごとに異なります。
+>ダウンロード速度は、ネットワーク帯域幅、サーバーの待ち時間、クライアントの地理的な場所などの要因によって異なるので、ユーザーによって異なります。
 
 「**[!UICONTROL 高速ダウンロード]**」設定はデフォルトで有効になっているので、Brand Portal から目的のアセットファイルをダウンロードするのにかかる時間が大幅に短縮されます。
 
@@ -87,23 +83,23 @@ Brand Portal より早くアセットをダウンロードするには：
 
      ![select-asset](assets/select-asset.png)
 
-1. 選択したすべてのアセットが一覧表示される&#x200B;**[!UICONTROL ダウンロード]**&#x200B;ダイアログが開きます。
+1. 選択したすべてのアセットが一覧表示された **[!UICONTROL ダウンロード]** ダイアログボックスが開きます。
 
-   アセットをダウンロードする際に Brand Portal のフォルダー階層を保持するには、「**[!UICONTROL アセットごとに別のフォルダーを作成]**」チェックボックスをオンにします。
+   アセットのダウンロード時にBrand Portal フォルダーの階層を保持するには、「**[!UICONTROL `Create separate folder for each asset`]**」チェックボックスをオンにします。
 
-   ダウンロードボタンは、選択した項目の数を反映しています。ルールの適用が完了したら、「**[!UICONTROL 項目をダウンロード]**」をクリックします。ルールの適用方法について詳しくは、[アセットのダウンロード](../using/brand-portal-download-assets.md#download-assets)を参照してください。
+   ダウンロードボタンは、選択した項目の数を反映しています。ルールの適用が完了したら、「**[!UICONTROL 項目をダウンロード]**」をクリックします。ルールの適用方法について詳しくは、「[ アセットのダウンロード ](../using/brand-portal-download-assets.md#download-assets)」を参照してください。
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
 1. デフォルトでは「**[!UICONTROL ダウンロード設定]**」の「**[!UICONTROL 高速ダウンロード]**」設定が有効になっています。したがって、IBM® Aspera Connect を使用してアセットをダウンロードするための確認ボックスが表示されます。
 
-   初めてアセットをダウンロードするときに、IBM® Aspera Connect がブラウザーにインストールされていない場合や既存のバージョンが古い場合は、Aspera ダウンロードアクセラレーターをインストールするように求めるプロンプトが表示されます（`https://www.ibm.com/docs/en/aspera-connect/3.9.9`）。
+   初めてアセットをダウンロードしたときに、ブラウザーにIBM® Aspera Connect がインストールされていない場合は、インストールを促すプロンプトが表示されます。 既存のバージョンが古い場合は、[Aspera ダウンロードアクセラレーター ](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all) をインストールするように求められます。
 
    ![](assets/aspera-not-launched.png)
 
 1. **Aspera Connect クライアントをインストールします**。
 
-   IBM® Aspera Connect クライアントセットアップをインストールするには、IBM® Aspera Connect クライアントアプリケーションの .msi ファイルからセットアップを実行し、インストールウィザードに従います。
+   IBM® Aspera Connect クライアントセットアップをインストールするには、IBM® Aspera Connect クライアントアプリケーションの.msi ファイルからセットアップを実行し、インストールウィザードに従います。
 
    ![](assets/aspera-download-1.png)
 
@@ -180,20 +176,20 @@ On successful completion of the download, a dialog box shows the location where 
 
 ## Microsoft® Edge ブラウザーでのファイルアクセラレーターの使用 {#using-file-accelerator-on-microsoft-edge-browser}
 
-Microsoft® Edge は拡張保護モード（EPM）で動作しており、同じプライベートネットワーク上にあるときや信頼済みサイトとの通信時に、Aspera Connect サーバーとの通信を防ぎます。そのため、サーバーとの接続が確立されるたびにポップアップが表示されます。
+Microsoft® Edgeは拡張保護モード（EPM）で動作しており、同じプライベートネットワーク上にあるときや信頼済みサイトとの通信時に、Aspera Connect サーバーとの通信を防ぎます。 そのため、サーバーとの接続が確立されるたびにポップアップが表示されます。
 
 ![](assets/switchapps-msedge.png)
 
-Microsoft® Edge で高速ダウンロード機能を使用するには、信頼済みサイトのリストから Brand Portal サイトを削除します。
+Microsoft® Edgeで高速ダウンロード機能を使用するには、信頼済みサイト リストからBrand Portal サイトを削除します。
 
 1. コントロールパネルを開きます（**[!UICONTROL Windows キー + X]** を押し、「**[!UICONTROL コントロールパネル]**」を選択します）。
 1. **[!UICONTROL ネットワークとインターネット]**／**[!UICONTROL インターネットオプション]**&#x200B;に移動します。「**[!UICONTROL セキュリティ]**」タブをクリックします。
 1. 「**[!UICONTROL 信頼済みサイトゾーン]**」、「**[!UICONTROL サイト]**」の順にクリックします。
-1. リストから Brand Portal サイトを削除します。
+1. リストからBrand Portal サイトを削除します。
 
 ## Aspera Connect クライアントの環境設定 {#aspera-connect-client-preferences}
 
-IBM® Aspara Connect クライアント環境設定でアイコンを右クリックし「**[!UICONTROL 環境設定]**」を選択して指定できる、便利な環境設定がいくつかあります。
+IBM® Aspera Connect クライアントの環境設定では、アイコンを右クリックして **[!UICONTROL 環境設定]** を選択すると、便利な環境設定をいくつか設定できます。
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
@@ -201,7 +197,7 @@ IBM® Aspara Connect クライアント環境設定でアイコンを右クリ�
 
 ![](assets/aspera-preferences.png)
 
-また、接続クライアントを実行してすばやくダウンロードを始められるよう、システム起動時に Aspera Connect クライアントを自動的に開始するようマークすることもできます。
+また、Aspera Connect クライアントは、システムの起動時に自動的に起動するようにマークできます。 また、Connect クライアントが実行され、ダウンロードが高速に開始できます。
 
 ![](assets/aspera-automaticallylaunch.png)
 

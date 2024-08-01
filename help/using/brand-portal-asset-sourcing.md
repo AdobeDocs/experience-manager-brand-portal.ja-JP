@@ -1,14 +1,10 @@
 ---
 title: Brand Portal でのアセットソーシング
-seo-title: Asset Sourcing in Brand Portal
 description: Adobe Experience Manager Assets Brand Portal でリリースされたアセットソーシング機能について説明します。
-seo-description: Get an insight into the asset sourcing feature released in the Adobe Experience Manager Assets Brand Portal.
-uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: null
 sub-product: assets
 topics: collaboration, content-velocity, sharing
 doc-type: feature-video
@@ -17,16 +13,16 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 100%
+ht-degree: 58%
 
 ---
 
 # アセットソーシングの概要 {#overview-asset-sourcing-in-bp}
 
-**アセットソーシング**&#x200B;を使用すると、追加の&#x200B;**アセット投稿**&#x200B;プロパティを持つ新しいフォルダーを Experience Manager Assets ユーザー（管理者／管理者以外のユーザー）が作成できるので、この新規作成フォルダーを Brand Portal ユーザーによるアセット送信に利用することができます。これにより、新しく作成された&#x200B;**投稿**&#x200B;フォルダー内に **SHARED** および **NEW** という 2 つのサブフォルダーを追加作成するワークフローが自動的にトリガーされます。次に、 管理者はプロジェクトの要件を定義します。それには、投稿フォルダーに追加する必要があるアセットのタイプの簡単な説明と一連のベースラインアセットを **SHARED** フォルダーにアップロードして、BP ユーザーが必要な参照情報を確実に入手できるようにします。その後、管理者は、アクティブな Brand Portal ユーザーに投稿フォルダーへのアクセスを許可してから、新しく作成した&#x200B;**投稿**&#x200B;フォルダーを Brand Portal に公開することができます。**NEW** フォルダーへのコンテンツの追加を完了したら、ユーザーは、投稿フォルダーを Experience Manager オーサー環境に公開できます。なお、読み込みが完了し、新しく公開したコンテンツが Experience Manager Assets 内に反映されるまでに数分かかる場合があります。
+**アセットソーシング**&#x200B;を使用すると、追加の&#x200B;**アセット投稿**&#x200B;プロパティを持つ新しいフォルダーを Experience Manager Assets ユーザー（管理者／管理者以外のユーザー）が作成できるので、この新規作成フォルダーを Brand Portal ユーザーによるアセット送信に利用することができます。これにより、新しく作成された **投稿** フォルダー内に **SHARED** および **NEW** という 2 つのサブフォルダーが自動的にトリガーされます。 管理者は、投稿フォルダーに追加する必要があるアセットのタイプの概要をアップロードすることで、要件を定義します。 一連のベースラインアセットを **SHARED** フォルダーにアップロードして、Brand Portal ユーザーに必要な参照情報を提供します。 その後、管理者は、アクティブな Brand Portal ユーザーに投稿フォルダーへのアクセスを許可してから、新しく作成した&#x200B;**投稿**&#x200B;フォルダーを Brand Portal に公開することができます。**NEW** フォルダーへのコンテンツの追加を完了したら、投稿フォルダーをExperience Managerオーサー環境に公開できます。 なお、読み込みが完了し、新しく公開したコンテンツが Experience Manager Assets 内に反映されるまでに数分かかる場合があります。
 
 また、既存の機能はすべてそのままで変わりません。Brand Portal ユーザーは、投稿フォルダーおよび許可された他のフォルダーからアセットを表示、検索およびダウンロードできます。さらに、管理者は投稿フォルダーの共有、プロパティの変更、コレクションへのアセットの追加を行うことができます。
 
@@ -51,9 +47,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Experience Manager Assets 6.5.4 には既知の問題があります。Adobe 開発者コンソールにアップグレードすると、Brand Portal ユーザーが投稿フォルダーのアセットを Experience Manager Assets に公開できなくなります。
+>Experience Manager Assets 6.5.4 には既知の問題があります。Brand Portal ユーザーが、Adobe Developer Consoleにアップグレードすると、投稿フォルダーのアセットをExperience Manager Assetsに公開できなくなります。
 >
->この問題は Experience Manager Assets 6.5.5 で修正されました。お使いの Experience Manager Assets インスタンスを最新のサービスパック AEM 6.5.5 にアップグレードし、Adobe 開発者コンソールで[設定をアップグレード](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=ja#upgrade-integration-65)してください。
+>この問題は Experience Manager Assets 6.5.5 で修正されました。お使いの Experience Manager Assets インスタンスを最新のサービスパック AEM 6.5.5 にアップグレードし、Adobe 開発者コンソールで[設定をアップグレード](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65)してください。
 
 <!--
 
@@ -112,26 +108,26 @@ Experience Manager Assets 管理者は、アクティブな Brand Portal ユー�
 
 >[!NOTE]
 >
->CSV ファイルの形式は、Admin Console で一括ユーザー読み込み用にサポートされている形式と同じです。メールと氏名は必須です。
+>CSV ファイルの形式は、一括ユーザー読み込みのAdmin Consoleでサポートされている形式と同じです。 メールと氏名は必須です。
 
-管理者は、 Admin Console で新規ユーザーを追加できます。詳しくは、[ユーザーの管理](brand-portal-adding-users.md)を参照してください。Admin Console でユーザーを追加したら、これらのユーザーを Brand Portal ユーザー設定ファイルに追加して、投稿フォルダーへのアクセス権を割り当てることができます。
+管理者は、Admin Consoleに新しいユーザーを追加できます。 詳しくは、[ ユーザーの管理 ](brand-portal-adding-users.md) を参照してください。 Admin Consoleにユーザーを追加したら、これらのユーザーをBrand Portal ユーザー設定ファイルに追加し、投稿フォルダーにアクセスする権限を割り当てることができます。
 
 **Brand Portal ユーザーリストをアップロードするには：**
 
 1. Experience Manager Assets インスタンスにログインします。
-1. **ツール**&#x200B;パネルで、**[!UICONTROL アセット]**／**[!UICONTROL Brand Portal ユーザー]**&#x200B;に移動します。
+1. [!UICONTROL  ツール ] パネルから、**[!UICONTROL Assets]**/**[!UICONTROL Brand Portal ユーザー]** に移動します。
 
 1. Brand Portal 投稿者をアップロードウィンドウが開きます。
-ローカルマシンから参照して、アクティブな Brand Portal ユーザーリストを含む**設定（.csv）ファイル**&#x200B;をアップロードします。
+ローカルマシンから参照し、アクティブなBrand Portal ユーザーリストを含む **設定（.csv** ファイルをアップロードします。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/upload-user-list2.png)
 
 
-管理者は、投稿フォルダーを設定する際に、このユーザーリスト内の特定のユーザーにアクセス権を付与できます。投稿フォルダーにアクセスし Brand Portal から Experience Manager Assets にアセットを公開できるのは、投稿フォルダーに割り当てられたユーザーのみです。
+管理者は、投稿フォルダーを設定する際に、このユーザーリスト内の特定のユーザーにアクセス権を付与できます。投稿フォルダーにアクセスしBrand PortalからExperience Manager Assetsにアセットを公開できるのは、投稿フォルダーに割り当てられたユーザーのみです。
 
 ## 関連トピック {#reference-articles}
 
-* [AEM Assets での投稿フォルダーの設定と Brand Portal への公開](brand-portal-publish-contribution-folder-to-brand-portal.md)
+* [Brand Portalへの投稿フォルダーの設定と公開](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
 * [Experience Manager Assets への投稿フォルダーの公開](brand-portal-publish-contribution-folder-to-aem-assets.md)
