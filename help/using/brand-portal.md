@@ -1,33 +1,29 @@
 ---
 title: Experience Manager Assets Brand Portal の概要
-seo-title: Overview of Experience Manager Assets Brand Portal
-description: Experience Manager Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、様々なデバイスをまたいで、外部の関係者や内部のビジネスユーザーに安全に配布できます。
-seo-description: Experience Manager Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.
-uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
+description: Experience Manager Assets Brand Portalを使用して、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、様々なデバイスをまたいで、外部の関係者や内部のビジネスユーザーに安全に配布する方法を説明します。
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
-discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: d84d138a2819ff293d0c808b0dcebe02e03da121
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1598'
-ht-degree: 100%
+source-wordcount: '1622'
+ht-degree: 61%
 
 ---
 
 # Experience Manager Assets Brand Portal の概要 {#overview-of-aem-assets-brand-portal}
 
-マーケターは、関連するデジタルコンテンツの作成、管理および顧客への配信をすばやく行うために、チャネルパートナーや内部のビジネスユーザーとの連携が必要となる場合があります。関連するコンテンツをカスタマージャーニー全体にわたってタイミングよく配信することは、顧客のニーズやコンバージョン、エンゲージメント、ロイヤリティを促進するために不可欠です。
+マーケターは、関連するデジタルコンテンツの作成、管理および顧客への迅速な配信を行うために、チャネルパートナーや内部のビジネスユーザーとの連携が必要となる場合があります。 関連するコンテンツをカスタマージャーニー全体にわたってタイミングよく配信することは、顧客のニーズやコンバージョン、エンゲージメント、ロイヤリティを促進するために不可欠です。
 
-しかし問題は、広範囲に広がる内部チームやパートナー、リセラーとの間でブランドロゴやガイドライン、キャンペーンアセット、製品の写真を効率的かつ安全に共有できるソリューションを構築するのは容易ではないということです。
+ただし、承認済みのブランドロゴ、キャンペーンアセット、チーム、パートナー、販売者との製品ショットなど、効率的で安全な共有をサポートするソリューションを開発することは困難です。 このプロセスで効率とセキュリティの両方を確保するには、慎重な計画と実行が必要です。
 
-**Adobe Experience Manager（AEM）Assets Brand Portal** は、アセット配布およびアセット投稿機能を提供することで、世界中に分散している Brand Portal ユーザーと効果的に共同作業を行うマーケターのニーズに注力しています。
+**Adobe Experience Manager（AEM）Assets Brand Portal** は、アセット配布およびアセット投稿機能を提供することで、世界中に分散しているBrand Portal ユーザーと効果的に共同作業するというマーケターのニーズに重点を置いています。
 
-アセット配布により、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、様々なデバイスをまたいで、外部の関係者や内部のビジネスユーザーに安全に配布できます。一方、アセット投稿により、Brand Portal ユーザーは、オーサー環境にアクセスすることなく、Brand Portal にアセットをアップロードしたり、Experience Manager Assets に公開したりできます。投稿機能は、**Brand Portal でのアセットソーシング**と呼ばれます。これらにより、Brand Portal ユーザー（外部の代理店／チーム）からのアセット配布および投稿の全体的な Brand Portal エクスペリエンスを向上させ、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。
+アセット配布を使用すると、承認されたクリエイティブアセットを取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。 ただし、アセット投稿を使用すると、Brand Portal ユーザーは、オーサー環境にアクセスすることなく、Brand Portalにアセットをアップロードしたり、Experience Manager Assetsに公開したりできます。 投稿機能は、**Brand Portal でのアセットソーシング**と呼ばれます。これらにより、Brand Portal ユーザー（外部の代理店／チーム）からのアセット配布および投稿の全体的な Brand Portal エクスペリエンスを向上させ、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。
 [Brand Portal でのアセットソーシング](brand-portal-asset-sourcing.md)を参照してください。
 
-ブラウザーベースのポータル環境では、アセットを簡単にアップロード、参照、検索、プレビュー、承認された形式で書き出すことができます。
+ブラウザーベースのポータル環境により、アセットのアップロード、参照、検索、プレビューおよびエクスポートを、承認済み形式で簡単に行うことができます。
 
 ## Experience Manager Assets と Brand Portal の連携の設定 {#configure-brand-portal}
 
@@ -39,7 +35,7 @@ Adobe Experience Manager Assets と Brand Portal の連携を設定すると、B
 
 Cloud Manager から Brand Portal をアクティベートすると、Experience Manager Assets as a Cloud Service と Brand Portal の連携が自動的に設定されます。アクティベーションワークフローにより、バックエンドで必要な設定が作成され、Experience Manager Assets as a Cloud Service インスタンスと同じ IMS 組織に Brand Portal がアクティベートされます。
 
-一方、Experience Manager Assets（オンプレミス版および Managed Services 版）と Brand Portal の連携は、Adobe Developer Console を使用して手動で設定されます。このコンソールでは、Brand Portal テナントの認証に使用する Adobe Identity Management サービス（IMS）トークンを調達します。
+ただし、Experience Manager Assets（オンプレミスおよび Managed Service）とBrand Portalの連携は、Adobe Developer Consoleを使用して手動で設定されます。このサービスは、Brand Portal テナントの認証に使用するAdobeのIdentity Management サービス（IMS）トークンを調達します。
 
 詳しくは、[Experience Manager Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)を参照してください。
 
@@ -75,9 +71,9 @@ Brand Portal では次のユーザー役割をサポートしています。
 
 ### ゲストユーザー {#guest-user}
 
-Experience Manager Assets Brand Portal では、Brand Portal への[ゲストによるアクセス](#request-access-to-brand-portal)を許可します。ゲストユーザーは資格情報がなくてもポータルに入ることができ、公開フォルダー（およびコレクション）にアクセスできます。ゲストユーザーは、アセットの詳細を参照したり、公開フォルダーおよび公開コレクションのメンバーのアセットの完全なアセット表示を行ったりできます。公開アセットを検索、ダウンロード、および [!UICONTROL Lightbox] コレクションに追加できます。
+Experience Manager Assets Brand Portal では、Brand Portal への[ゲストによるアクセス](#request-access-to-brand-portal)を許可します。ゲストユーザーは資格情報がなくてもポータルに入ることができ、公開フォルダー（およびコレクション）にアクセスできます。ゲストユーザーは、アセットの詳細を参照したり、公開フォルダーおよび公開コレクションのメンバーの完全なアセットを表示したりできます。 公開アセットを検索、ダウンロードおよび [!UICONTROL Lightbox] コレクションに追加できます。
 
-ただし、ゲストセッションでは、コレクションや保存済みの検索結果を作成したり、それらを共有したりすることはできません。ゲストセッション中のユーザーはフォルダーやコレクションの設定にアクセスしたり、アセットをリンクとして共有したりすることはできません。次に、ゲストユーザーが実行できるタスクの一覧を示します。
+ただし、ゲストセッションでは、コレクションや保存済みの検索の作成は制限され、さらに共有されます。 ゲストセッション中のユーザーはフォルダーやコレクションの設定にアクセスしたり、アセットをリンクとして共有したりすることはできません。次に、ゲストユーザーが実行できるタスクの一覧を示します。
 
 * [公開アセットの参照および公開アセットへのアクセス](browse-assets-brand-portal.md)
 
@@ -87,11 +83,11 @@ Experience Manager Assets Brand Portal では、Brand Portal への[ゲストに
 
 * [[!UICONTROL Lightbox] へのアセットの追加](brand-portal-light-box.md#add-assets-to-lightbox)
 
-詳しくは、[Brand Portal へのゲストによるアクセス](../using/guest-access.md)を参照してください。
+詳しくは、[Brand Portalへのゲストによるアクセス ](../using/guest-access.md) を参照してください。
 
 ### 閲覧者 {#viewer}
 
-[!DNL Admin Console] で定義され閲覧者の役割で Brand Portal にアクセスできる Brand Portal ユーザーです。この役割を持つユーザーは、Brand Portal にログインし、許可されたフォルダー、コレクション、アセットにアクセスできます。また、アセット（元のアセットまたは特定のレンディション）を参照、プレビュー、ダウンロードおよび書き出したり、アカウント設定を指定したり、アセットを検索したりすることもできます。次に、閲覧者が実行できるタスクの一覧を示します。
+[!DNL Admin Console] で定義され閲覧者のロールでBrand Portalへのアクセス権を持つBrand Portal ユーザーです。 このロールを持つユーザーは、Brand Portalにログインし、許可されたフォルダー、コレクションおよびアセットにアクセスできます。 また、アセット（元のアセットまたは特定のレンディション）を参照、プレビュー、ダウンロードおよび書き出したり、アカウント設定を指定したり、アセットを検索したりすることもできます。次に、閲覧者が実行できるタスクの一覧を示します。
 
 * [アセットの参照](browse-assets-brand-portal.md)
 
@@ -113,45 +109,38 @@ Experience Manager Assets Brand Portal では、Brand Portal への[ゲストに
 
 ### 管理者 {#administrator}
 
-管理者には、[!UICONTROL Admin Console] でシステム管理者または Brand Portal 製品管理者としてマーキングされているユーザーが含まれます。管理者は、システム管理者とユーザーを追加／削除したり、プリセットを定義したりできます。また、ユーザーにメールを送信したり、ポータルの使用状況とストレージに関するレポートを表示したりできます。
+管理者には、[!UICONTROL Admin Console] のシステム管理者またはBrand Portal製品管理者としてマークされたユーザーが含まれます。 管理者は、システム管理者とユーザーを追加／削除したり、プリセットを定義したりできます。また、ユーザーにメールを送信したり、ポータルの使用状況とストレージに関するレポートを表示したりできます。
 
 >[!NOTE]
 >
->Brand Portal では、[!UICONTROL Admin Console] でのサポート管理者の役割とマークが付けられているユーザーは、システム管理者と同じ権限を持っています。
+>Brand Portalでは、[!UICONTROL Admin Consoleのサポート管理者のロールとマークが付けられているユーザーは ] システム管理者と同じ権限を持っています。
 
 管理者は、編集者が実行可能なすべてのタスクを実行できます。管理者が実行できるその他のタスクを次に示します。
 
 * [ユーザー、グループ、ユーザーの役割の管理](brand-portal-adding-users.md)
-
 * [壁紙、ページヘッダーおよびメールのカスタマイズ](brand-portal-branding.md)
-
 * [カスタム検索ファセットの使用](brand-portal-search-facets.md)
-
-* [メタデータスキーマフォームの使用](brand-portal-metadata-schemas.md)
-
+* [メタデータスキーマの使用](brand-portal-metadata-schemas.md)
 * [画像プリセットまたは動的レンディションの適用](brand-portal-image-presets.md)
-
 * [レポートの操作](brand-portal-reports.md)
 
 AEM Assets の作成者は、上記のタスクに加えて、次のタスクを実行できます。
 
 * [AEM Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)
-
-* [Brand Portal へのフォルダーの公開](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html?lang=ja)
-
-* [Brand Portal へのコレクションの公開](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html?lang=ja)
+* [Brand Portal へのフォルダーの公開](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
+* [Brand Portal へのコレクションの公開](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
 
 ## Brand Portal URL の代替エイリアス {#tenant-alias-for-portal-url}
 
-Brand Portal 6.4.3 以降では、各組織はそれぞれの Brand Portal テナントの既存 URL に対して 1 つの代替（エイリアス）URL を持つことができます。エイリアス URL を作成するには、既存の URL に代替プレフィックスを含めます。\
-テナント名が 32 文字を超える場合は、テナントのエイリアスを作成する必要があります。
+Brand Portal 6.4.3 以降では、Brand Portal テナントの既存の URL ごとに 1 つの代替（エイリアス） URL を設定できます。 エイリアス URL を作成するには、既存の URL に代替プレフィックスを含めます。\
+テナント名が 32 文字を超える場合は、テナントエイリアスを作成する必要があります。
 カスタマイズできるのは Brand Portal URL のプレフィックスのみであり、URL 全体でないことに注意してください。例えば、`geomettrix.brand-portal.adobe.com` という既存ドメインを持つ組織は、アドビに依頼することで `geomettrixinc.brand-portal.adobe.com` という URL を作成できます。
 
-ただし、AEM オーサーインスタンスを[設定](../using/configure-aem-assets-with-brand-portal.md)する際にはテナント ID URL のみを使用できます。テナントエイリアス（代替）URL は使用できません。
+ただし、AEM オーサーインスタンスを [ 設定 ](../using/configure-aem-assets-with-brand-portal.md) する際には、テナント ID URL のみを使用できます。テナントエイリアス（代替） URL は使用できません。
 
 >[!NOTE]
 >
->既存のポータル URL 中のテナント名のエイリアスを取得するには、各組織からカスタマーサポートへ新規テナント名の作成依頼を出す必要があります。このリクエストが処理される際は、まずそのエイリアスが使用可能かどうかの確認が行われ、その後でエイリアスが作成されます。
+>既存のポータル URL 中のテナント名のエイリアスを取得するには、各組織からカスタマーサポートへ新規テナント名の作成依頼を出す必要があります。 最初に、エイリアスが使用可能かどうかを確認し、次にこのリクエストを処理するためのエイリアスを作成します。
 >
 >古いエイリアスを置き換えたり、削除したりするには、同じ手続きに従う必要があります。
 
@@ -176,9 +165,9 @@ Brand Portal 6.4.3 以降では、各組織はそれぞれの Brand Portal テ�
    **シナリオ 1**
 
    1. [!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID] または [!UICONTROL Federated ID] を持っている場合は、「**[!UICONTROL ログイン]**」をクリックします。
-[!UICONTROL ログイン]ページが開きます。
+[!UICONTROL  ログイン ] ページが開きます。
 
-   1. [!UICONTROL Adobe ID] 資格情報を入力し、「**[!UICONTROL ログイン]**」をクリックします。
+   1. [!UICONTROL Adobe ID] の資格情報を入力し、「**[!UICONTROL ログイン]**」をクリックします。
 
       ![アドビへのログイン](assets/bplogin_request_access_3.png)
 
@@ -187,9 +176,9 @@ Brand Portal 6.4.3 以降では、各組織はそれぞれの Brand Portal テ�
    **シナリオ 2**
 
    1. [!UICONTROL Adobe ID] を持っていない場合は、[!UICONTROL アクセスを申請]ページの「**[!UICONTROL Adobe ID を取得]**」をクリックして、Adobe ID を作成します。
-[!UICONTROL ログイン]ページが開きます。
+[!UICONTROL  ログイン ] ページが開きます。
    1. 「**[!UICONTROL Adobe ID を取得]**」をクリックします。
-[!UICONTROL 新規登録]ページが開きます。
+[!UICONTROL  サインアップ ] ページが開きます。
    1. 名前、メール ID およびパスワードを入力します。
    1. 「**[!UICONTROL 新規登録]**」をクリックします。
 
@@ -207,14 +196,14 @@ Brand Portal 製品管理者は Brand Portal の通知領域および自分の�
 
 ![アクセス申請の通知](assets/bplogin_request_access_7.png)
 
-製品管理者がアクセス権を付与するには、Brand Portal の通知領域に届いた通知をクリックし、「**[!UICONTROL アクセス権を付与]**」をクリックする必要があります。
-または、アクセス申請メールに記載されているリンクをたどって Adobe [!UICONTROL Admin Console] にアクセスし、該当する製品設定にユーザーを追加することもできます。
+アクセスを許可するには、管理者はBrand Portalの通知領域で関連通知をクリックし、「**[!UICONTROL アクセスの許可]**」をクリックする必要があります。
+または、アクセス申請メールに記載されているリンクをたどってAdobe[!UICONTROL  のAdmin Consoleにアクセスし ] 該当する製品設定にユーザーを追加することもできます。
 
-[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) ホームページにリダイレクトされます。Adobe [!UICONTROL Admin Console] を使用してユーザーを作成し、そのユーザーを、Brand Portal にグループとして表示される製品プロファイル（旧称：製品設定）に割り当てます。[!UICONTROL Admin Console] でのユーザーの追加について詳しくは、[ユーザーの追加](brand-portal-adding-users.md#add-a-user)を参照してください（手順 4～7 に従って、ユーザーを追加します）。
+[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) ホームページにリダイレクトされます。Adobe[!UICONTROL Admin Console] を使用してユーザーを作成し、製品プロファイル （旧称：製品設定）に割り当てます。製品プロファイルは、Brand Portalでグループとして表示されます。 [!UICONTROL  Admin Consoleでユーザーを追加する方法の詳細については ][ ユーザーの追加 ](brand-portal-adding-users.md#add-a-user) を参照してください（ユーザーを追加するには、手順 4 ～ 7 に従ってください）。
 
 ## Brand Portal の言語 {#brand-portal-language}
 
-Brand Portal の言語は、Adobe [!UICONTROL Experience Cloud 設定]で変更できます。
+Brand Portalの言語は、Adobe[!UICONTROL Experience Cloud設定 ] から変更できます。
 
 ![アクセス申請の通知](assets/BPLang.png)
 
@@ -224,7 +213,7 @@ Brand Portal の言語は、Adobe [!UICONTROL Experience Cloud 設定]で変更�
 
    ![プロファイルを編集](assets/EditBPProfile.png)
 
-1. [!UICONTROL Experience Cloud 設定]ページで、[!UICONTROL 言語]ドロップダウンメニューから言語を選択します。
+1. [!UICONTROL Experience Cloud設定 ] ページで、「言語 [!UICONTROL  ドロップダウンメニューから言語 ] を選択します。
 
 ## Brand Portal のメンテナンス通知 {#brand-portal-maintenance-notification}
 

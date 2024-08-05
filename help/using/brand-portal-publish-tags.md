@@ -5,9 +5,9 @@ topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
-source-git-commit: ff51a49a958d43c98443d816a92276faae5e9569
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '603'
 ht-degree: 38%
 
 ---
@@ -69,7 +69,7 @@ AEMでタグを作成し、Brand Portalでタグを公開し、適切なアセ�
 
 ## 昇格を検索 {#search-promote}
 
-AEM Assets Brand Portalでは、特定のアセットをキーワードのタグに基づく検索の上位の結果として取得できます。
+AEM Assets Brand Portalを使用すると、特定のアセットをキーワードのタグに基づく検索の上位の結果として取り込むことができます。
 
 アセットを昇格させる検索キーワードを設定するには、次のようにします。
 

@@ -8,10 +8,10 @@ breadcrumb-title: Brand Portal ガイド
 user-guide-description: Experience Manager Assets Brand Portal を使用すれば、承認済みのブランドアセットや製品アセットを外部の代理店、パートナー、内部チーム、販売店などへとダウンロードで安全に配布し、マーケティングニーズに応えることができます。
 feature: Brand Portal
 role: User
-source-git-commit: 3ef765c6b6127c1f3f19d27ee1fd74fbe2dc52af
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 97%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 100%
    + [よくある質問](/help/using/brand-portal-faqs.md)
    + [サポートされているファイル形式](/help/using/brand-portal-supported-formats.md)
    + [Brand Portal へのゲストによるアクセス](/help/using/guest-access.md)
-   + [Experience Manager Assets と Brand Portal について](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=ja)
+   + [Experience Manager Assets と Brand Portal について](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
    + [Brand Portal でのアセットの参照](/help/using/browse-assets-brand-portal.md)
 + Experience Manager Assets から Brand Portal への公開 {#publish}
    + [Experience Manager Assets と Brand Portal の連携の設定](/help/using/configure-aem-assets-with-brand-portal.md)
-   + [Brand Portal へのアセットの公開](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html?lang=ja)
-   + [Brand Portal へのフォルダーの公開](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html?lang=ja)
-   + [Brand Portal へのコレクションの公開](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html?lang=ja)
+   + [Brand Portal へのアセットの公開](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-assets)
+   + [Brand Portal へのフォルダーの公開](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
+   + [Brand Portal へのコレクションの公開](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
    + [Brand Portal への並列公開における問題のトラブルシューティング](/help/using/troubleshoot-parallel-publishing.md)
    + [Brand Portal へのタグの公開](/help/using/brand-portal-publish-tags.md)
    + [Brand Portal へのプリセット、スキーマ、ファセットの公開](/help/using/publish-schema-search-facets-presets.md)
@@ -59,7 +59,7 @@ ht-degree: 100%
    + [初回のログイン操作](/help/using/brand-portal-onboarding.md)
    + [ユーザー、グループ、ユーザーの役割の管理](/help/using/brand-portal-adding-users.md)
    + [壁紙、ヘッダーおよびメールメッセージのカスタマイズ](/help/using/brand-portal-branding.md)
-   + [メタデータスキーマフォームの使用](/help/using/brand-portal-metadata-schemas.md)
+   + [メタデータスキーマの使用](/help/using/brand-portal-metadata-schemas.md)
    + [画像プリセットまたは動的レンディションの適用](/help/using/brand-portal-image-presets.md)
    + [レポートの操作](/help/using/brand-portal-reports.md)
 

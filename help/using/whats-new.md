@@ -6,10 +6,10 @@ content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 4d9d7afa2cd45ea68c2e15338c92aa29ecf09f91
+source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
 workflow-type: tm+mt
-source-wordcount: '6550'
-ht-degree: 58%
+source-wordcount: '6554'
+ht-degree: 57%
 
 ---
 
@@ -361,7 +361,7 @@ Brand Portal 管理者は、任意の組み合わせを有効にして、アセ�
 
 ## 6.4.6 の変更点 {#what-changed-in-646}
 
-Brand Portal 6.4.6 では、AEM Assets と Brand Portal の間の認証チャネルが変更されます。Brand Portal が AEM Assets as a Cloud Service、AEM Assets 6.3 以降でサポートされるようになりました。AEM Assets 6.3 以降では、Brand Portal は、従来の OAuth ゲートウェイを通じてクラシック UI で設定されていました。このゲートウェイは、JWT トークン交換を使用して認証用の IMS アクセストークンを取得します。AEM Assets と Brand Portal の連携が、Brand Portal テナントの認証用の IMS トークンを取得する Adobe Developer Console を通じて設定されるようになりました。
+Brand Portal 6.4.6 では、AEM Assets と Brand Portal の間の認証チャネルが変更されます。Brand Portal が AEM Assets as a Cloud Service、AEM Assets 6.3 以降でサポートされるようになりました。AEM Assets 6.3 以降では、Brand Portalは最初、レガシー OAuth ゲートウェイを使用してクラシック UI で設定されていました。 このゲートウェイでは、JWT トークン交換を使用して、認証用の IMS アクセストークンを取得します。 AEM Assets と Brand Portal の連携が、Brand Portal テナントの認証用の IMS トークンを取得する Adobe Developer Console を通じて設定されるようになりました。
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -593,7 +593,7 @@ Dynamic Media ビデオのエンコードは、次の場所からダウンロー
 
 ## 6.4.2 の変更点 {#what-changed-in-1}
 
-Brand Portal 6.4.2 では、組織のアセット配布のニーズを満たす機能が導入され、ゲストによるアクセスと高速ダウンロードを介したグローバルなリーチが可能になりました。 また、新しい管理者設定や追加のレポートによる制御の強化、顧客のリクエストへの対応も提供します。
+Brand Portal 6.4.2 では、組織のアセット配布のニーズを満たす機能が導入され、ゲストによるアクセスと高速ダウンロードを通じてグローバルなリーチが可能になりました。 また、新しい管理者設定や追加のレポートによる制御の強化、顧客のリクエストへの対応も提供します。
 
 ### ゲストによるアクセス
 

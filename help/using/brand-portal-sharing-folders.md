@@ -1,18 +1,14 @@
 ---
 title: フォルダーの共有
-seo-title: Share folders
-description: Brand Portal は、アセットの取り込みをサポートしていません。したがって、事前設定済みの Experience Manager Assets オーサーインスタンスから Brand Portal にアセットを公開する必要があります。公開されたアセットは、Experience Manager インスタンスとのレプリケーションの設定時に特に指定しない限り、Brand Portal の管理者以外のユーザーからはアクセスできなくなります。そこで、共有するための設定を行う必要があります。
-seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
-uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
+description: Brand Portalでは、事前設定済みのExperience Manager Assets オーサーインスタンスからアセットを公開する必要があります。 管理者以外のユーザーは、Experience Managerを使用したレプリケーション設定時に設定された場合にのみ、公開済みアセットにアクセスできます。また、アセットは管理者以外のユーザーと共有する必要があります。
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 80%
+source-wordcount: '1090'
+ht-degree: 51%
 
 ---
 
@@ -32,17 +28,17 @@ Brand Portal は、アセットの取り込みをサポートしていません�
 
 ### Brand Portal 上でフォルダーをユーザーグループと共有する {#sharing-folders-with-user-groups-on-brand-portal}
 
-フォルダーのアセットに対するアクセス権は、その親フォルダーに対するアクセス権に依存します。子フォルダーの設定には関係ありません。子フォルダーが親フォルダーから ACL を継承するので、この動作はAEMの [ACL](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=ja) によって管理されます。 例えば、フォルダー A の中にフォルダー B があり、その中にフォルダー C がある場合、フォルダー A に対するアクセス権を持つユーザーグループ（またはユーザー）は、フォルダー B および C に対しても同じアクセス権を持ちます。フォルダー B は A の子フォルダーであるため A の ACL を継承し、フォルダー C はフォルダー B の子フォルダーであるため B の ACL を継承します。
+フォルダーのアセットに対するアクセス権は、その親フォルダーに対するアクセス権に依存します。子フォルダーの設定には関係ありません。AEMの [ACL](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security) によって制御され、子フォルダーは親フォルダーから ACL を継承します。 例えば、フォルダー A にフォルダー B が含まれ、その中にフォルダー C が含まれているとします。次に、フォルダー A に対するアクセス権を持つユーザーグループ（またはユーザー）は、フォルダー B とフォルダー C に対しても同じアクセス権を持ちます。フォルダー B （A の子フォルダー）は ACL を継承し、フォルダー C （B の子フォルダー）は ACL を継承します。
 
-同様に、フォルダー B のみに対するアクセス権を持つユーザーグループ（またはユーザー）は、フォルダー C に対して同じアクセス権を持ちますが、フォルダー A に対するアクセス権は持ちません。したがって、組織がコンテンツを整理する際には、広範囲に公開するアセットは子フォルダーに配置して、子からルートフォルダーへのアクセスを制限することをお勧めします。
+同様に、フォルダー B のみにアクセスする権限を持つユーザーグループ（またはユーザー）は、フォルダー C には同じアクセス権限を持ちますが、フォルダー A には持ちません。Adobeでは、最も公開されたアセットが子フォルダーに配置されるようにコンテンツを整理し、子フォルダーからルートフォルダーまでのアクセスを制限することをお勧めします。
 
 ### 公開フォルダーの公開 {#public-folder-publish}
 
-Brand Portal のレプリケーションの設定時に「**[!UICONTROL 公開フォルダーの公開]**」オプションが選択されない限り、管理者以外のユーザー（エディターや閲覧者など）が、AEM Assets から Brand Portal に公開されたアセットにアクセスすることはできません。
+管理者以外のユーザー（エディターや閲覧者など）は、Brand Portalのレプリケーション設定時に「**[!UICONTROL 公開フォルダーのPublish]**」オプションが選択されている場合にのみ、AEM AssetsからBrand Portalに公開されたアセットにアクセスできます。
 
 ![](assets/assetbpreplication.png)
 
-「**[!UICONTROL 公開フォルダーの公開]**」オプションが無効になっている場合、管理者がこれらのアセットを管理者以外のユーザーと共有するには、共有機能を使用する必要があります。
+「**[!UICONTROL 公開フォルダーのPublish]**」オプションが無効になっている場合、管理者は共有機能を使用して管理者以外のユーザーとこれらのアセットを共有する必要があります。
 
 >[!NOTE]
 >
@@ -50,9 +46,9 @@ Brand Portal のレプリケーションの設定時に「**[!UICONTROL 公開�
 
 ## 共有フォルダーへのアクセス {#access-to-shared-folders}
 
-以下の表に、様々なユーザーの役割が持つアクセス権と、アセットを共有／共有解除する権限を示します。
+次のマトリックスでは、様々なユーザーの役割のアセットを共有または共有解除するアクセス権および権限について説明します。
 
-|               | AEM AssetsからBrand Portalに公開されたすべてのフォルダーへのアクセス | 共有フォルダーへのアクセス | フォルダー権限の共有/共有解除 |
+|               | AEM AssetsからBrand Portalに公開されたすべてのフォルダーへのアクセス | 共有フォルダーへのアクセス | フォルダー権限の共有または共有解除 |
 |---------------|-----------|-----------|------------|
 | 管理者 | 可 | はい | 可 |
 | 編集者 | 不可* | 可。ただし、そのユーザーと共有されている場合、またはそのユーザーの所属グループと共有されている場合のみ。 | 可。ただし、そのユーザーと共有されているフォルダー、またはそのユーザーの所属グループと共有されているフォルダーのみ。 |
@@ -61,15 +57,15 @@ Brand Portal のレプリケーションの設定時に「**[!UICONTROL 公開�
 
 >[!NOTE]
 >
->AEM オーサーインスタンスと Brand Portal のレプリケーションを設定する際、「**[!UICONTROL 公開フォルダーの公開]**」オプションはデフォルトで無効になっています。このオプションが有効になっている場合は、Brand Portal に公開されているフォルダーが、デフォルトですべてのユーザー（管理者以外のユーザーも含む）にアクセス可能になります。
+>AEM オーサーインスタンスと Brand Portal のレプリケーションを設定する際、「**[!UICONTROL 公開フォルダーの公開]**」オプションはデフォルトで無効になっています。このオプションが有効になっている場合は、Brand Portalに公開されたフォルダーに、デフォルトですべてのユーザー（管理者以外のユーザーも含む）がアクセスできます。
 
 ### 管理者以外のユーザーによる共有フォルダーへのアクセス {#non-admin-user-access-to-shared-folders}
 
-管理者以外のユーザーは、Brand Portal 上でそのユーザーに共有されているフォルダーにのみアクセスできます。ただし、ポータルにログインしたときにこれらのフォルダーがどのように表示されるかは、「**[!UICONTROL フォルダー階層を有効化]**」の設定によって異なります。
+管理者以外のユーザーは、Brand Portal 上でそのユーザーに共有されているフォルダーにのみアクセスできます。ただし、これらのフォルダーがログイン時にポータル上でどのように表示されるかは、「**[!UICONTROL フォルダー階層を有効にする]**」設定によって異なります。
 
 **設定が無効の場合**
 
-管理者以外のユーザーは、Brand Portalにログインすると、ランディングページに共有されるすべてのフォルダーが表示されます。
+管理者以外のユーザーは、Brand Portalへのログイン時に、ランディングページで共有されるすべてのフォルダーを表示できます。
 
 ![](assets/disabled-folder-hierarchy1-1.png)
 
@@ -77,9 +73,9 @@ Brand Portal のレプリケーションの設定時に「**[!UICONTROL 公開�
 
 管理者以外のユーザーは、Brand Portalにログインすると、フォルダーツリー（ルートフォルダーから始まります）と、それぞれの親フォルダー内に配置された共有フォルダーが表示されます。
 
-これらの親フォルダーは仮想フォルダーであり、これらに対してアクションを実行することはできません。これらの仮想フォルダーには、鍵のアイコンが付きます。
+これらの親フォルダーは仮想フォルダーで、アクションを実行することはできません。 これらの仮想フォルダーには、鍵のアイコンが付きます。
 
-**[!UICONTROL カード表示]**&#x200B;でこれらをカーソルで指したり選択したりしても、共有フォルダーとは異なり、アクションタスクは表示されません。**[!UICONTROL 列表示]**&#x200B;や&#x200B;**[!UICONTROL リスト表示]**&#x200B;で仮想フォルダーを選択すると「**[!UICONTROL 概要]**」ボタンが表示されます。
+**[!UICONTROL カード表示]**&#x200B;でこれらをカーソルで指したり選択したりしても、共有フォルダーとは異なり、アクションタスクは表示されません。**[!UICONTROL 列表示]** および **[!UICONTROL リスト表示]** で仮想フォルダーを選択すると、**[!UICONTROL 概要]** ボタンが表示されます。
 
 >[!NOTE]
 >
@@ -95,7 +91,7 @@ Brand Portal のレプリケーションの設定時に「**[!UICONTROL 公開�
 
    ![](assets/selectorrail.png)
 
-1. 左側のサイドパネルの「**[!UICONTROL ファイル]**」を選択します。
+1. 左側のサイドパネルから、「**[!UICONTROL ファイル]**」を選択します。
 
    ![](assets/access_files.png)
 

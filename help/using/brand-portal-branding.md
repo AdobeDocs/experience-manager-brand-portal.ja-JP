@@ -1,19 +1,15 @@
 ---
 title: 壁紙、ヘッダーおよびメールメッセージのカスタマイズ
-seo-title: Customize wallpaper, header, and email message
 description: Brand Portal管理者は、ユーザーに表示されるインターフェイスを制限付きでカスタマイズできます。 Brand Portalのログインページ用に特定の背景画像（壁紙）を選択できます。 顧客のブランドに合わせてヘッダー画像を追加したり、アセット共有のメールをカスタマイズしたりできます。
-seo-description: Brand Portal administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the Brand Portal login page. You can also add a header image and customize asset sharing emails to match the customer’s brand.
-uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
-discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 87%
+source-wordcount: '761'
+ht-degree: 70%
 
 ---
 
@@ -30,7 +26,6 @@ Brand Portal管理者は、ユーザーに表示されるインターフェイ�
    ![](assets/aemlogo.png)
 
 1. 管理ツールパネルの「**[!UICONTROL ブランディング]**」をクリックします。
-
 
    ![](assets/admin-tools-panel-10.png)
 
@@ -87,7 +82,7 @@ Brand Portal にログインすると、ヘッダーが様々な Brand Portal �
 
 1. ヘッダー画像をアップロードするには、「**[!UICONTROL 画像を選択]**」アイコンをクリックし、「**[!UICONTROL アップロード]**」を選択します。
 
-   Brand Portal の既存の画像を使用するには、「**[!UICONTROL 既存から選択]**」を選択します。
+   既存のBrand Portal画像を使用するには、「**[!UICONTROL 既存を選択]**」を選択します。
 
    ![](assets/choose_wallpaperimage-1.png)
 
@@ -102,18 +97,18 @@ Brand Portal にログインすると、ヘッダーが様々な Brand Portal �
 
    ![](assets/configure_brandingheaderimageurl.png)
 
-1. 上部のツールバーの「**[!UICONTROL プレビュー]**」アイコンをクリックして、ヘッダー画像を含む Brand Portal インターフェイスをプレビューします。
+1. 上部のツールバーで「**[!UICONTROL プレビュー]**」アイコンをクリックして、ヘッダー画像を含むBrand Portal インターフェイスのプレビューを生成します。
 
    ![](assets/chlimage_1-3.png)
    ![](assets/custom_header_preview.png)
 
 1. ヘッダー画像をアクティベートまたはアクティベート解除するには、**[!UICONTROL ブランディングを設定／ヘッダーの画像]**&#x200B;ページで、以下の操作を実行します。
 
-   * Brand Portal ページにヘッダー画像を表示しない場合は、上部のツールバーの「**[!UICONTROL ヘッダーのアクティベートを解除]**」をクリックします。ヘッダー画像のアクティベート解除を確認するメッセージが表示されます。
+   * ヘッダー画像がBrand Portalページに表示されないようにするには、上部のツールバーの **[!UICONTROL ヘッダーをアクティベートを解除]** をクリックします。 ヘッダー画像のアクティベート解除を確認するメッセージが表示されます。
 
    ![](assets/chlimage_1-4.png)
 
-   * Brand Portal ページにヘッダー画像を再度表示するには、上部のツールバーの「**[!UICONTROL ヘッダーをアクティベート]**」をクリックします。ヘッダー画像のアクティベートを確認するメッセージが表示されます。
+   * ヘッダー画像をBrand Portal ページに再び表示するには、上部のツールバーの **[!UICONTROL ヘッダーをアクティベート]** をクリックします。 ヘッダー画像のアクティベートを確認するメッセージが表示されます。
 
    ![](assets/chlimage_1-5.png)
 
@@ -131,7 +126,7 @@ Brand Portal にログインすると、ヘッダーが様々な Brand Portal �
 
    ![](assets/admin-tools-panel-12.png)
 
-1. アセットをリンクとして共有したりメールを介してダウンロードしたりする場合や&#x200B;**[!UICONTROL コレクション]**&#x200B;を共有する場合は、ユーザーにメール通知が送信されます。メールメッセージをカスタマイズするには、**[!UICONTROL ブランディングを設定]**&#x200B;ページの左パネルから「**[!UICONTROL メールメッセージ]**」を選択します。
+1. アセットをリンクとして共有したりメールを介してダウンロードしたりする場合や **[!UICONTROL コレクション]** を共有する場合は、ユーザーにメール通知が送信されます。 メールメッセージをカスタマイズするには、**[!UICONTROL ブランディングを設定]**&#x200B;ページの左パネルから「**[!UICONTROL メールメッセージ]**」を選択します。
 
    ![](assets/configure-branding-page-email.png)
 

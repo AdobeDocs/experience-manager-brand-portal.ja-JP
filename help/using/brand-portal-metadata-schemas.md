@@ -1,19 +1,15 @@
 ---
 title: メタデータスキーマフォームの使用
-seo-title: Use the metadata schema form
 description: メタデータスキーマは、プロパティ ページのレイアウトと、特定のスキーマを使用するアセットに対して表示されるメタデータプロパティを記述します。 アセットに適用するスキーマによって、そのプロパティ ページに表示されるメタデータフィールドが決まります。
-seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
-uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
-discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1719'
-ht-degree: 76%
+source-wordcount: '1622'
+ht-degree: 64%
 
 ---
 
@@ -45,7 +41,7 @@ ht-degree: 76%
 
 ## メタデータスキーマフォームの編集 {#edit-a-metadata-schema-form}
 
-新しく追加したメタデータスキーマフォームまたは既存のメタデータスキーマフォームを編集できます。メタデータスキーマフォームには、タブやタブ内のフォーム項目など、その親から派生したコンテンツが含まれています。 これらのフォーム項目をメタデータノード内のフィールドにマッピングまたは設定できます。
+追加したメタデータスキーマフォームや既存のメタデータスキーマフォームは編集できます。 メタデータスキーマフォームには、タブやタブ内のフォーム項目など、その親から派生したコンテンツが含まれています。 これらのフォーム項目をメタデータノード内のフィールドにマッピングまたは設定できます。
 
 新しいタブまたはフォーム項目をメタデータスキーマフォームに追加できます。 親から派生したタブとフォーム項目はロック状態になっています。 子レベルではこれらを変更できません。
 
@@ -66,9 +62,9 @@ ht-degree: 76%
 
 1. 上部のツールバーの「**[!UICONTROL 編集]**」をクリックします。
 
-   **[!UICONTROL メタデータスキーマエディター]**&#x200B;ページが開き、左側には「**[!UICONTROL 基本]**」タブが、右側には「**[!UICONTROL フォームを作成]**」タブが表示されます。
+   **[!UICONTROL メタデータスキーマエディター]** ページが開き、左側に「**[!UICONTROL 基本]** タブが開きます。 右側には、「フォームを作成 **[!UICONTROL タブが開き]** す。
 
-1. **[!UICONTROL メタデータスキーマエディター]**&#x200B;ページで、アセットの&#x200B;**[!UICONTROL プロパティ]**&#x200B;ページをカスタマイズします。それには、「**[!UICONTROL フォームを作成]**」タブのコンポーネントタイプのリストから「**[!UICONTROL 基本]**」タブに、1 つ以上のコンポーネントをドラッグします。
+1. **[!UICONTROL メタデータスキーマエディター]** ページで、アセットの **[!UICONTROL プロパティ]** ページをカスタマイズします。 「**[!UICONTROL フォームを作成]**」タブのコンポーネントタイプのリストから 1 つ以上のコンポーネントをドラッグするだけです。 「**[!UICONTROL 基本]**」タブにドラッグします。
 
    ![](assets/metadata-schemaeditor-page.png)
 
@@ -86,10 +82,10 @@ ht-degree: 76%
 | **[!UICONTROL 数値]** | 数値コンポーネントを追加します。 |
 | **[!UICONTROL 日付]** | 日付コンポーネントを追加します。 |
 | **[!UICONTROL ドロップダウン]** | ドロップダウンリストを追加します。 |
-| **[!UICONTROL 標準タグ]** | タグを追加します。**注意：** Experience Manager Assets から公開するメタデータスキーマフォームのパスにテナント情報（例：`/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`）が含まれていない場合は、管理者がパス値（例：`/etc/tags/<custom_tag_namespace>`）を変更しなければならないことがあります。 |
+| **[!UICONTROL 標準タグ]** | タグを追加します。管理者は、場合によっては、パス値を変更する必要があります。 例えば、Experience Manager Assetsからメタデータスキーマフォームを公開する場合の `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>` では、パスにテナント情報（例：`/etc/tags/<custom_tag_namespace>`）が含まれていません。 |
 | **[!UICONTROL スマートタグ]** | Experience Manager Assets スマートタグアドオンを購入して設定済みの場合に自動検出されるタグです。 |
 | **[!UICONTROL 非表示のフィールド]** | 非表示のフィールドを追加します。このフィールドは、アセットの保存時に POST パラメーターとして送信されます。 |
-| **[!UICONTROL アセットの参照元]** | このアセットが参照しているアセットのリストを表示するには、このコンポーネントを追加します。 |
+| **[!UICONTROL アセットの参照元]** | このコンポーネントを追加して、アセットが参照するアセットのリストを表示します。 |
 | **[!UICONTROL アセットの参照]** | このアセットを参照しているアセットのリストを表示するには、このコンポーネントを追加します。 |
 | **[!UICONTROL アセット評価]** | Experience Manager Assets から追加されるアセットの、Brand Portal に公開される前の平均評価です。 |
 | **[!UICONTROL コンテキストメタデータ]** | アセットのプロパティページにある他のメタデータタブの表示を制御するために追加します。 |
@@ -108,9 +104,9 @@ ht-degree: 76%
 
 このプロパティの有効な値は次のとおりです。
 
--- `./jcr:content/metadata/dc:title`：アセットのメタデータノードにある値を、プロパティ [!UICONTROL `dc:title`] として格納します。
+-- `./jcr:content/metadata/dc:title`：アセットのメタデータノードにある値を、プロパティ `dc:title` として格納します。
 
--- `./jcr:created`：アセットのノードにある jcr プロパティを表示します。表示プロパティ上でこれらのプロパティを設定する場合は、これらのプロパティは保護されているので、「編集を無効にする」としてマークすることをお勧めします。そうしない場合、アセットのプロパティを保存したときに、「アセットの変更に失敗しました」というエラーが発生します。
+-- `./jcr:created`：アセットのノードにある jcr プロパティを表示します。これらのプロパティをビュープロパティ上で設定した場合、Adobeでは保護されているため、これらのプロパティを「編集を無効にする」としてマークすることをお勧めします。 そうしないと、アセットのプロパティを保存したときに、「Assetsを変更できませんでした」というエラーが発生します。
 
 * **[!UICONTROL プレースホルダー]**：メタデータプロパティに関する関連情報をユーザーに示すには、このプロパティを使用します。
 * **[!UICONTROL 必須]**：プロパティページでメタデータプロパティを必須としてマークするには、このプロパティを使用します。
@@ -131,7 +127,7 @@ ht-degree: 76%
 
 ![](assets/add_delete_tabs_metadataschemaform.png)
 
-* スキーマフォームに新しいタブを追加するには、「**[!UICONTROL +]**」をクリックします。新しいタブにはデフォルトで「名前なし-1」という名前が付けられます。この名前は、「**[!UICONTROL 設定]**」タブから編集できます。
+* スキーマフォームに新しいタブを追加するには、「**[!UICONTROL +]**」をクリックします。既定では、新しいタブの名前は「Unnamed-1」です。 この名前は、「**[!UICONTROL 設定]**」タブから編集できます。
 
 ![](assets/add-tab-metadata-form.png)
 
@@ -139,7 +135,7 @@ ht-degree: 76%
 
 ## フォルダーへのメタデータスキーマの適用 {#apply-a-metadata-schema-to-a-folder}
 
-Brand Portalでは、メタデータスキーマをカスタマイズおよび制御して、アセットの **[!UICONTROL プロパティ]** ページに、表示するように選択した特定の情報のみを表示することができます。 **[!UICONTROL プロパティ]** ページに表示されるメタデータを制御するには、必要なメタデータをメタデータスキーマフォームから削除し、特定のフォルダーに適用します。
+Brand Portalでは、メタデータスキーマをカスタマイズおよび制御して、アセットの **[!UICONTROL プロパティ]** ページに、表示するように選択した特定の情報のみを表示するようにできます。 **[!UICONTROL プロパティ]** ページに表示されるメタデータを制御するには、必要なメタデータをメタデータスキーマフォームから削除し、特定のフォルダーに適用します。
 
 メタデータスキーマフォームをフォルダーに適用するには、次の手順を実行します。
 
@@ -153,15 +149,15 @@ Brand Portalでは、メタデータスキーマをカスタマイズおよび�
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
-1. 上部のツールバーの「**[!UICONTROL フォルダーに適用]**」をクリックします。
+1. 上部のツールバーで、「**[!UICONTROL フォルダーに適用]**」をクリックします。
 
-1. **[!UICONTROL フォルダーを選択]**&#x200B;ページで、**[!UICONTROL clothing]** メタデータスキーマを適用するフォルダー（例：**[!UICONTROL Gloves]**）に移動します
+1. **[!UICONTROL フォルダーを選択]** ページで、**[!UICONTROL 衣類]** メタデータスキーマを適用するフォルダー（例：**[!UICONTROL 手袋]** に移動します。
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
 1. 「**[!UICONTROL 適用]**」をクリックして、フォルダーにメタデータスキーマフォームを適用します。
 
-   **[!UICONTROL clothing]** メタデータスキーマフォームで使用できるメタデータが **[!UICONTROL Gloves]** フォルダーに適用され、そのフォルダーの&#x200B;**[!UICONTROL プロパティ]**&#x200B;ページに表示されます。
+   **[!UICONTROL 衣類]** メタデータスキーマフォームで使用可能なメタデータは、**[!UICONTROL 手袋]** フォルダーに適用され、フォルダーの **[!UICONTROL プロパティ]** ページに表示されます。
 
    ![](assets/folder_metadata_properties.png)
 
@@ -196,10 +192,10 @@ Brand Portalでは、カスタムスキーマフォームのみを削除でき�
 | **名前** | **種類** | **値** |
 |---|---|---|
 | exposedmimetype | String | image/jpeg |
-| mimetypes | String[] | image/png |
+| mime タイプ | String[] | image/png |
 
 * **exposedmimetype**：マッピングする既存フォームの名前
-* **mimetypes**：**exposedmimetype** 属性で定義したフォームを使用する MIME タイプのリスト
+* **mime タイプ**: **exposedmimetype** 属性で定義したフォームを使用する MIME タイプのリスト
 
 Brand Portalは、次の MIME タイプとスキーマフォームをマッピングします。
 
@@ -214,29 +210,29 @@ Brand Portalは、次の MIME タイプとスキーマフォームをマッピ�
 | video/quicktime | video/x-quicktime |
 | video/mpeg4 | video/mp4 |
 | video/avi | video/avi、video/msvideo、video/x-msvideo |
-| video/wmv | video/x-ms-wmv |
+| video/wmv | `video/x-ms-wmv` |
 | video/flv | video/x-flv |
 
 デフォルトのメタデータプロパティのリストを以下に示します。
 
-* jcr:content/metadata/cq:tags
-* jcr:content/metadata/dc:format
-* jcr:content/metadata/dam:status
-* jcr:content/metadata/videoCodec
-* jcr:content/metadata/audioCodec
-* jcr:content/metadata/dc:title
-* jcr:content/metadata/dc:description
-* jcr:content/metadata/xmpMM:InstanceID
-* jcr:content/metadata/xmpMM:DocumentID
-* jcr:content/metadata/dam:sha1
-* jcr:content/metadata/dam:solutionContext
-* jcr:content/metadata/videoBitrate
-* jcr:content/metadata/audioBitrate
-* jcr:content/usages/usedBy
-* jcr:content/jcr:lastModified
-* jcr:content/metadata/prism:expirationDate
-* jcr:content/onTime
-* jcr:content/offTime
-* jcr:content/metadata/dam:size
-* jcr:content/metadata/tiff:ImageWidth
-* jcr:content/metadata/tiff:ImageLength
+* `jcr:content/metadata/cq:tags`
+* `jcr:content/metadata/dc:format`
+* `jcr:content/metadata/dam:status`
+* `jcr:content/metadata/videoCodec`
+* `jcr:content/metadata/audioCodec`
+* `jcr:content/metadata/dc:title`
+* `jcr:content/metadata/dc:description`
+* `jcr:content/metadata/xmpMM:InstanceID`
+* `jcr:content/metadata/xmpMM:DocumentID`
+* `jcr:content/metadata/dam:sha1`
+* `jcr:content/metadata/dam:solutionContext`
+* `jcr:content/metadata/videoBitrate`
+* `jcr:content/metadata/audioBitrate`
+* `jcr:content/usages/usedBy`
+* `jcr:content/jcr:lastModified`
+* `jcr:content/metadata/prism:expirationDate`
+* `jcr:content/onTime`
+* `jcr:content/offTime`
+* `jcr:content/metadata/dam:size`
+* `jcr:content/metadata/tiff:ImageWidth`
+* `jcr:content/metadata/tiff:ImageLength`

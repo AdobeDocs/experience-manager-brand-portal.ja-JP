@@ -1,19 +1,15 @@
 ---
 title: コレクションの共有
-seo-title: Share a collection
-description: Experience Manager Assets Brand Portal 管理者は、コレクションやスマートコレクションを承認済みユーザーと共有したり、共有を解除したりできます。編集者は、自身が作成したコレクションおよび共有が認められているコレクションと公開コレクションのみを閲覧、共有できます。
-seo-description: Experience Manager Assets Brand Portal Administrators can share and unshare a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections.
-uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
+description: Experience Manager Assets Brand Portal管理者がコレクションやスマートコレクションを承認済みユーザーと共有および共有解除する方法について説明します。 編集者は、自身が作成したコレクションおよび共有が認められているコレクションと公開コレクションのみを閲覧、共有できます。
 contentOwner: Vishabh Gupta
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-source-git-commit: 26c16668224d22f133419c13ea5fe4e24335a22f
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 100%
+source-wordcount: '671'
+ht-degree: 77%
 
 ---
 
@@ -23,17 +19,17 @@ ht-degree: 100%
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-コレクションは、メール経由でリンクとして共有されます。共有リンクにアクセスできるすべてのユーザーがコレクションを開くことができますが、共有メールは任意のユーザーに転送できます。さらに、[共有リンク](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=ja)は一時的で、一定期間のみアクセスできます。また、ユーザーを永続的なメンバーとしてコレクションに招待することもできます。コレクションには、次のタイプのユーザーが存在します。
+コレクションは、メールを介してリンクとして共有されます。 共有リンクにアクセスできるユーザーは誰でもコレクションを開くことができます。 ただし、共有メールは誰にでも転送できます。 さらに、[共有リンク](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share)は一時的で、一定期間のみアクセスできます。また、ユーザーを永続的なメンバーとしてコレクションに招待することもできます。コレクションには、次のタイプのユーザーが存在します。
 
-* **管理者**&#x200B;は、承認された Brand Portal ユーザーとコレクションを共有および共有解除できます。他のユーザーを特定のコレクションに招待し、そのコレクションに対する自分の役割を定義できます。また、管理者は公開コレクションを作成できます。
+* **管理者**&#x200B;は、承認された Brand Portal ユーザーとコレクションを共有および共有解除できます。他のユーザーを特定のコレクションに招待し、そのコレクションでの自分の役割を定義できます。 また、管理者は公開コレクションを作成できます。
 
-* **エディター**&#x200B;は、コレクションの作成と共有が許可されています。他のユーザーを特定のコレクションに招待し、そのコレクションに対する自分の役割を定義できます。また、編集者または所有者としてコレクションに招待されている場合は、コレクションを共有することもできます。
+* **エディター**&#x200B;は、コレクションの作成と共有が許可されています。他のユーザーを特定のコレクションに招待し、そのコレクションでの自分の役割を定義できます。 また、編集者または所有者としてコレクションに招待されている場合は、コレクションを共有することもできます。
 
-* **ビューア**&#x200B;は、非公開コレクションのみを作成できます。所有者として招待された場合でも、コレクションを共有することは許可されていません。
+* **ビューア**&#x200B;は、非公開コレクションのみを作成できます。所有者として招待された場合でも、コレクションを共有することはできません。
 
 >[!NOTE]
 >
->編集者は公開コレクションを非公開コレクションに変更できないので、**[!UICONTROL コレクション設定]**&#x200B;ダイアログの「**[!UICONTROL 公開コレクション]**」チェックボックスは使用不可になります。
+>編集者が公開コレクションを非公開コレクションに変更できないので、「コレクション設定 **[!UICONTROL ダイアログボックスに]** 公開コレクション **[!UICONTROL チェックボックスが]** りません。
 
 ## コレクションの共有 {#share-collection}
 
@@ -63,7 +59,7 @@ ht-degree: 100%
 
    ![](assets/collection_sharingadduser.png)
 
-   編集者は公開コレクションを非公開コレクションに変更できないので、**[!UICONTROL コレクション設定]**&#x200B;ダイアログの「**[!UICONTROL 公開コレクション]**」チェックボックスは使用不可になります。
+   編集者は、公開コレクションを非公開コレクションに変更できないので、「コレクション設定 **[!UICONTROL ダイアログに「**[!UICONTROL  公開コレクション ]**」チェックボックスがあ]** ません。
 
    ![](assets/collection-setting-editor.png)
 

@@ -1,19 +1,15 @@
 ---
 title: リリースノート
-seo-title: Release Notes
 description: Adobe Experience Manager Assets Brand Portal 2024.02.0 リリースの機能、機能強化、修正された重大な問題および既知の問題について説明します。
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2024.02.0 release.
-uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 3a5be1897b90b1d913a5eb86fb1442e702a1c89d
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 100%
+source-wordcount: '1429'
+ht-degree: 81%
 
 ---
 
@@ -30,7 +26,7 @@ Adobe Experience Manager Assets Brand Portal 2024.02.0 リリースの新機能�
 
 ## 概要 {#overview}
 
-Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを軽減できます。Brand Portal では、アセットの参照、検索、プレビュー、ダウンロードおよび会社で承認された形式でのエクスポートを、いつでも、どこでも実行できます。
+Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを軽減できます。Brand Portalを使用すると、アセットを、会社で承認された形式で、いつでも、どこでも参照、検索、プレビュー、ダウンロード、エクスポートできます。
 
 ## 2024.02.0 の新機能 {#whats-new-in-2024.02.0}
 
@@ -40,10 +36,10 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 このリリースには、次のバグ修正が含まれています。
 
-* トルコ語のロケールでは、DRM で保護されたデジタルアセットをダウンロードできない。
+* DRM で保護されているデジタルアセットをトルコ語ロケールでダウンロードできない。
 * 既存のレポートに複数行のタイトルを持つアセットが含まれている場合、そのレポートを開いたりダウンロードしたりできない。
-* アクションバーの「[!UICONTROL ダウンロード]」ボタンを使用してアセットをダウンロードすると、最大 1,000 個のアセットがダウンロードされる。
-* コンテンツツリーで表示する際、PSD タイプのアセットの名前が正しくない。
+* アクションバーの [!UICONTROL  ダウンロード ] ボタンを使用してアセットをダウンロードすると、最大 1,000 個のアセットがダウンロードされます。
+* コンテンツツリーで表示する際の、PSDタイプのアセットの名前が正しくありません。
 * アセットの詳細ページの「[!UICONTROL レンディションを削除]」オプションが機能しない。
 * ダウンロードポップアップウィンドウのアセットのタイトルとサイズが正しく整列されない。
 * レポートの作成中、ラベルがローカライズされない。
@@ -66,7 +62,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 * 英語以外のロケールで作業するとき、[!UICONTROL 日時]の形式に一貫性がない。
 
-* アセットの検索を実行する際に[!UICONTROL 削除]ボタンが見つからない。
+* アセットの検索を実行すると、「[!UICONTROL  削除 ]」ボタンが表示されません。
 
 * [!UICONTROL リンク共有]で「[!UICONTROL タイトル]」フィールドにマルチバイト記号が含まれる場合、レポートをダウンロードできない。
 
@@ -83,7 +79,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 このリリースには、次のバグ修正が含まれています。
 
 * 長いラベルまたはタグが、検索フィルターでは適切に表示されない。
-* ダウンロードダイアログに長いレンディション名を表示できない。
+* ダウンロードダイアログボックスに長いレンディション名を表示できない。
 * カード表示でビデオアセットをプレビューできない。
 
 ### 2023年5月リリース {#may-2023}
@@ -142,8 +138,9 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 >[!IMPORTANT]
 >
->AEM Assets Brand Portal の Pulse 通知は、2022年12月1日（PT）以降停止されます。Pulse 通知の代わりに、次のイベントに関するメール通知を引き続き受信できます。
->* リンクを介したアセットの共有
+>AEM Assets Brand Portalの Pulse 通知は、2022 年 12 月 1 日（PT）以降停止されます。 Pulse 通知の代わりに、次のイベントに関するメール通知を引き続き受信できます。
+>
+>* リンクを使用したアセットの共有
 >* アクセスワークフローのリクエスト
 >* 投稿フォルダーの共有
 >* AEM への書き出しの開始
@@ -158,8 +155,8 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 * NUI で Experience Manager 内のアセットを処理できない場合は、Brand Portal に表示されるアセットのインポートステータスが不正確になります。
 * プレビューアクションが失敗した場合でも、失敗を知らせる通知はありません。
-* 各アセットの totalUploadedSize プロパティの不正確な値が修正されました。
-* アセットに使用できるレンディションが多数ある場合に&#x200B;**すべての項目をダウンロード**&#x200B;すると、Brand Portal でダウンロードされる .ZIP ファイルが無効です。
+* 各アセットの `totalUploadedSize` プロパティの不正確な値が修正されました。
+* アセットに使用できるレンディションが多数ある場合に **すべての項目をダウンロード** をクリックすると、Brand Portalが無効な.ZIP ファイルをダウンロードします。
 * Brand Portal ユーザーインターフェイスで、一部の文字列の翻訳が切り詰められます。
 
 ### 2022年5月リリース {#may-2022}
@@ -174,7 +171,7 @@ Brand Portal では、12 時間ごとに自動ジョブを実行して、AEM に
 
 * カラータグが付いたアセットを含むフォルダーまたはコレクションをダウンロードすると、XML ファイルもダウンロードされる。
 * レンディションを含むビデオをダウンロードすると、Brand Portal によって無効な .ZIP ファイルが作成される。
-* AEM オーサーでプリセットとアセットを作成し、Brand Portal に公開してから、アセットのダウンロード中に動的レンディションを選択すると、ダウンロードした .ZIP ファイルを抽出できなくなる。
+* AEM オーサーでプリセットとアセットを作成し、それをBrand Portalに公開すると、アセットのダウンロード中に動的レンディションを選択できます。 ただし、ダウンロードした.ZIP ファイルを抽出することはできません。 この問題により、ダウンロードされたコンテンツにアクセスできません。
 * Brand Portal で使用可能な特定のフォルダーからビデオアセットをダウンロードする際の問題。
 * メールを使用して投稿フォルダーの URL を共有すると、閲覧者と編集者の役割を持つユーザーがパンくずリストを使用して親フォルダーにアクセスする際に問題が発生する。
 * 公開されたレポートをソーシングすると、誤ったジョブ開始時刻が表示される。
@@ -360,7 +357,7 @@ This release includes the following known issues:
 
 ## 言語 {#languages}
 
-Brand Portal ユーザーインターフェイスは次の言語で使用できます。
+Brand Portal ユーザーインターフェイスは、次の言語で使用できます。
 
 * 英語
 * ドイツ語
@@ -374,12 +371,12 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 
 ## 認定プラットフォーム {#certified-platforms}
 
-このリリースの Brand Portal を実行できる認定プラットフォームを確認するには、[技術要件](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html?lang=ja)の「**オーサリングユーザーインターフェイス向けにサポートされているブラウザー**」節に記載されている表の「**UI のサポート**」列を参照してください。
+このBrand Portal リリースの認定プラットフォームを確認するには、**技術要件 ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/introduction/technical-requirements) の「** オーサリングユーザーインターフェイス向けにサポートされているブラウザー **節にある [ タッチ操作向け UI のサポート** 列を確認してください。
 
 ## リンク {#links}
 
 * [Adobe Experience Manager 製品ページ（adobe.com）](https://business.adobe.com/jp/products/experience-manager/adobe-experience-manager.html)
-* [Assets Brand Portal のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=ja)
+* [Assets Brand Portal のドキュメント](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
 
 ## 製品のアクセスとサポート（制限付きサイト） {#product-access-and-support-restricted-sites}
 

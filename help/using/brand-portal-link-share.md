@@ -1,19 +1,16 @@
 ---
 title: アセットをリンクとして共有
-seo-title: Share assets as a link
-description: Adobe Experience Manager Assets Brand Portal 管理者は、許可された内部ユーザーや外部関係者（パートナーやベンダーなど）との間で複数のアセットのリンクを共有できます。編集者は、管理者によって共有されたアセットのみを閲覧および共有できます。
-seo-description: Adobe Experience Manager Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
-uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
+description: Adobe Experience Manager Assets Brand Portal管理者が、承認済みの内部ユーザーや外部関係者（パートナーやベンダーなど）と複数のアセットのリンクを共有する方法について説明します。 編集者は、管理者によって共有されたアセットのみを閲覧および共有できます。
 contentOwner: bdhar
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: e3e35ad4be5c082ad7bac7bed8ea20a186d245ad
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 94%
+source-wordcount: '1063'
+ht-degree: 75%
 
 ---
 
@@ -33,7 +30,7 @@ Adobe Experience Manager Assets Brand Portal 管理者は、許可された内�
 
 1. Brand Portal テナントにログインします。デフォルトで「**[!UICONTROL ファイル]**」ビューが開き、公開中のアセットとフォルダーがすべて表示されます。
 
-1. 共有するアセットまたはフォルダーを選択するか、**[!UICONTROL コレクション]**&#x200B;表示に移動して、作成したコレクションを共有します。
+1. 共有するアセットまたはフォルダーを選択するか、**[!UICONTROL コレクション]** ビューに移動して、作成したコレクションを共有します。
 
    ![select-multiple-assets](assets/select-assets-new.png)
 
@@ -52,7 +49,7 @@ Adobe Experience Manager Assets Brand Portal 管理者は、許可された内�
    * 「**[!UICONTROL 有効期限]**」フィールドに、日付選択を使用して、リンクの有効期限を指定します。デフォルトの有効期限は、リンクを共有した日から 7 日間です。
    * 「**[!UICONTROL 元のファイルのダウンロードを許可]**」チェックボックスをオンにして、受信者が元のレンディションをダウンロードできるようにします。
 
-   リンク共有されるアセットは、「**[!UICONTROL 有効期限]**」フィールドに指定した日時を過ぎると有効期限が切れます。有効期限が切れたアセットの動作と、Brand Portal のユーザーの役割に応じて許容される操作の変更点については、[アセットのデジタル著作権の管理](../using/manage-digital-rights-of-assets.md#asset-expiration)を参照してください。
+   リンク共有されるアセットは、「**[!UICONTROL 有効期限]**」フィールドに指定した日時を過ぎると有効期限が切れます。Brand Portalでの期限切れのアセットの動作と役割ベースのアクティビティの変更について詳しくは、[ アセットのデジタル権限の管理 ](../using/manage-digital-rights-of-assets.md#asset-expiration) を参照してください。
 
    >[!NOTE]
    >
@@ -68,7 +65,7 @@ Adobe Experience Manager Assets Brand Portal 管理者は、許可された内�
 
 ## 共有リンクからのアセットのダウンロード {#download-assets-from-shared-links}
 
-メール内のリンクをクリックして、共有アセットにアクセスします。「AEM リンク共有」ページが開きます。
+メールに含まれているリンクをクリックして、共有アセットにアクセスします。 「AEM リンク共有」ページが開きます。
 
 共有アセットをダウンロードするには：
 
@@ -84,7 +81,7 @@ Adobe Experience Manager Assets Brand Portal 管理者は、許可された内�
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
-1. デフォルトでは「**[!UICONTROL ダウンロード設定]**」の「**[!UICONTROL 高速ダウンロード]**」設定が有効になっています。そのため、IBM Aspera Connect を使用してダウンロードを続行するための確認ボックスが表示されます。
+1. デフォルトでは「**[!UICONTROL ダウンロード設定]**」の「**[!UICONTROL 高速ダウンロード]**」設定が有効になっています。そのため、IBM® Aspera Connect を使用してダウンロードを続行するための確認ボックスが表示されます。
 
    「**[!UICONTROL 高速ダウンロード]**」を引き続き使用するには、「**[!UICONTROL 許可]**」をクリックします。
 
@@ -94,16 +91,16 @@ Adobe Experience Manager Assets Brand Portal 管理者は、許可された内�
    >
    >共有リンクからアセットをダウンロードする際、アセットごとに個別のフォルダーが作成されます。
    >
-   >フォルダー、コレクション、20 個を超えるアセットのいずれかをダウンロード対象として選択した場合、**[!UICONTROL ダウンロード]**&#x200B;ダイアログはスキップされ、ユーザーからアクセスできるすべてのアセットレンディション（動的レンディションを除く）が、zip フォルダー（アセットごとの個別フォルダーが含まれる）にダウンロードされます。
+   >フォルダー、コレクション、20 個を超えるアセットのいずれかを選択した場合、「**[!UICONTROL ダウンロード]**」ダイアログボックスはスキップされます。 また、アクセス可能なすべてのアセットレンディション（動的なレンディションを除く）は、アセットごとに別個のフォルダーを持つ zip フォルダーにダウンロードされます。
 
    >[!NOTE]
    >
-   >アセットをリンクとして共有したユーザーが、[オリジナルレンディションへのアクセスを管理者によって許可](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges)されていない場合、共有リンクを使用してオリジナルレンディションのダウンロードを行うことはできません。
+   >アセットを共有したユーザーを管理者が許可していない場合、共有リンクは元のレンディションをダウンロードしません。 [ 元のレンディションへのアクセス権を持つ管理者によって許可された ](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges) も参照してください。
 
 
 >[!NOTE]
 >
->Brand Portal では、リンク共有を使用して、サイズが 5 GB を超えるフォルダーやアセットのダウンロードを制限します。
+>Brand Portalでは、リンク共有を使用して、サイズが 5 GB を超えるフォルダーやアセットをダウンロードすることは制限されています。
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.
@@ -202,9 +199,9 @@ Adobe Experience Manager Assets Brand Portal 管理者は、許可された内�
 
 リンクとして共有されているアセットの共有を解除するには、以下の手順を実行します。
 
-1. Brand Portal にログインすると、デフォルトで&#x200B;**[!UICONTROL ファイル]**&#x200B;表示が開きます。リンクとして共有したアセットを表示するには、**[!UICONTROL 共有リンク]**&#x200B;表示に移動します。
+1. Brand Portalにログインすると、デフォルトで **[!UICONTROL ファイル]** ビューが開きます。 リンクとして共有したアセットを表示するには、**[!UICONTROL 共有リンク]**&#x200B;表示に移動します。
 
-1. 表示された一覧で、共有されているリンクを確認します。
+1. 表示されたリストから共有したリンクを確認します。
 
    ![](assets/shared-links.png)
 

@@ -1,26 +1,22 @@
 ---
 title: アセットのデジタル著作権の管理
-seo-title: Manage digital rights of assets
 description: アセットのライセンスを供与したり、アセットや共有リンクの有効期限を設定したりすることで、アセットの使用を制御し、アセットを保護できます。
-seo-description: Licensing assets and setting expiration for assets and shared links ensure controlled usage of these assets and safeguard them.
-uuid: ce30e398-0109-41bf-a4d2-2fcca476f499
 contentOwner: bdhar
 topic-tags: download-install
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
-discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
-source-git-commit: d1487434b10b01eaf55f34672267490fd8fd907e
+source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 81%
+source-wordcount: '887'
+ht-degree: 57%
 
 ---
 
 # アセットのデジタル著作権の管理 {#manage-digital-rights-of-assets}
 
-ブランドを守るには、クリエイティブアセットやブランドマテリアルの配布および使用を適切に保護することが不可欠です。これを組織の内外にわたって確実に適用するには、AEM から Brand Portal に公開される承認済みアセットに有効期限の日時を設定したり、アセットの条件付き使用を認めるライセンスを供与したりします。また、Brand Portalでは、Brand Portalから共有されるアセットへのリンクの有効期限を指定できます。
+ブランドを守るには、クリエイティブアセットやブランドマテリアルの配布および使用を適切に保護することが不可欠です。このプロセスは、AEMからBrand Portalに公開された承認済みアセットに有効期限（および時間）を関連付けるか、条件付き使用のためにこれらのアセットのライセンスを取得することで適用できます。 また、Brand Portalでは、Brand Portalから共有されるアセットへのリンクの有効期限を指定できます。
 
 Brand Portalでのアセットの保護方法と、関連する使用権限について説明します。
 
@@ -30,9 +26,9 @@ Brand Portalでのアセットの保護方法と、関連する使用権限に�
 
 ### 期限切れアセットに関連する使用権限 {#usage-permissions-expired-assets}
 
-Brand Portalでは、管理者は、期限切れのアセットの表示、ダウンロードおよびコレクションへの追加を行うことができます。 一方、編集者と閲覧者にできるのは、期限切れアセットの表示とコレクションへの追加だけです。
+Brand Portalでは、管理者は、期限切れのアセットの表示、ダウンロードおよびコレクションへの追加を行うことができます。 ただし、編集者とビューアが表示および追加できるのは、期限切れのアセットのみです。
 
-管理者は期限切れアセットを AEM Assets から Brand Portal に公開できます。しかし、期限切れアセットを Brand Portal からリンクを介して共有することはできません。期限切れアセットと期限切れでないアセットの両方を含むフォルダーから期限切れアセットを選択している場合は、「**[!UICONTROL リンクを共有]**」アクションは使用できません。しかし、期限切れアセットと期限切れでないアセットを含んだフォルダーそのものを選択している場合は、「[!UICONTROL 共有]」アクションと「**[!UICONTROL リンクを共有]**」アクションを使用できます。
+管理者は期限切れアセットを AEM Assets から Brand Portal に公開できます。ただし、期限切れのアセットは、Brand Portalからのリンクを使用して共有することはできません。 期限切れアセットと期限切れでないアセットの両方を含むフォルダーから期限切れアセットを選択している場合は、「**[!UICONTROL リンクを共有]**」アクションは使用できません。しかし、期限切れアセットと期限切れでないアセットを含んだフォルダーそのものを選択している場合は、「[!UICONTROL 共有]」アクションと「**[!UICONTROL リンクを共有]**」アクションを使用できます。
 
 >[!NOTE]
 >
@@ -63,19 +59,19 @@ Brand Portalでは、管理者は、期限切れのアセットの表示、ダ�
 
 ## アセットリンクの有効期限 {#asset-link-expiration}
 
-管理者およびエディターは、リンクを通じてアセットを共有する一方で、**[!UICONTROL リンク共有]**&#x200B;ダイアログボックスの「**[!UICONTROL 有効期限]**」フィールドを使用して有効期限の日時を設定できます。リンクのデフォルトの有効期限は、リンクが共有された日から 7 日間です。
+管理者およびエディターは、リンクを通じてアセットを共有する一方で、**[!UICONTROL リンク共有]**&#x200B;ダイアログボックスの「**[!UICONTROL 有効期限]**」フィールドを使用して有効期限の日時を設定できます。リンクのデフォルトの有効期限は、リンクを共有した日から 7 日間です。
 
 ![](assets/asset-link-sharing.png)
 
-これにより、リンクとして共有されたアセットは Brand Portal の管理者およびエディターが設定した日時に期限切れになり、その後は表示もダウンロードもできなくなります。リンクを通じて共有されたアセットは、組織の一員でない外部ユーザーからも見られるので、有効期限を指定することで、承認済みアセットを保護し、指定の日時以降は未知の人物に見られないようにすることができます。
+リンクとして共有されたアセットは、Brand Portalの管理者と編集者が設定した日時に期限切れになります。 また、有効期限を超えると、アセットの表示やダウンロードができなくなります。 承認されたアセットを外部ユーザーから保護するには、共有リンクに有効期限を設定して、指定した期間を超えて不明なエンティティに公開されないようにします。
 
 リンク共有について詳しくは、[アセットをリンクとして共有](../using/brand-portal-link-share.md)を参照してください。
 
 ## ライセンスで保護されたアセット {#licensed-assets}
 
-ライセンスで保護されたアセットを Brand Portal からダウンロードするときは、事前に使用許諾契約への同意が求められます。ライセンス取得済みアセットに関するこの契約書は、Brand Portalから直接アセットをダウンロードする場合、または共有リンクを使用してダウンロードする場合に交付されます。 ライセンスで保護されたアセットは、有効期限が切れているかどうかにかかわらず、すべてのユーザーが表示できます。 ただし、期限切れのライセンス済みアセットのダウンロードと使用は制限されています。 期限切れのライセンス済みアセットの動作と、ユーザーの役割に基づいて許可されるアクティビティについて詳しくは、[ 期限切れアセットの使用権限 ](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets) を参照してください。
+ライセンスで保護されたアセットを Brand Portal からダウンロードするときは、事前に使用許諾契約への同意が求められます。ライセンス取得済みアセットに対するこの契約書は、Brand Portalから直接アセットをダウンロードする場合、または共有リンクを使用してダウンロードする場合に交付されます。 期限切れでも期限切れでもすべてのユーザーが、ライセンスで保護されたアセットを表示できます。 ただし、期限切れのライセンス済みアセットのダウンロードと使用は制限されています。 期限切れのライセンス済みアセットの動作と、ユーザーの役割に基づいて許可されるアクティビティについて詳しくは、[ 期限切れアセットの使用権限 ](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets) を参照してください。
 
-ライセンスで保護されているアセットには、[使用許諾契約が添付](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=ja)されています。この処理は、[!DNL Experience Manager Assets] のメタデータプロパティを設定することで行われます。
+ライセンスで保護されているアセットには、[ 使用許諾契約が添付 ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) されています。この処理は、[!DNL Experience Manager Assets] でアセットのメタデータプロパティを設定することで行われます。
 
 アセットに次のいずれかまたは両方のメタデータプロパティが含まれている場合、アセットは保護されていると見なされます。
 
@@ -83,14 +79,14 @@ Brand Portalでは、管理者は、期限切れのアセットの表示、ダ�
 * `adobe_dam:restrictions`：このプロパティの値が、使用許諾契約書を指定する変換前の HTML である。
 
 
-ライセンスで保護されたアセットをダウンロードする場合は、メタデータプロパティに応じて&#x200B;**[!UICONTROL 著作権管理]**&#x200B;ページを指定できます。
+ライセンスで保護されたアセットをダウンロードすることを選択した場合は、メタデータプロパティに応じて **[!UICONTROL 著作権管理]** ページを指定できます。
 
 | `adobe_dam:restrictions` | `xmpRights:WebStatement` | 著作権管理 |
 | --- | --- | --- |
 | はい | - | このインターフェイスは、Assets と Brand Portal の両方に表示されます |
 | - | はい（無効なパス） | インターフェイスなし |
 | はい | はい（無効なパス） | インターフェイスなし |
-| はい | はい（有効なパス） | このインターフェイスは、パスが Assets と Brand Portal のどちらに対して有効か（または両方に有効か）に応じて Assets または Brand Portal </br> に表示されます。 |
+| はい | はい（有効なパス） | このインターフェイスは、パスがAssetsとBrand Portalのどちらに対して有効か（または両方に有効か）に応じてAssetsまたはBrand Portalに表示されます </br> |
 
 ![](assets/asset-copyright-mgmt.png)
 
@@ -106,4 +102,4 @@ Brand Portalでは、管理者は、期限切れのアセットの表示、ダ�
 
 ![](assets/assets-expired.png)
 
-レポートの機能について詳しくは、[レポートの操作](../using/brand-portal-reports.md#work-with-reports)を参照してください。
+レポート機能の詳細については、[ レポートの操作 ](../using/brand-portal-reports.md#work-with-reports) を参照してください。

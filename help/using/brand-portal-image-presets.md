@@ -6,9 +6,9 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: 1a3e51922fb658d9d05113b4b1f4d05a0b6555c0
+source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '815'
 ht-degree: 54%
 
 ---
@@ -38,7 +38,7 @@ Experience Manager Assets 管理者は、アセットの詳細ページに動的
 >
 >Experience Manager Assets オーサーインスタンスが **Dynamic Media ハイブリッドモード** で動作している場合、画像アセットのピラミッドTIFFレンディションが作成され、Experience Manager Assets リポジトリに保存されます。
 >
->これに対して、Experience Manager Assets オーサーインスタンスが **Dynamic Media Scene7 モード** で動作している場合、画像アセットのピラミッドTIFFレンディションはScene7 サーバー上に存在します。
+>ただし、Experience Manager Assets オーサーインスタンスが **Dynamic Media Scene7 モード** で動作している場合、画像アセットのピラミッドTIFFレンディションはScene7 サーバー上に存在します。
 >
 >このようなアセットがBrand Portalに公開されると、画像プリセットが適用されて動的レンディションが表示されます。
 
