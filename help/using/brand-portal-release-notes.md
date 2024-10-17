@@ -6,9 +6,9 @@ contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 623d78ee5bd82d1cd6c271962e29c6b71192bcfd
+source-git-commit: 3f3065de994f5c38e604b52848b0a538c9efd7d1
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1533'
 ht-degree: 76%
 
 ---
@@ -37,7 +37,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 このリリースには、次のバグ修正が含まれています。
 
 * 読み込みイベントをソーシングするためのメール通知が送信されていません。
-* 検索フィルターの使用中、Brand Portalは検索フィルターウィンドウ内に重複したフォルダーを表示します。
+* 検索フィルタを使用すると、[!DNL Brand Portal] は検索フィルタ ウィンドウ内に重複フォルダを表示します。
 * 名前に特殊文字が含まれるライセンスのないアセットを含むコレクションのダウンロードが機能しません。
 * [!UICONTROL  検索フォームエディター ] に移動する際、ラベルがローカライズされない。
 * リンク共有ウィンドウでラベルがローカライズされない。
