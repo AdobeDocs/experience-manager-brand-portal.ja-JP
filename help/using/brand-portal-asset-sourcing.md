@@ -10,10 +10,10 @@ topics: collaboration, content-velocity, sharing
 doc-type: feature-video
 activity: use
 audience: author, marketer
-version: 6.5
+version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+source-git-commit: aea49037eddb1558f85e567cd35eb434eee617ba
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 58%
@@ -22,7 +22,7 @@ ht-degree: 58%
 
 # アセットソーシングの概要 {#overview-asset-sourcing-in-bp}
 
-**アセットソーシング**&#x200B;を使用すると、追加の&#x200B;**アセット投稿**&#x200B;プロパティを持つ新しいフォルダーを Experience Manager Assets ユーザー（管理者／管理者以外のユーザー）が作成できるので、この新規作成フォルダーを Brand Portal ユーザーによるアセット送信に利用することができます。これにより、新しく作成された **投稿** フォルダー内に **SHARED** および **NEW** という 2 つのサブフォルダーが自動的にトリガーされます。 管理者は、投稿フォルダーに追加する必要があるアセットのタイプの概要をアップロードすることで、要件を定義します。 一連のベースラインアセットを **SHARED** フォルダーにアップロードして、Brand Portal ユーザーに必要な参照情報を提供します。 その後、管理者は、アクティブな Brand Portal ユーザーに投稿フォルダーへのアクセスを許可してから、新しく作成した&#x200B;**投稿**&#x200B;フォルダーを Brand Portal に公開することができます。**NEW** フォルダーへのコンテンツの追加を完了したら、投稿フォルダーをExperience Managerオーサー環境に公開できます。 なお、読み込みが完了し、新しく公開したコンテンツが Experience Manager Assets 内に反映されるまでに数分かかる場合があります。
+**アセットソーシング**&#x200B;を使用すると、追加の&#x200B;**アセット投稿**&#x200B;プロパティを持つ新しいフォルダーを Experience Manager Assets ユーザー（管理者／管理者以外のユーザー）が作成できるので、この新規作成フォルダーを Brand Portal ユーザーによるアセット送信に利用することができます。これにより、新しく作成された **投稿** フォルダー内に **SHARED** および **NEW** という 2 つのサブフォルダーが自動的にトリガーされます。 管理者は、投稿フォルダーに追加する必要があるアセットのタイプの概要をアップロードすることで、要件を定義します。 一連のベースラインアセットを **SHARED** フォルダーにアップロードして、Brand Portal ユーザーに必要な参照情報を提供します。 その後、管理者は、アクティブな Brand Portal ユーザーに投稿フォルダーへのアクセスを許可してから、新しく作成した&#x200B;**投稿**&#x200B;フォルダーを Brand Portal に公開することができます。**NEW** フォルダーへのコンテンツの追加を完了したら、投稿フォルダーをExperience Manager オーサー環境に公開できます。 なお、読み込みが完了し、新しく公開したコンテンツが Experience Manager Assets 内に反映されるまでに数分かかる場合があります。
 
 また、既存の機能はすべてそのままで変わりません。Brand Portal ユーザーは、投稿フォルダーおよび許可された他のフォルダーからアセットを表示、検索およびダウンロードできます。さらに、管理者は投稿フォルダーの共有、プロパティの変更、コレクションへのアセットの追加を行うことができます。
 
@@ -108,9 +108,9 @@ Experience Manager Assets 管理者は、アクティブな Brand Portal ユー�
 
 >[!NOTE]
 >
->CSV ファイルの形式は、一括ユーザー読み込みのAdmin Consoleでサポートされている形式と同じです。 メールと氏名は必須です。
+>CSV ファイルの形式は、Admin Consoleでの一括ユーザー読み込みでサポートされている形式と同じです。 メールと氏名は必須です。
 
-管理者は、Admin Consoleに新しいユーザーを追加できます。 詳しくは、[ ユーザーの管理 ](brand-portal-adding-users.md) を参照してください。 Admin Consoleにユーザーを追加したら、これらのユーザーをBrand Portal ユーザー設定ファイルに追加し、投稿フォルダーにアクセスする権限を割り当てることができます。
+管理者は、Admin Consoleに新しいユーザーを追加できます。 詳しくは、[ ユーザーの管理 ](brand-portal-adding-users.md) を参照してください。 Admin Consoleでユーザーを追加したら、これらのユーザーをBrand Portal ユーザー設定ファイルに追加し、投稿フォルダーにアクセスする権限を割り当てることができます。
 
 **Brand Portal ユーザーリストをアップロードするには：**
 
