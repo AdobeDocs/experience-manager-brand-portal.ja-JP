@@ -5,10 +5,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: 86585e7e04a19f59f9594409e6d7704f457ab8e2
 workflow-type: tm+mt
 source-wordcount: '1622'
-ht-degree: 61%
+ht-degree: 60%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 61%
 
 ただし、承認済みのブランドロゴ、キャンペーンアセット、チーム、パートナー、販売者との製品ショットなど、効率的で安全な共有をサポートするソリューションを開発することは困難です。 このプロセスで効率とセキュリティの両方を確保するには、慎重な計画と実行が必要です。
 
-**Adobe Experience Manager（AEM）Assets Brand Portal** は、アセット配布およびアセット投稿機能を提供することで、世界中に分散しているBrand Portal ユーザーと効果的に共同作業するというマーケターのニーズに重点を置いています。
+**Adobe Experience Manager（AEM）Assets Brand Portalは** アセット配信機能とアセット投稿機能を提供することで、世界中に分散しているBrand Portal ユーザーと効果的に共同作業するという、マーケターのニーズに重点を置いています。
 
 アセット配布を使用すると、承認されたクリエイティブアセットを取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。 ただし、アセット投稿を使用すると、Brand Portal ユーザーは、オーサー環境にアクセスすることなく、Brand Portalにアセットをアップロードしたり、Experience Manager Assetsに公開したりできます。 投稿機能は、**Brand Portal でのアセットソーシング**と呼ばれます。これらにより、Brand Portal ユーザー（外部の代理店／チーム）からのアセット配布および投稿の全体的な Brand Portal エクスペリエンスを向上させ、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。
 [Brand Portal でのアセットソーシング](brand-portal-asset-sourcing.md)を参照してください。
@@ -35,7 +35,7 @@ Adobe Experience Manager Assets と Brand Portal の連携を設定すると、B
 
 Cloud Manager から Brand Portal をアクティベートすると、Experience Manager Assets as a Cloud Service と Brand Portal の連携が自動的に設定されます。アクティベーションワークフローにより、バックエンドで必要な設定が作成され、Experience Manager Assets as a Cloud Service インスタンスと同じ IMS 組織に Brand Portal がアクティベートされます。
 
-ただし、Experience Manager Assets（オンプレミスおよび Managed Service）とBrand Portalの連携は、Adobe Developer Consoleを使用して手動で設定されます。このサービスは、Brand Portal テナントの認証に使用するAdobeのIdentity Management サービス（IMS）トークンを調達します。
+ただし、Experience Manager Assets（オンプレミスおよび Managed Service）とBrand Portalの連携は、Adobe Developer Consoleを使用して手動で設定されます。このサービスは、Brand Portal テナントの認証に使用するAdobe Identity Management Services （IMS）トークンを調達します。
 
 詳しくは、[Experience Manager Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)を参照してください。
 
@@ -97,7 +97,7 @@ Experience Manager Assets Brand Portal では、Brand Portal への[ゲストに
 
 ### 編集者 {#editor}
 
-編集者の役割を持つユーザーは、閲覧者が実行できるタスクをすべて実行できます。さらに、編集者は、管理者によって共有されたファイルとフォルダーを表示できます。また、編集者の役割を持つユーザーは、コンテンツ（ファイル、フォルダー、コレクション）を他のユーザーと共有することもできます。
+編集者の役割を持つユーザーは、閲覧者が実行できるタスクをすべて実行できます。また、管理者が共有するファイルやフォルダーをエディターで表示することもできます。 また、編集者の役割を持つユーザーは、コンテンツ（ファイル、フォルダー、コレクション）を他のユーザーと共有することもできます。
 
 編集者は、閲覧者が実行できるタスクに加えて、次のタスクを実行できます。
 
@@ -109,11 +109,11 @@ Experience Manager Assets Brand Portal では、Brand Portal への[ゲストに
 
 ### 管理者 {#administrator}
 
-管理者には、[!UICONTROL Admin Console] のシステム管理者またはBrand Portal製品管理者としてマークされたユーザーが含まれます。 管理者は、システム管理者とユーザーを追加／削除したり、プリセットを定義したりできます。また、ユーザーにメールを送信したり、ポータルの使用状況とストレージに関するレポートを表示したりできます。
+管理者には、[!UICONTROL Admin Console] でシステム管理者またはBrand Portal製品管理者としてマークされたユーザーが含まれます。 管理者は、システム管理者とユーザーを追加／削除したり、プリセットを定義したりできます。また、ユーザーにメールを送信したり、ポータルの使用状況とストレージに関するレポートを表示したりできます。
 
 >[!NOTE]
 >
->Brand Portalでは、[!UICONTROL Admin Consoleのサポート管理者のロールとマークが付けられているユーザーは ] システム管理者と同じ権限を持っています。
+>Brand Portalでは、[!UICONTROL Admin Console] のサポート管理者の役割とマークが付けられているユーザーは、システム管理者と同じ権限を持っています。
 
 管理者は、編集者が実行可能なすべてのタスクを実行できます。管理者が実行できるその他のタスクを次に示します。
 
@@ -197,13 +197,13 @@ Brand Portal 製品管理者は Brand Portal の通知領域および自分の�
 ![アクセス申請の通知](assets/bplogin_request_access_7.png)
 
 アクセスを許可するには、管理者はBrand Portalの通知領域で関連通知をクリックし、「**[!UICONTROL アクセスの許可]**」をクリックする必要があります。
-または、アクセス申請メールに記載されているリンクをたどってAdobe[!UICONTROL  のAdmin Consoleにアクセスし ] 該当する製品設定にユーザーを追加することもできます。
+または、アクセス申請メールに記載されているリンクをたどってAdobe [!UICONTROL Admin Consoleにアクセスし ] 該当する製品設定にユーザーを追加することもできます。
 
-[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) ホームページにリダイレクトされます。Adobe[!UICONTROL Admin Console] を使用してユーザーを作成し、製品プロファイル （旧称：製品設定）に割り当てます。製品プロファイルは、Brand Portalでグループとして表示されます。 [!UICONTROL  Admin Consoleでユーザーを追加する方法の詳細については ][ ユーザーの追加 ](brand-portal-adding-users.md#add-a-user) を参照してください（ユーザーを追加するには、手順 4 ～ 7 に従ってください）。
+[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) ホームページにリダイレクトされます。Adobe [!UICONTROL Admin Console] を使用してユーザーを作成し、製品プロファイル （旧称：製品設定）に割り当てます。製品プロファイルは、Brand Portalでグループとして表示されます。 [!UICONTROL Admin Console] でのユーザーの追加について詳しくは、[ ユーザーの追加 ](brand-portal-adding-users.md#add-a-user) を参照してください（ユーザーを追加するには、手順 4～7 に従います）。
 
 ## Brand Portal の言語 {#brand-portal-language}
 
-Brand Portalの言語は、Adobe[!UICONTROL Experience Cloud設定 ] から変更できます。
+Brand Portalの言語は、Adobe [!UICONTROL Experience Cloud Settings] から変更できます。
 
 ![アクセス申請の通知](assets/BPLang.png)
 
@@ -213,7 +213,7 @@ Brand Portalの言語は、Adobe[!UICONTROL Experience Cloud設定 ] から変�
 
    ![プロファイルを編集](assets/EditBPProfile.png)
 
-1. [!UICONTROL Experience Cloud設定 ] ページで、「言語 [!UICONTROL  ドロップダウンメニューから言語 ] を選択します。
+1. [!UICONTROL Experience Cloud設定 ] ページで、「言語 [!UICONTROL  ドロップダウンメニューから言語を選択 ] ます。
 
 ## Brand Portal のメンテナンス通知 {#brand-portal-maintenance-notification}
 
