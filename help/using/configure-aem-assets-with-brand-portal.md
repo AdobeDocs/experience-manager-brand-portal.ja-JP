@@ -49,4 +49,4 @@ AEM Assets と Brand Portal の連携を設定する手順は、AEM のバージ
 | **AEM のバージョン** | **新しい設定** | **設定のアップグレード** |
 |---|---|---|
 | **AEM Assets as a Cloud Service** | [Brand Portal のライセンス認証](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) | - |
-| **AEM 6.5（6.5.4.0 以降）** | [設定の作成](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [設定のアップグレード](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |
+| **AEM 6.5（6.5.4.0 以降）** | [設定の作成](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [設定のアップグレード](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |

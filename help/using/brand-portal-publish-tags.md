@@ -16,7 +16,7 @@ ht-degree: 38%
 
 Experience Manager Assets から Brand Portal にタグを公開する方法について説明します。
 
-タグは、アセットを整理したり、アセットが関連付けられているアセットの検索性を高めたりするのに役立ちます。 タグは、アセットに添付されるキーワードまたはラベル（メタデータ）と考えることができ、検索結果としてアセットをすばやく見つけることができます。 Experience Manager Assets でアセットにタグを割り当てる方法については、[タグを使用したアセットの構成](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/organize-assets)を参照してください。
+タグは、アセットを整理したり、アセットが関連付けられているアセットの検索性を高めたりするのに役立ちます。 タグは、アセットに添付されるキーワードまたはラベル（メタデータ）と考えることができ、検索結果としてアセットをすばやく見つけることができます。 Experience Manager Assets でアセットにタグを割り当てる方法については、[タグを使用したアセットの構成](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/managing/organize-assets)を参照してください。
 
 関連タグの付いたアセット（およびコレクション）が Brand Portal に公開されると、（AEM でアセットやコレクションに関連付けられた）タグが Brand Portal に自動公開されます。公開されたタグは、そのタグに関連付けられているアセットを検索で探す際に役立ちます。
 
@@ -47,7 +47,7 @@ AEMでタグを作成し、Brand Portalでタグを公開し、適切なアセ�
      *（必須）*&#x200B;タグの表示タイトル。
    * **[!UICONTROL 名前]**
 
-     *（必須）*&#x200B;タグの名前。指定しない場合、有効なノード名が「タイトル」から作成されます。[タグ ID](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework) を参照してください。
+     *（必須）*&#x200B;タグの名前。指定しない場合、有効なノード名が「タイトル」から作成されます。[タグ ID](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework) を参照してください。
    * **説明**
 
      *（オプション）*&#x200B;タグの説明。
@@ -63,7 +63,7 @@ AEMでタグを作成し、Brand Portalでタグを公開し、適切なアセ�
 
 1. **タグをアセット（またはコレクション）に関連付けます**。
 
-   アセット（またはコレクション）を選択し、そのアセットの「プロパティ」セクションまたは「タグを管理」セクションを使用して目的のタグを添付します。 AEM Assetsでアセットにタグを割り当てる方法について詳しくは、[ タグを使用したアセットの整理 ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/organize-assets) を参照してください。
+   アセット（またはコレクション）を選択し、そのアセットの「プロパティ」セクションまたは「タグを管理」セクションを使用して目的のタグを添付します。 AEM Assetsでアセットにタグを割り当てる方法について詳しくは、[ タグを使用したアセットの整理 ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/managing/organize-assets) を参照してください。
 
 1. **アセット（またはコレクション）を Brand Portal に公開します**。\
    アセット（またはコレクション）を Brand Portal に公開すると、関連付けられているタグも Brand Portal 上で利用できるようになります。

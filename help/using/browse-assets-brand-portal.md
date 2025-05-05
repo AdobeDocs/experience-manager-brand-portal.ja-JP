@@ -56,7 +56,7 @@ Brand Portalの表示セレクターで使用可能ないずれかの表示（�
 * サイズ
 * ディメンション寸法
 
-カードをクリックして階層の下位に移動したり（クイックアクションを回避するために慎重に行う）、ヘッダーの [ パンくずリスト ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling) を使用して再度上位に移動したりできます。
+カードをクリックして階層の下位に移動したり（クイックアクションを回避するために慎重に行う）、ヘッダーの [ パンくずリスト ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling) を使用して再度上位に移動したりできます。
 
 ![](assets/cardquickactions.png)
 
@@ -106,7 +106,7 @@ Brand Portalの表示セレクターで使用可能ないずれかの表示（�
 * アセット階層画像を示すフォルダーパス
 * Brand Portal 上のアセットの公開日
 
-パス列を使用すると、フォルダー階層内のアセットの場所を簡単に識別できます。 リソース名をクリックして階層を下に移動し、ヘッダーの [ パンくずリスト ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling) を使用して戻ることができます。
+パス列を使用すると、フォルダー階層内のアセットの場所を簡単に識別できます。 リソース名をクリックして階層を下に移動し、ヘッダーの [ パンくずリスト ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling) を使用して戻ることができます。
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click the checkbox. When only some items are selected, it appears with a minus sign. To select all, click the checkbox. To deselect all, click the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."

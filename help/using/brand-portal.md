@@ -127,8 +127,8 @@ Experience Manager Assets Brand Portal では、Brand Portal への[ゲストに
 AEM Assets の作成者は、上記のタスクに加えて、次のタスクを実行できます。
 
 * [AEM Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)
-* [Brand Portal へのフォルダーの公開](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
-* [Brand Portal へのコレクションの公開](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
+* [Brand Portal へのフォルダーの公開](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
+* [Brand Portal へのコレクションの公開](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
 
 ## Brand Portal URL の代替エイリアス {#tenant-alias-for-portal-url}
 
@@ -235,4 +235,4 @@ Brand Portal のメンテナンスのために停止が予定されている場�
 * [Adobe Customer Support]()
 -->
 
-* [AEM フォーラム](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
+* [AEM フォーラム](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=ja)

@@ -19,7 +19,7 @@ ht-degree: 77%
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-コレクションは、メールを介してリンクとして共有されます。 共有リンクにアクセスできるユーザーは誰でもコレクションを開くことができます。 ただし、共有メールは誰にでも転送できます。 さらに、[共有リンク](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share)は一時的で、一定期間のみアクセスできます。また、ユーザーを永続的なメンバーとしてコレクションに招待することもできます。コレクションには、次のタイプのユーザーが存在します。
+コレクションは、メールを介してリンクとして共有されます。 共有リンクにアクセスできるユーザーは誰でもコレクションを開くことができます。 ただし、共有メールは誰にでも転送できます。 さらに、[共有リンク](https://experienceleague.adobe.com/ja/docs/experience-manager-brand-portal/using/share/brand-portal-link-share)は一時的で、一定期間のみアクセスできます。また、ユーザーを永続的なメンバーとしてコレクションに招待することもできます。コレクションには、次のタイプのユーザーが存在します。
 
 * **管理者**&#x200B;は、承認された Brand Portal ユーザーとコレクションを共有および共有解除できます。他のユーザーを特定のコレクションに招待し、そのコレクションでの自分の役割を定義できます。 また、管理者は公開コレクションを作成できます。
 

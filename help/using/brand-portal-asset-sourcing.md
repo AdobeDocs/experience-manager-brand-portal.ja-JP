@@ -49,7 +49,7 @@ ht-degree: 58%
 >
 >Experience Manager Assets 6.5.4 には既知の問題があります。Brand Portal ユーザーが、Adobe Developer Consoleにアップグレードすると、投稿フォルダーのアセットをExperience Manager Assetsに公開できなくなります。
 >
->この問題は Experience Manager Assets 6.5.5 で修正されました。お使いの Experience Manager Assets インスタンスを最新のサービスパック AEM 6.5.5 にアップグレードし、Adobe 開発者コンソールで[設定をアップグレード](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65)してください。
+>この問題は Experience Manager Assets 6.5.5 で修正されました。お使いの Experience Manager Assets インスタンスを最新のサービスパック AEM 6.5.5 にアップグレードし、Adobe 開発者コンソールで[設定をアップグレード](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65)してください。
 
 <!--
 

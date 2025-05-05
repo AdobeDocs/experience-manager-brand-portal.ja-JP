@@ -81,7 +81,7 @@ Brand Portalからメタデータスキーマを非公開にするには：
 
 ## Brand Portal への検索ファセットの公開 {#publish-search-facets-to-brand-portal}
 
-検索フォームは、Brand Portal のユーザーに[ファセット検索](../using/brand-portal-search-facets.md)の機能を提供します。検索ファセットは Brand Portal 上での詳細検索を可能にします。検索フォームに[追加されている述語](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/search-facets)はすべて、検索フィルター内の検索ファセットとしてユーザーに提供されます。
+検索フォームは、Brand Portal のユーザーに[ファセット検索](../using/brand-portal-search-facets.md)の機能を提供します。検索ファセットは Brand Portal 上での詳細検索を可能にします。検索フォームに[追加されている述語](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/administer/search-facets)はすべて、検索フィルター内の検索ファセットとしてユーザーに提供されます。
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)
