@@ -43,10 +43,13 @@ AEMでタグを作成し、Brand Portalでタグを公開し、適切なアセ�
 1. 以下を指定します。
 
    * **[!UICONTROL タイトル]**
+
      *（必須）*&#x200B;タグの表示タイトル。
    * **[!UICONTROL 名前]**
+
      *（必須）*&#x200B;タグの名前。指定しない場合、有効なノード名が「タイトル」から作成されます。[タグ ID](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework) を参照してください。
    * **説明**
+
      *（オプション）*&#x200B;タグの説明。
    * **タグのパス** タグの JCR パス。
 
@@ -56,7 +59,7 @@ AEMでタグを作成し、Brand Portalでタグを公開し、適切なアセ�
 
 1. **タグを Brand Portal に公開します**。
 
-   **[!UICONTROL AEM タグ]** コンソール（[!UICONTROL  ツール | タグ付け | AEM Tags]）で目的のタグを選択し、Brand PortalにPublishします。
+   **[!UICONTROL AEM タグ]** コンソール（[!UICONTROL &#x200B; ツール | タグ付け | AEM Tags]）で目的のタグを選択し、Brand PortalにPublishします。
 
 1. **タグをアセット（またはコレクション）に関連付けます**。
 

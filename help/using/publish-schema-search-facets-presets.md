@@ -114,6 +114,6 @@ Brand Portalから検索フォームを非公開にするには、次の手順�
 
 1. 検索用述語の中には、Brand Portal 上の検索フィルターに適用できないものがあります。このような検索用述語が検索フォームの一部として AEM オーサーインスタンスから Brand Portal へ公開された場合は、適用できない検索用述語が削除されます。したがって、Brand Portal 側では、公開されたフォーム内の述語の数が少なくなります。詳しくは、[Brand Portal 上のフィルターに適用可能な検索用述語の一覧](../using/brand-portal-search-facets.md#list-of-search-predicates)を参照してください。
 
-1. [!UICONTROL  オプションの述語 ] の場合、ユーザーがカスタムパスを使用してAEM オーサーインスタンスでオプションを読み取ると、Brand Portalで機能しません。 このような追加のパスやオプションは、検索フォームと一緒に Brand Portal へ公開されません。その場合は、ユーザーが&#x200B;**[!UICONTROL オプションの述語]**&#x200B;内の「**[!UICONTROL オプションを追加]**」で「**[!UICONTROL 手動]**」オプションを選択して、Brand Portal 側でこれらのオプションを手動で追加できます。
+1. [!UICONTROL &#x200B; オプションの述語 &#x200B;] の場合、ユーザーがカスタムパスを使用してAEM オーサーインスタンスでオプションを読み取ると、Brand Portalで機能しません。 このような追加のパスやオプションは、検索フォームと一緒に Brand Portal へ公開されません。その場合は、ユーザーが&#x200B;**[!UICONTROL オプションの述語]**&#x200B;内の「**[!UICONTROL オプションを追加]**」で「**[!UICONTROL 手動]**」オプションを選択して、Brand Portal 側でこれらのオプションを手動で追加できます。
 
 ![](assets/options-predicate-manual.png)

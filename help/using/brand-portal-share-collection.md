@@ -59,7 +59,7 @@ ht-degree: 77%
 
    ![](assets/collection_sharingadduser.png)
 
-   編集者は、公開コレクションを非公開コレクションに変更できないので、「コレクション設定 **[!UICONTROL ダイアログに「**[!UICONTROL  公開コレクション ]**」チェックボックスがあ]** ません。
+   編集者は、公開コレクションを非公開コレクションに変更できないので、「コレクション設定 **[!UICONTROL ダイアログに「**&#x200B;[!UICONTROL &#x200B; 公開コレクション &#x200B;]&#x200B;**」チェックボックスがあ]** ません。
 
    ![](assets/collection-setting-editor.png)
 

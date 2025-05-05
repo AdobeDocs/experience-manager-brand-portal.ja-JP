@@ -115,7 +115,7 @@ Experience Manager Assets 管理者は、アクティブな Brand Portal ユー�
 **Brand Portal ユーザーリストをアップロードするには：**
 
 1. Experience Manager Assets インスタンスにログインします。
-1. [!UICONTROL  ツール ] パネルから、**[!UICONTROL Assets]**/**[!UICONTROL Brand Portal ユーザー]** に移動します。
+1. [!UICONTROL &#x200B; ツール &#x200B;] パネルから、**[!UICONTROL Assets]**/**[!UICONTROL Brand Portal ユーザー]** に移動します。
 
 1. Brand Portal 投稿者をアップロードウィンドウが開きます。
 ローカルマシンから参照し、アクティブなBrand Portal ユーザーリストを含む **設定（.csv** ファイルをアップロードします。
