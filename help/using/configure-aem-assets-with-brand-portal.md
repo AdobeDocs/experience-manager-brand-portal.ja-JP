@@ -7,9 +7,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 261c0e84-6b3d-459c-b6b9-a9af106d6943
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: f4add370fd3242f5506e5cc4d921362e2b14141a
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '361'
 ht-degree: 60%
 
 ---
@@ -25,7 +25,7 @@ Experience Manager Assets と Brand Portal の連携の設定は、次のバー�
 
 Cloud Manager から Brand Portal をアクティベートすると、Experience Manager Assets as a Cloud Service と Brand Portal の連携が自動的に設定されます。アクティベーションワークフローにより、バックエンドで必要な設定が作成され、Experience Manager Assets as a Cloud Service インスタンスと同じ IMS 組織に Brand Portal がアクティベートされます。
 
-一方、Experience Manager Assets（オンプレミス版および Managed Service 版）とBrand Portalの連携は、Adobe Developer Consoleを使用して手動で設定されます。これにより、Brand Portal テナントの認証に使用するAdobeのIdentity Management Services （IMS）トークンが調達されます。
+一方、Experience Manager Assets（オンプレミス版および Managed Service 版）とBrand Portalの連携は、Adobe Developer Consoleを使用して手動で設定されます。これにより、Brand Portal テナントの認証に使用するAdobe Identity Management Services （IMS）トークンが調達されます。
 
 >[!NOTE]
 >

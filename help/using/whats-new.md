@@ -6,10 +6,10 @@ content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: d93a009d556a2330d000331a69ce7b6a2881f49d
-workflow-type: ht
-source-wordcount: '6576'
-ht-degree: 100%
+source-git-commit: f4add370fd3242f5506e5cc4d921362e2b14141a
+workflow-type: tm+mt
+source-wordcount: '6357'
+ht-degree: 99%
 
 ---
 
@@ -109,7 +109,7 @@ Brand Portal 2021.08.0 は、エンタープライズユーザーやチームユ
 
 * [製品カードを介した製品プロファイルへのユーザーの割り当て](https://helpx.adobe.com/jp/enterprise/using/manage-product-profiles.html#assign-users)
 
-* [ディレクトリの信頼性](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/set-up-identity.html#directory-trusting)
+* [ディレクトリの信頼性](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/set-up-identity.html#directory-trusting)
 
 
 <!--   
@@ -163,31 +163,40 @@ Brand Portal 2021.06.0 は内部リリースであり、重要な問題の修正
 
 Brand Portal 2021.02.0 では、アクティベーションワークフローとアセットソーシング機能により、AEM Assets as a Cloud Service が強化されています。また、アセットのダウンロードエクスペリエンスも向上し、重要な修正が含まれています。また、管理者が、アセットフォルダー、アセットコレクション、複数アセットのデフォルトのダウンロード動作をテナントレベルで設定できます。また、Brand Portal の&#x200B;**[!UICONTROL 使用状況レポート]**&#x200B;も変更され、アクティブな Brand Portal ユーザーを反映するようになりました。
 
-### AEM Assets as a Cloud Service での Brand Portal のアクティベーション {#bp-automation-on-cloud-service}
+>[!IMPORTANT]
+>
+> * Brand Portalは現在メンテナンス中です。
+> * ユースケースの詳細とCloud Managerを使用してAdobeをアクティブ化するための具体的な要件については、Brand Portal担当者にお問い合わせください。
+> * Brand Portalは、Assets PrimeまたはAssets Ultimateでは使用できません。 ただし、既にAssetsへのアクセス権を持つ既存のAssets Cloud Services のお客様は、Brand Portal Ultimateに移行する際にアクセス権を保持できます。
 
-AEM Assets as a Cloud Service は、事前設定済みの Brand Portal インスタンスを持つことができるようになりました。Cloud Manager ユーザーは、AEM Assets as a Cloud Service インスタンスに Brand Portal をアクティベートできます。
+<!--
 
-これまで、AEM Assets as a Cloud Service と Brand Portal の連携は、Adobe Developer Console を使用して手動で設定されていました。
+### Activate Brand Portal on AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
 
-Cloud Manager ユーザーはアクティベーションワークフローをトリガーします。このワークフローにより、バックエンドで必要な設定が作成され、AEM Assets as a Cloud Service インスタンスと同じ IMS 組織に Brand Portal がアクティベートされます。
+AEM Assets as a Cloud Service is now entitled to have a pre-configured Brand Portal instance. The Cloud Manager user can activate Brand Portal on the AEM Assets as a Cloud Service instance.
 
-AEM Assets as a Cloud Service インスタンスに Brand Portal をアクティベートするには：
+Earlier, AEM Assets as a Cloud Service was manually configured with Brand Portal using Adobe Developer Console.
 
-1. Adobe Cloud Manager にログインし、**[!UICONTROL 環境]**&#x200B;に移動します。
-1. リストから環境を（1 つずつ）選択します。Brand Portal に関連付けられている環境が見つかったら、「**[!UICONTROL Brand Portal をアクティベート]**」ボタンをクリックしてアクティベーションワークフローを開始します。
-1. Brand Portal テナントがアクティベートされると、ステータスが「アクティベート済み」に変わります。
+The Cloud Manager user triggers the activation workflow that creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the AEM Assets as a Cloud Service instance. 
 
-![ステータスの表示](assets/create-environment5.png)
+To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
-[AEM Assets as a Cloud Service への Brand Portal のアクティベーション](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal)を参照してください。
+1. Log in to Adobe Cloud Manager and navigate to **[!UICONTROL Environments]**.
+1. Select the environments (one by one) from the list. Once you find the environment associated with Brand Portal, click on the **[!UICONTROL Activate Brand Portal]** button to begin the activation workflow. 
+1. Once the Brand Portal tenant is activated, the status changes to Activated.
 
-### AEM Assets as a Cloud Service でのアセットソーシング {#asset-sourcing-on-cloud-service}
+![View Status](assets/create-environment5.png)
 
-アセットソーシング機能が AEM Assets as a Cloud Service で使用できるようになりました。この機能は、すべての クラウドサービスユーザーに対してデフォルトで有効になっています。許可された Brand Portal ユーザーは、投稿フォルダーに新しいアセットをアップロードしてアセットソーシングに投稿し、Brand Portal から AEM Assets as a Cloud Service インスタンスに投稿フォルダーを公開できます。管理者は、Brand Portal ユーザーからの投稿を他のユーザーに配布する前に確認して承認できます。
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
-これまで、アセットソーシングは、AEM Assets（オンプレミス版および Managed Services 版）でのみ使用可能でした。
+### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
-[Brand Portal でのアセットソーシング](https://experienceleague.adobe.com/ja/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing)を参照してください。
+The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. The feature is by default enabled for all the cloud service users. The permitted Brand Portal users can contribute to Asset Sourcing by uploading new assets to the contribution folders and publish the contribution folder from Brand Portal to AEM Assets as a Cloud Service instance. Administrators can review and approve contributions from Brand Portal users before distributing them to other users.     
+
+Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
+
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+-->
 
 ### アセットのダウンロード {#asset-download-setting}
 
@@ -577,9 +586,9 @@ Dynamic Media ビデオのエンコードは、次の場所からダウンロー
 
 ### URL 中の設定可能なテナントエイリアス
 
-組織のポータル URL に代替プレフィックスを含めて、カスタマイズされたポータル URL を取得できます。既存のポータル URL のテナント名のエイリアスを取得するには、各組織からカスタマーサポートへ依頼する必要があります。
+組織のポータル URL に代替接頭辞を含めて、カスタマイズされたポータル URL を取得できます。既存のポータル URL のテナント名のエイリアスを取得するには、各組織からカスタマーサポートへ依頼する必要があります。
 
-カスタマイズできるのは Brand Portal URL のプレフィックスのみであり、URL 全体ではありません。\
+カスタマイズできるのは Brand Portal URL の接頭辞のみであり、URL 全体ではありません。\
 例えば、**geomettrix.brand-portal.adobe.com** という既存ドメインを持つ組織は、アドビに依頼することで **geomettrixinc.brand-portal.adobe.com** という URL を作成できます。
 
 ただし、AEM オーサーインスタンスを[設定](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal)する際にはテナント ID URL のみを使用できます。テナントエイリアス（代替）URL は使用できません。
