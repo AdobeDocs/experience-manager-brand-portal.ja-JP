@@ -241,4 +241,4 @@ Brand Portal のメンテナンスのために停止が予定されている場�
 * [Adobe Customer Support]()
 -->
 
-* [AEM フォーラム](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
+* [AEM フォーラム](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=ja)
