@@ -6,10 +6,10 @@ content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: f4add370fd3242f5506e5cc4d921362e2b14141a
+source-git-commit: 2810c95d24ab4259d2b61f78233d3a78c7da0dc1
 workflow-type: tm+mt
-source-wordcount: '6357'
-ht-degree: 99%
+source-wordcount: '6373'
+ht-degree: 98%
 
 ---
 
@@ -109,7 +109,7 @@ Brand Portal 2021.08.0 は、エンタープライズユーザーやチームユ
 
 * [製品カードを介した製品プロファイルへのユーザーの割り当て](https://helpx.adobe.com/jp/enterprise/using/manage-product-profiles.html#assign-users)
 
-* [ディレクトリの信頼性](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/set-up-identity.html#directory-trusting)
+* [ディレクトリの信頼性](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/set-up-identity.html#directory-trusting)
 
 
 <!--   
@@ -165,9 +165,9 @@ Brand Portal 2021.02.0 では、アクティベーションワークフローと
 
 >[!IMPORTANT]
 >
-> * Brand Portalは現在メンテナンス中です。
-> * ユースケースの詳細とCloud Managerを使用してAdobeをアクティブ化するための具体的な要件については、Brand Portal担当者にお問い合わせください。
-> * Brand Portalは、Assets PrimeまたはAssets Ultimateでは使用できません。 ただし、既にAssetsへのアクセス権を持つ既存のAssets Cloud Services のお客様は、Brand Portal Ultimateに移行する際にアクセス権を保持できます。
+> * Brand Portalはメンテナンスモードになっています。 すべての新製品が ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)0}Content Hub} で利用可能です。[
+> * それでもBrand Portalをアクティブ化する必要がある場合は、ユースケースとその他の具体的な要件の詳細をAdobe担当者にお問い合わせください。
+> * Brand Portalは、[Assets Prime](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-prime) または [Assets Ultimate](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview) では使用できません。 ただし、既にAssetsへのアクセス権を持つ既存のAssets as a Cloud Service ユーザーは、Brand Portal Ultimateに移行する際に引き続き使用できます。
 
 <!--
 
@@ -187,7 +187,7 @@ To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
 ![View Status](assets/create-environment5.png)
 
-See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
 ### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
@@ -195,7 +195,7 @@ The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. Th
 
 Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
 
-See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/ja/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
 -->
 
 ### アセットのダウンロード {#asset-download-setting}
@@ -245,7 +245,7 @@ Brand Portal 2020.10.0 は、アセットのダウンロードエクスペリエ
 
 >[!NOTE]
 >
->すべてのユーザーに対して&#x200B;**[!UICONTROL 高速ダウンロード]**&#x200B;がデフォルトで有効になり、Brand Portal からアセットをダウンロードする前に、ブラウザーの拡張機能に IBM® [Aspera Connect 3.9.9](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm~Other%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all) をインストールする必要があります。
+>すべてのユーザーに対して&#x200B;**[!UICONTROL 高速ダウンロード]**&#x200B;がデフォルトで有効になり、Brand Portal からアセットをダウンロードする前に、ブラウザーの拡張機能に IBM® [Aspera Connect 3.9.9](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm~Other%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all) をインストールする必要があります。
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog box appears with all the renditions of the selected assets or folders containing assets in a List View. 
