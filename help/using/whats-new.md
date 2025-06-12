@@ -165,7 +165,7 @@ Brand Portal 2021.02.0 では、アクティベーションワークフローと
 
 >[!IMPORTANT]
 >
-> * Brand Portalはメンテナンスモードになっています。 すべての新製品が ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)0}Content Hub} で利用可能です。[
+> * Brand Portalはメンテナンスモードになっています。 すべての新製品が [&#128279;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)0&rbrace;Content Hub&rbrace; で利用可能です。
 > * それでもBrand Portalをアクティブ化する必要がある場合は、ユースケースとその他の具体的な要件の詳細をAdobe担当者にお問い合わせください。
 > * Brand Portalは、[Assets Prime](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-prime) または [Assets Ultimate](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview) では使用できません。 ただし、既にAssetsへのアクセス権を持つ既存のAssets as a Cloud Service ユーザーは、Brand Portal Ultimateに移行する際に引き続き使用できます。
 

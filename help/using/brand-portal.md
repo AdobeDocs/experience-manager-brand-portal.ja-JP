@@ -20,7 +20,7 @@ ht-degree: 56%
 
 **Adobe Experience Manager（AEM）Assets Brand Portalは** アセット配信機能とアセット投稿機能を提供することで、世界中に分散しているBrand Portal ユーザーと効果的に共同作業するという、マーケターのニーズに重点を置いています。
 
-アセット配布を使用すると、承認されたクリエイティブアセットを取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。 ただし、アセット投稿を使用すると、Brand Portal ユーザーは、オーサー環境にアクセスすることなく、Brand Portalにアセットをアップロードしたり、Experience Manager Assetsに公開したりできます。 投稿機能は、**Brand Portal でのアセットソーシング**と呼ばれます。これらにより、Brand Portal ユーザー（外部の代理店／チーム）からのアセット配布および投稿の全体的な Brand Portal エクスペリエンスを向上させ、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。
+アセット配布を使用すると、承認されたクリエイティブアセットを取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。 ただし、アセット投稿を使用すると、Brand Portal ユーザーは、オーサー環境にアクセスすることなく、Brand Portalにアセットをアップロードしたり、Experience Manager Assetsに公開したりできます。 投稿機能は、**Brand Portal でのアセットソーシング**&#x200B;と呼ばれます。これらにより、Brand Portal ユーザー（外部の代理店／チーム）からのアセット配布および投稿の全体的な Brand Portal エクスペリエンスを向上させ、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。
 [Brand Portal でのアセットソーシング](brand-portal-asset-sourcing.md)を参照してください。
 
 ブラウザーベースのポータル環境により、アセットのアップロード、参照、検索、プレビューおよびエクスポートを、承認済み形式で簡単に行うことができます。
@@ -35,7 +35,7 @@ Adobe Experience Manager Assets と Brand Portal の連携を設定すると、B
 
 >[!IMPORTANT]
 >
-> * Brand Portalはメンテナンスモードになっています。 すべての新製品が ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)0}Content Hub} で利用可能です。[
+> * Brand Portalはメンテナンスモードになっています。 すべての新製品が [&#128279;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)0&rbrace;Content Hub&rbrace; で利用可能です。
 > * それでもBrand Portalをアクティブ化する必要がある場合は、ユースケースとその他の具体的な要件の詳細をAdobe担当者にお問い合わせください。
 > * Brand Portalは、[Assets Prime](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-prime) または [Assets Ultimate](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview) では使用できません。 ただし、既にAssetsへのアクセス権を持つ既存のAssets as a Cloud Service ユーザーは、Brand Portal Ultimateに移行する際に引き続き使用できます。
 
@@ -171,7 +171,7 @@ Brand Portal 6.4.3 以降では、Brand Portal テナントの既存の URL ご�
    **シナリオ 1**
 
    1. [!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID] または [!UICONTROL Federated ID] を持っている場合は、「**[!UICONTROL ログイン]**」をクリックします。
-[!UICONTROL  ログイン ] ページが開きます。
+[!UICONTROL &#x200B; ログイン &#x200B;] ページが開きます。
 
    1. [!UICONTROL Adobe ID] の資格情報を入力し、「**[!UICONTROL ログイン]**」をクリックします。
 
@@ -182,9 +182,9 @@ Brand Portal 6.4.3 以降では、Brand Portal テナントの既存の URL ご�
    **シナリオ 2**
 
    1. [!UICONTROL Adobe ID] を持っていない場合は、[!UICONTROL アクセスを申請]ページの「**[!UICONTROL Adobe ID を取得]**」をクリックして、Adobe ID を作成します。
-[!UICONTROL  ログイン ] ページが開きます。
+[!UICONTROL &#x200B; ログイン &#x200B;] ページが開きます。
    1. 「**[!UICONTROL Adobe ID を取得]**」をクリックします。
-[!UICONTROL  サインアップ ] ページが開きます。
+[!UICONTROL &#x200B; サインアップ &#x200B;] ページが開きます。
    1. 名前、メール ID およびパスワードを入力します。
    1. 「**[!UICONTROL 新規登録]**」をクリックします。
 
@@ -203,7 +203,7 @@ Brand Portal 製品管理者は Brand Portal の通知領域および自分の�
 ![アクセス申請の通知](assets/bplogin_request_access_7.png)
 
 アクセスを許可するには、管理者はBrand Portalの通知領域で関連通知をクリックし、「**[!UICONTROL アクセスの許可]**」をクリックする必要があります。
-または、アクセス申請メールに記載されているリンクをたどってAdobe [!UICONTROL Admin Consoleにアクセスし ] 該当する製品設定にユーザーを追加することもできます。
+または、アクセス申請メールに記載されているリンクをたどってAdobe [!UICONTROL Admin Consoleにアクセスし &#x200B;] 該当する製品設定にユーザーを追加することもできます。
 
 [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) ホームページにリダイレクトされます。Adobe [!UICONTROL Admin Console] を使用してユーザーを作成し、製品プロファイル （旧称：製品設定）に割り当てます。製品プロファイルは、Brand Portalでグループとして表示されます。 [!UICONTROL Admin Console] でのユーザーの追加について詳しくは、[ ユーザーの追加 ](brand-portal-adding-users.md#add-a-user) を参照してください（ユーザーを追加するには、手順 4～7 に従います）。
 
@@ -219,7 +219,7 @@ Brand Portalの言語は、Adobe [!UICONTROL Experience Cloud Settings] から�
 
    ![プロファイルを編集](assets/EditBPProfile.png)
 
-1. [!UICONTROL Experience Cloud設定 ] ページで、「言語 [!UICONTROL  ドロップダウンメニューから言語を選択 ] ます。
+1. [!UICONTROL Experience Cloud設定 &#x200B;] ページで、「言語 [!UICONTROL &#x200B; ドロップダウンメニューから言語を選択 &#x200B;] ます。
 
 ## Brand Portal のメンテナンス通知 {#brand-portal-maintenance-notification}
 
