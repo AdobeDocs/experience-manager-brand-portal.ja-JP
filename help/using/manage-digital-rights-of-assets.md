@@ -69,9 +69,9 @@ Brand Portalでは、管理者は、期限切れのアセットの表示、ダ�
 
 ## ライセンスで保護されたアセット {#licensed-assets}
 
-ライセンスで保護されたアセットを Brand Portal からダウンロードするときは、事前に使用許諾契約への同意が求められます。ライセンス取得済みアセットに対するこの契約書は、Brand Portalから直接アセットをダウンロードする場合、または共有リンクを使用してダウンロードする場合に交付されます。 期限切れでも期限切れでもすべてのユーザーが、ライセンスで保護されたアセットを表示できます。 ただし、期限切れのライセンス済みアセットのダウンロードと使用は制限されています。 期限切れのライセンス済みアセットの動作と、ユーザーの役割に基づいて許可されるアクティビティについて詳しくは、[ 期限切れアセットの使用権限 ](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets) を参照してください。
+ライセンスで保護されたアセットを Brand Portal からダウンロードするときは、事前に使用許諾契約への同意が求められます。ライセンス取得済みアセットに対するこの契約書は、Brand Portalから直接アセットをダウンロードする場合、または共有リンクを使用してダウンロードする場合に交付されます。 期限切れでも期限切れでもすべてのユーザーが、ライセンスで保護されたアセットを表示できます。 ただし、期限切れのライセンス済みアセットのダウンロードと使用は制限されています。 期限切れのライセンス済みアセットの動作と、ユーザーの役割に基づいて許可されるアクティビティについて詳しくは、[&#x200B; 期限切れアセットの使用権限 &#x200B;](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets) を参照してください。
 
-ライセンスで保護されているアセットには、[ 使用許諾契約が添付 ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/administer/drm) されています。この処理は、[!DNL Experience Manager Assets] でアセットのメタデータプロパティを設定することで行われます。
+ライセンスで保護されているアセットには、[&#x200B; 使用許諾契約が添付 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/administer/drm) されています。この処理は、[!DNL Experience Manager Assets] でアセットのメタデータプロパティを設定することで行われます。
 
 アセットに次のいずれかまたは両方のメタデータプロパティが含まれている場合、アセットは保護されていると見なされます。
 
@@ -102,4 +102,4 @@ Brand Portalでは、管理者は、期限切れのアセットの表示、ダ�
 
 ![](assets/assets-expired.png)
 
-レポート機能の詳細については、[ レポートの操作 ](../using/brand-portal-reports.md#work-with-reports) を参照してください。
+レポート機能の詳細については、[&#x200B; レポートの操作 &#x200B;](../using/brand-portal-reports.md#work-with-reports) を参照してください。

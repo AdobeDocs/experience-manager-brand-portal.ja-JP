@@ -63,7 +63,7 @@ AEMでタグを作成し、Brand Portalでタグを公開し、適切なアセ�
 
 1. **タグをアセット（またはコレクション）に関連付けます**。
 
-   アセット（またはコレクション）を選択し、そのアセットの「プロパティ」セクションまたは「タグを管理」セクションを使用して目的のタグを添付します。 AEM Assetsでアセットにタグを割り当てる方法について詳しくは、[ タグを使用したアセットの整理 ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/managing/organize-assets) を参照してください。
+   アセット（またはコレクション）を選択し、そのアセットの「プロパティ」セクションまたは「タグを管理」セクションを使用して目的のタグを添付します。 AEM Assetsでアセットにタグを割り当てる方法について詳しくは、[&#x200B; タグを使用したアセットの整理 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/managing/organize-assets) を参照してください。
 
 1. **アセット（またはコレクション）を Brand Portal に公開します**。\
    アセット（またはコレクション）を Brand Portal に公開すると、関連付けられているタグも Brand Portal 上で利用できるようになります。

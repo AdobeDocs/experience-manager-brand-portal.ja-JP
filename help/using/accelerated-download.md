@@ -33,7 +33,7 @@ Adobe Experience Manager Assets Brand Portal では、インストールオン�
 
 * **[!UICONTROL ツール]**／**[!UICONTROL ダウンロード]**&#x200B;に移動し、**[!UICONTROL ダウンロード設定]**&#x200B;で、「**[!UICONTROL 高速ダウンロード]**」設定が有効になっていることを確認します。
 * ファイアウォールのポート 33001（TCP と UDP の両方）が開いていることを確認します。
-* 管理者権限を使用して、ブラウザーの拡張機能に **IBM® Aspera Connect 3.9.9 をインストール**&#x200B;します（[IBM® Asperra Connect のダウンロード](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)）。
+* 管理者権限を使用して、ブラウザーの拡張機能に **IBM® Aspera Connect 3.9.9 をインストール**&#x200B;します（[IBM® Asperra Connect のダウンロード](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all)）。
 
 >[!NOTE]
 >
@@ -87,13 +87,13 @@ Brand Portal より早くアセットをダウンロードするには：
 
    アセットのダウンロード時にBrand Portal フォルダーの階層を保持するには、「**[!UICONTROL `Create separate folder for each asset`]**」チェックボックスをオンにします。
 
-   ダウンロードボタンは、選択した項目の数を反映しています。ルールの適用が完了したら、「**[!UICONTROL 項目をダウンロード]**」をクリックします。ルールの適用方法について詳しくは、「[ アセットのダウンロード ](../using/brand-portal-download-assets.md#download-assets)」を参照してください。
+   ダウンロードボタンは、選択した項目の数を反映しています。ルールの適用が完了したら、「**[!UICONTROL 項目をダウンロード]**」をクリックします。ルールの適用方法について詳しくは、「[&#x200B; アセットのダウンロード &#x200B;](../using/brand-portal-download-assets.md#download-assets)」を参照してください。
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
 1. デフォルトでは「**[!UICONTROL ダウンロード設定]**」の「**[!UICONTROL 高速ダウンロード]**」設定が有効になっています。したがって、IBM® Aspera Connect を使用してアセットをダウンロードするための確認ボックスが表示されます。
 
-   初めてアセットをダウンロードしたときに、ブラウザーにIBM® Aspera Connect がインストールされていない場合は、インストールを促すプロンプトが表示されます。 既存のバージョンが古い場合は、[Aspera ダウンロードアクセラレーター ](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all) をインストールするように求められます。
+   初めてアセットをダウンロードしたときに、ブラウザーにIBM® Aspera Connect がインストールされていない場合は、インストールを促すプロンプトが表示されます。 既存のバージョンが古い場合は、[Aspera ダウンロードアクセラレーター &#x200B;](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all) をインストールするように求められます。
 
    ![](assets/aspera-not-launched.png)
 

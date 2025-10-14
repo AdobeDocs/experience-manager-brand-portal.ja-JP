@@ -28,7 +28,7 @@ Brand Portal に初めてログインするユーザーが実行する手順は�
 
    >[!NOTE]
    >
-   >組織で Enterprise ID を使用している場合は、新規登録ページは表示されずに、エンタープライズログインページにリダイレクトされます。詳細については、[Enterprise ID、サインイン、およびアカウント ヘルプ ](https://helpx.adobe.com/jp/enterprise/kb/enterprise-id-faq.html) を参照してください。
+   >組織で Enterprise ID を使用している場合は、新規登録ページは表示されずに、エンタープライズログインページにリダイレクトされます。詳細については、[Enterprise ID、サインイン、およびアカウント ヘルプ &#x200B;](https://helpx.adobe.com/jp/enterprise/kb/enterprise-id-faq.html) を参照してください。
 
 1. 「**[!UICONTROL 続行]**」をクリックして、組織の Brand Portal ページに進みます。
 1. Brand Portal ログインページの「**[!UICONTROL ログイン]**」をクリックして、Brand Portal にログインします。

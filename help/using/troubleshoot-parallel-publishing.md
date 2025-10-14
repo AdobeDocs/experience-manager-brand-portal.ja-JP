@@ -15,7 +15,7 @@ ht-degree: 50%
 
 # Brand Portal への並列公開における問題のトラブルシューティング {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal と Experience Manager Assets の連携を設定すると、承認済みブランドアセットを Experience Manager Assets オーサーインスタンスからシームレスに取り込む（または公開する）ことができます。[ 設定 ](../using/configure-aem-assets-with-brand-portal.md) が完了すると、Experience Manager作成者はレプリケーションエージェントを使用して、選択した 1 つ以上のアセットをBrand Portal Cloud Service にレプリケートし、Brand Portal ユーザーが使用できる状態にします。 Experience Manager 6.2 SP1-CFP5、Experience Manager CFP 6.3.0.2 およびそれ以降では、高速な並列公開を実現するために複数のレプリケーションエージェントが使用されています。
+Brand Portal と Experience Manager Assets の連携を設定すると、承認済みブランドアセットを Experience Manager Assets オーサーインスタンスからシームレスに取り込む（または公開する）ことができます。[&#x200B; 設定 &#x200B;](../using/configure-aem-assets-with-brand-portal.md) が完了すると、Experience Manager作成者はレプリケーションエージェントを使用して、選択した 1 つ以上のアセットをBrand Portal Cloud Service にレプリケートし、Brand Portal ユーザーが使用できる状態にします。 Experience Manager 6.2 SP1-CFP5、Experience Manager CFP 6.3.0.2 およびそれ以降では、高速な並列公開を実現するために複数のレプリケーションエージェントが使用されています。
 
 >[!NOTE]
 >

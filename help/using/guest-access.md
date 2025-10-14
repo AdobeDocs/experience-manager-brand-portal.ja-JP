@@ -59,7 +59,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 ![](assets/disabled-folder-hierarchy1.png)
 
 
-管理者が [ フォルダー階層を有効にする ](../using/brand-portal-general-configuration.md#main-pars-header-1621071021) を有効にした場合、ゲストユーザーがBrand Portalにログインすると、ルートフォルダーのフォルダーツリーと親フォルダー内の共有フォルダーが表示されます。
+管理者が [&#x200B; フォルダー階層を有効にする &#x200B;](../using/brand-portal-general-configuration.md#main-pars-header-1621071021) を有効にした場合、ゲストユーザーがBrand Portalにログインすると、ルートフォルダーのフォルダーツリーと親フォルダー内の共有フォルダーが表示されます。
 
 これらの親フォルダーは仮想フォルダーで、アクションを実行することはできません。 これらの仮想フォルダーには、鍵のアイコンが付きます。
 
@@ -123,7 +123,7 @@ Brand Portalでは、ゲストユーザーが選択したアセットやフォ�
 
 ![](assets/download-on-guest.png)
 
-[!UICONTROL &#x200B; ダウンロード &#x200B;] ダイアログボックスで **[!UICONTROL ダウンロードの高速化を有効にする]** を選択すると、[ ダウンロードのパフォーマンスを向上させる ](../using/accelerated-download.md) ことができます。
+[!UICONTROL &#x200B; ダウンロード &#x200B;] ダイアログボックスで **[!UICONTROL ダウンロードの高速化を有効にする]** を選択すると、[&#x200B; ダウンロードのパフォーマンスを向上させる &#x200B;](../using/accelerated-download.md) ことができます。
 
 ## ゲストセッションの終了 {#exit-guest-session}
 

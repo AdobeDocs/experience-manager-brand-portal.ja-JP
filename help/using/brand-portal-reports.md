@@ -80,7 +80,7 @@ ht-degree: 31%
 
 ## レポートの生成 {#generate-reports}
 
-管理者は、次の標準レポートを生成および管理できます。 生成後、レポートは [ 後でアクセス ](../using/brand-portal-reports.md#main-pars-header) できるように保存されます。
+管理者は、次の標準レポートを生成および管理できます。 生成後、レポートは [&#x200B; 後でアクセス &#x200B;](../using/brand-portal-reports.md#main-pars-header) できるように保存されます。
 
 * ユーザーログイン
 * ダウンロード

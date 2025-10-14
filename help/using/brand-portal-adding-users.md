@@ -41,7 +41,7 @@ Comment Type: draft
 
 >[!NOTE]
 >
->Brand Portalへのアクセス権を持たない新規ユーザーは、Brand Portalのログイン画面からアクセスをリクエストできます。 詳しくは、[Brand Portalへのアクセスのリクエスト ](../using/brand-portal.md#request-access-to-brand-portal) を参照してください。 管理者は、通知領域にアクセス権申請の通知が届いたら、関連する通知をクリックして「**[!UICONTROL アクセス権を付与]**」をクリックします。または、アクセス権申請のメールが届いたら、そこに記載されているリンクをクリックします。その後、[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) からユーザーを追加するには、以下の手順 4～7 を行います。
+>Brand Portalへのアクセス権を持たない新規ユーザーは、Brand Portalのログイン画面からアクセスをリクエストできます。 詳しくは、[Brand Portalへのアクセスのリクエスト &#x200B;](../using/brand-portal.md#request-access-to-brand-portal) を参照してください。 管理者は、通知領域にアクセス権申請の通知が届いたら、関連する通知をクリックして「**[!UICONTROL アクセス権を付与]**」をクリックします。または、アクセス権申請のメールが届いたら、そこに記載されているリンクをクリックします。その後、[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) からユーザーを追加するには、以下の手順 4～7 を行います。
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ Comment Type: draft
    >
    >ユーザーがBrand Portalにログオンできない場合は、組織の管理者がAdobe[!UICONTROL Admin Console] にアクセスする必要があります。 ユーザーが存在し、少なくとも 1 つの製品プロファイルに追加されているかどうかを確認します。
 
-   ユーザーに対する管理者権限の付与については、[ ユーザーに管理者権限を与える ](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers) を参照してください。
+   ユーザーに対する管理者権限の付与については、[&#x200B; ユーザーに管理者権限を与える &#x200B;](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers) を参照してください。
 
 ## 製品プロファイルの追加 {#add-a-product-profile}
 
@@ -164,13 +164,13 @@ Brand Portal グループにユーザーを追加するには、対応する [!U
 
    * 「**[!UICONTROL アップロード]**」をクリックします。
 
-   デフォルトのBrand Portal製品プロファイルにユーザーを追加すると、そのユーザーのメール ID 宛に「ようこそ」のメールが送信されます。 招待されたユーザーは、「ようこそ」のメールに記載されているリンクをクリックし、[!UICONTROL Brand Portal] を使用してログインすることで、Adobe IDにアクセスできます。 [ 初回のログイン操作 ](../using/brand-portal-onboarding.md) を参照してください。
+   デフォルトのBrand Portal製品プロファイルにユーザーを追加すると、そのユーザーのメール ID 宛に「ようこそ」のメールが送信されます。 招待されたユーザーは、「ようこそ」のメールに記載されているリンクをクリックし、[!UICONTROL Brand Portal] を使用してログインすることで、Adobe IDにアクセスできます。 [&#x200B; 初回のログイン操作 &#x200B;](../using/brand-portal-onboarding.md) を参照してください。
 
    カスタムまたは新しい製品プロファイルに追加されたユーザーは、メール通知を受信しません。
 
 ## ユーザーへの管理者権限の付与 {#provide-administrator-privileges-to-users}
 
-Brand Portal ユーザーには、システム管理者権限または製品管理者権限のいずれかを付与できます。 ただし、[!UICONTROL Admin Console] で利用できる他の管理者の役割を割り当てないでください。 例えば、製品プロファイル管理者、ユーザーグループ管理者、サポート管理者などです。 [ 管理者の役割 ](https://helpx.adobe.com/jp/enterprise/using/admin-roles.html) を参照してください。
+Brand Portal ユーザーには、システム管理者権限または製品管理者権限のいずれかを付与できます。 ただし、[!UICONTROL Admin Console] で利用できる他の管理者の役割を割り当てないでください。 例えば、製品プロファイル管理者、ユーザーグループ管理者、サポート管理者などです。 [&#x200B; 管理者の役割 &#x200B;](https://helpx.adobe.com/jp/enterprise/using/admin-roles.html) を参照してください。
 
 >[!NOTE]
 >

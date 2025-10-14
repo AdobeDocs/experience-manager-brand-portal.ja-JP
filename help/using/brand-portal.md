@@ -89,7 +89,7 @@ Experience Manager Assets Brand Portal では、Brand Portal への[ゲストに
 
 * [[!UICONTROL Lightbox] へのアセットの追加](brand-portal-light-box.md#add-assets-to-lightbox)
 
-詳しくは、[Brand Portalへのゲストによるアクセス ](../using/guest-access.md) を参照してください。
+詳しくは、[Brand Portalへのゲストによるアクセス &#x200B;](../using/guest-access.md) を参照してください。
 
 ### 閲覧者 {#viewer}
 
@@ -142,7 +142,7 @@ Brand Portal 6.4.3 以降では、Brand Portal テナントの既存の URL ご�
 テナント名が 32 文字を超える場合は、テナントエイリアスを作成する必要があります。
 カスタマイズできるのは Brand Portal URL の接頭辞のみであり、URL 全体でないことに注意してください。例えば、`geomettrix.brand-portal.adobe.com` という既存ドメインを持つ組織は、アドビに依頼することで `geomettrixinc.brand-portal.adobe.com` という URL を作成できます。
 
-ただし、AEM オーサーインスタンスを [ 設定 ](../using/configure-aem-assets-with-brand-portal.md) する際には、テナント ID URL のみを使用できます。テナントエイリアス（代替） URL は使用できません。
+ただし、AEM オーサーインスタンスを [&#x200B; 設定 &#x200B;](../using/configure-aem-assets-with-brand-portal.md) する際には、テナント ID URL のみを使用できます。テナントエイリアス（代替） URL は使用できません。
 
 >[!NOTE]
 >
@@ -205,7 +205,7 @@ Brand Portal 製品管理者は Brand Portal の通知領域および自分の�
 アクセスを許可するには、管理者はBrand Portalの通知領域で関連通知をクリックし、「**[!UICONTROL アクセスの許可]**」をクリックする必要があります。
 または、アクセス申請メールに記載されているリンクをたどってAdobe [!UICONTROL Admin Consoleにアクセスし &#x200B;] 該当する製品設定にユーザーを追加することもできます。
 
-[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) ホームページにリダイレクトされます。Adobe [!UICONTROL Admin Console] を使用してユーザーを作成し、製品プロファイル （旧称：製品設定）に割り当てます。製品プロファイルは、Brand Portalでグループとして表示されます。 [!UICONTROL Admin Console] でのユーザーの追加について詳しくは、[ ユーザーの追加 ](brand-portal-adding-users.md#add-a-user) を参照してください（ユーザーを追加するには、手順 4～7 に従います）。
+[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) ホームページにリダイレクトされます。Adobe [!UICONTROL Admin Console] を使用してユーザーを作成し、製品プロファイル （旧称：製品設定）に割り当てます。製品プロファイルは、Brand Portalでグループとして表示されます。 [!UICONTROL Admin Console] でのユーザーの追加について詳しくは、[&#x200B; ユーザーの追加 &#x200B;](brand-portal-adding-users.md#add-a-user) を参照してください（ユーザーを追加するには、手順 4～7 に従います）。
 
 ## Brand Portal の言語 {#brand-portal-language}
 

@@ -20,7 +20,7 @@ Adobe Experience Manager Assets Brand Portalでは、Brand Portalからアクセ
 
 >[!NOTE]
 >
->Brand Portal 2020.10.0 （およびそれ以降）では、「**[!UICONTROL 高速ダウンロード]**」設定がデフォルトで有効になっており、IBM® Aspera Connect を使用してアセットのダウンロードが高速化されます。 Brand Portalからアセットをダウンロードする前に、ブラウザーの拡張機能にIBM® Aspera Connect 3.9.9 （`https://www.ibm.com/docs/en/aspera-connect/3.9.9`）をインストールしてください。 [Brand Portalからのダウンロードを高速化するためのガイド ](../using/accelerated-download.md) を参照してください。
+>Brand Portal 2020.10.0 （およびそれ以降）では、「**[!UICONTROL 高速ダウンロード]**」設定がデフォルトで有効になっており、IBM® Aspera Connect を使用してアセットのダウンロードが高速化されます。 Brand Portalからアセットをダウンロードする前に、ブラウザーの拡張機能にIBM® Aspera Connect 3.9.9 （`https://www.ibm.com/docs/en/aspera-connect/3.9.9`）をインストールしてください。 [Brand Portalからのダウンロードを高速化するためのガイド &#x200B;](../using/accelerated-download.md) を参照してください。
 >
 >IBM® Aspera Connect を使用せずに通常のダウンロードプロセスを続行する場合は、Brand Portal管理者に連絡して **[!UICONTROL 高速ダウンロード]** 設定をオフにしてもらってください。
 
@@ -51,7 +51,7 @@ Brand Portal管理者は、Brand Portal ユーザーのアセットのダウン�
 
   アセットのカスタムレンディションおよび（または）動的レンディションのダウンロードを有効にします。
 
-  元のアセットとシステム生成レンディション以外のすべてのアセットレンディションは、カスタムレンディションと呼ばれます。これには、アセットに使用できる静的レンディションと動的レンディションが含まれます。すべてのユーザーがExperience Manager Assetsでカスタムの静的レンディションを作成できますが、カスタムの動的レンディションを作成できるのは管理者のみです。 [ 画像プリセットまたは動的レンディションを適用する方法 ](../using/brand-portal-image-presets.md) を参照してください。
+  元のアセットとシステム生成レンディション以外のすべてのアセットレンディションは、カスタムレンディションと呼ばれます。これには、アセットに使用できる静的レンディションと動的レンディションが含まれます。すべてのユーザーがExperience Manager Assetsでカスタムの静的レンディションを作成できますが、カスタムの動的レンディションを作成できるのは管理者のみです。 [&#x200B; 画像プリセットまたは動的レンディションを適用する方法 &#x200B;](../using/brand-portal-image-presets.md) を参照してください。
 
 * **[!UICONTROL システムレンディション]**
 
@@ -156,7 +156,7 @@ Brand Portal インターフェイスからアセットまたはアセットを�
      >
      >ダウンロードしたアセットにライセンス済みアセットも含まれている場合は、**[!UICONTROL 著作権管理]** ページにリダイレクトされます。 このページで、アセットを選択し、「**[!UICONTROL 同意する]**」をクリックし、「**[!UICONTROL ダウンロード]**」をクリックします。「同意しない」を選択した場合は、ライセンスが必要なアセットはダウンロードされません。
      > 
-     >ライセンスで保護されているアセットには、[ 使用許諾契約が添付 ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/administer/drm) されています。この処理は、Experience Manager Assetsでアセットの [ メタデータプロパティ ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/administer/drm) を設定することで行われます。
+     >ライセンスで保護されているアセットには、[&#x200B; 使用許諾契約が添付 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/administer/drm) されています。この処理は、Experience Manager Assetsでアセットの [&#x200B; メタデータプロパティ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/administer/drm) を設定することで行われます。
 
 
      ![licensed-asset](assets/licensed-asset-new.png)
@@ -213,7 +213,7 @@ Brand Portal インターフェイスからアセットまたはアセットを�
 >
 >動的レンディションをプレビューまたはダウンロードするには、Dynamic Media を有効化します。 アセットのピラミッド TIFF レンディションが、アセットの公開先のExperience Manager Assets オーサーインスタンスに存在することを確認します。 Experience Manager Assets から Brand Portal にアセットを公開すると、そのビラミッド TIFF レンディションも公開されます。
 
-[ 管理者が元のレンディションへのアクセスを許可していない ](../using/brand-portal-adding-users.md#main-pars-procedure-202029708) 場合、選択したアセットの元のレンディションをダウンロードすることはできません。
+[&#x200B; 管理者が元のレンディションへのアクセスを許可していない &#x200B;](../using/brand-portal-adding-users.md#main-pars-procedure-202029708) 場合、選択したアセットの元のレンディションをダウンロードすることはできません。
 
 ![no-access-message](assets/no-access-message.png)
 

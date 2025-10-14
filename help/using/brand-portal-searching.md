@@ -46,7 +46,7 @@ Brand Portal 上でアセットを検索するには、次のようにします�
 
    *オムニサーチを使用したアセット検索*
 
-スマートタグ付きアセットを使用した検索動作について詳しくは、[ 検索結果と動作について ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/using/search-assets) を参照してください。
+スマートタグ付きアセットを使用した検索動作について詳しくは、[&#x200B; 検索結果と動作について &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/using/search-assets) を参照してください。
 
 ## フィルターパネルでのファセットを使用した検索 {#search-using-facets-in-filters-panel}
 
@@ -57,7 +57,7 @@ Brand Portal 上でアセットを検索するには、次のようにします�
 ![Brand Portal のフィルターパネル](assets/file-type-search.png "Brand Portal のフィルターパネル")
 
 **[!UICONTROL フィルター]** パネルには、**[!UICONTROL パスブラウザー]**、**[!UICONTROL ファイルタイプ]**、**[!UICONTROL ファイルサイズ]**、**[!UICONTROL ステータス]**、**[!UICONTROL 方向]** など、いくつかの標準ファセットが含まれています。
-ただし、[ カスタム検索ファセットを追加 ](../using/brand-portal-search-facets.md) したり、**[!UICONTROL フィルター]** パネルから特定のファセットを削除したりできます。 基になる検索フォームで述語を編集するだけです。 詳しくは、[Brand Portal で利用可能な検索用述語の一覧](../using/brand-portal-search-facets.md#list-of-search-predicates)を参照してください。
+ただし、[&#x200B; カスタム検索ファセットを追加 &#x200B;](../using/brand-portal-search-facets.md) したり、**[!UICONTROL フィルター]** パネルから特定のファセットを削除したりできます。 基になる検索フォームで述語を編集するだけです。 詳しくは、[Brand Portal で利用可能な検索用述語の一覧](../using/brand-portal-search-facets.md#list-of-search-predicates)を参照してください。
 
 利用可能な[検索ファセット](../using/brand-portal-search-facets.md)を使用して検索にフィルターを適用するには、次のようにします。
 
