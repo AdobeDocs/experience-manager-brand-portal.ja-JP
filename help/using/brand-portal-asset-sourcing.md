@@ -27,7 +27,7 @@ ht-degree: 53%
 
 ![Brand Portal アセットソーシング](assets/asset-sourcing.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/34104/?captions=jpn&quality=12)
 
 ## 前提条件 {#prerequisites}
 
