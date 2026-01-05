@@ -109,12 +109,12 @@ Experience Manager Assets 管理者は、アクティブな Brand Portal ユー�
 >
 >CSV ファイルの形式は、Admin Consoleでの一括ユーザー読み込みでサポートされている形式と同じです。 メールと氏名は必須です。
 
-管理者は、Admin Consoleに新しいユーザーを追加できます。 詳しくは、[ ユーザーの管理 ](brand-portal-adding-users.md) を参照してください。 Admin Consoleでユーザーを追加したら、これらのユーザーをBrand Portal ユーザー設定ファイルに追加し、投稿フォルダーにアクセスする権限を割り当てることができます。
+管理者は、Admin Consoleに新しいユーザーを追加できます。 詳しくは、[&#x200B; ユーザーの管理 &#x200B;](brand-portal-adding-users.md) を参照してください。 Admin Consoleでユーザーを追加したら、これらのユーザーをBrand Portal ユーザー設定ファイルに追加し、投稿フォルダーにアクセスする権限を割り当てることができます。
 
 **Brand Portal ユーザーリストをアップロードするには：**
 
 1. Experience Manager Assets インスタンスにログインします。
-1. [!UICONTROL  ツール ] パネルから、**[!UICONTROL Assets]**/**[!UICONTROL Brand Portal ユーザー]** に移動します。
+1. [!UICONTROL &#x200B; ツール &#x200B;] パネルから、**[!UICONTROL Assets]**/**[!UICONTROL Brand Portal ユーザー]** に移動します。
 
 1. Brand Portal 投稿者をアップロードウィンドウが開きます。
 ローカルマシンから参照し、アクティブなBrand Portal ユーザーリストを含む **設定（.csv** ファイルをアップロードします。
