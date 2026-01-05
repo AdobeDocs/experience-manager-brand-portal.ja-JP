@@ -12,10 +12,10 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 9b8a415fa3a19e462ea797cfc9c3ea9b9323723e
+source-git-commit: 2865a95e52679e853c6b125e8b1de1c23e84d30d
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 53%
+ht-degree: 56%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 53%
 
 ![Brand Portal アセットソーシング](assets/asset-sourcing.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/34104/?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ## 前提条件 {#prerequisites}
 
@@ -40,7 +40,7 @@ ht-degree: 53%
 
 >[!NOTE]
 >
->アセットソーシング機能は、Experience Manager Assets as a Cloud Service、Experience Manager Assets 6.5.9 以降では、アセットソーシング機能がデフォルトで有効になっています。
+>アセットソーシング機能は、Experience Manager Assets as a Cloud Service（Experience Manager Assets 6.5.9 以降）では、アセットソーシング機能がデフォルトで有効になっています。
 >
 >既存の設定は、以前のバージョンで引き続き機能します。
 
@@ -109,12 +109,12 @@ Experience Manager Assets 管理者は、アクティブな Brand Portal ユー�
 >
 >CSV ファイルの形式は、Admin Consoleでの一括ユーザー読み込みでサポートされている形式と同じです。 メールと氏名は必須です。
 
-管理者は、Admin Consoleに新しいユーザーを追加できます。 詳しくは、[&#x200B; ユーザーの管理 &#x200B;](brand-portal-adding-users.md) を参照してください。 Admin Consoleでユーザーを追加したら、これらのユーザーをBrand Portal ユーザー設定ファイルに追加し、投稿フォルダーにアクセスする権限を割り当てることができます。
+管理者は、Admin Consoleに新しいユーザーを追加できます。 詳しくは、[ ユーザーの管理 ](brand-portal-adding-users.md) を参照してください。 Admin Consoleでユーザーを追加したら、これらのユーザーをBrand Portal ユーザー設定ファイルに追加し、投稿フォルダーにアクセスする権限を割り当てることができます。
 
 **Brand Portal ユーザーリストをアップロードするには：**
 
 1. Experience Manager Assets インスタンスにログインします。
-1. [!UICONTROL &#x200B; ツール &#x200B;] パネルから、**[!UICONTROL Assets]**/**[!UICONTROL Brand Portal ユーザー]** に移動します。
+1. [!UICONTROL  ツール ] パネルから、**[!UICONTROL Assets]**/**[!UICONTROL Brand Portal ユーザー]** に移動します。
 
 1. Brand Portal 投稿者をアップロードウィンドウが開きます。
 ローカルマシンから参照し、アクティブなBrand Portal ユーザーリストを含む **設定（.csv** ファイルをアップロードします。
