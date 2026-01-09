@@ -1,38 +1,49 @@
 ---
 title: リリースノート
-description: Adobe Experience Manager Assets Brand Portal 2024.10.0 リリースの機能、機能強化、修正された重大な問題および既知の問題について説明します。
+description: Adobe Experience Manager Assets Brand Portal 2026.01.01 リリースの機能、機能強化、修正された重大な問題および既知の問題について説明します。
 content-type: reference
-contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 3f3065de994f5c38e604b52848b0a538c9efd7d1
+source-git-commit: ff2dc92ea112a95c90724f06f141221ffdef33a1
 workflow-type: tm+mt
-source-wordcount: '1533'
-ht-degree: 100%
+source-wordcount: '1595'
+ht-degree: 96%
 
 ---
 
 # リリースノート {#release-notes}
 
-Adobe Experience Manager Assets Brand Portal 2024.10.0 リリースの新機能、機能強化、修正された重大な問題および既知の問題について説明します。
+Adobe Experience Manager Assets Brand Portal 2026.01.01 リリースの新機能、機能強化、修正された重大な問題および既知の問題について説明します。
 
 ## リリース情報 {#release-information}
 
 | 製品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| バージョン | 2024.10.0 |
-| 日付 | 2024年10月 |
+| バージョン | 2026.01.01 |
+| 日付 | 2026 年 1 月 |
 
 ## 概要 {#overview}
 
 Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを軽減できます。Brand Portal では、アセットの参照、検索、プレビュー、ダウンロードおよび会社で承認された形式での書き出しを、いつでも、どこでも実行できます。
 
-## 2024.10.0 の新機能 {#whats-new-in-2024.10.0}
+## 2026.01.01 の新機能 {#whats-new-in-2026.01.01}
 
 ### 修正された重大な問題 {#critical-issues-fixed}
 
-#### バグ修正 {#bug-fixes}
+#### 機能強化 {#enhancements}
+
+このリリースで強化された機能は次のとおりです。
+
+* 管理ツールパネル/Dynamic Media 設定で、「**[!UICONTROL リセット]**」ボタンを使用して、変更を消去、パスワードをリセット、設定をデフォルトの状態に復元できるようになりました。
+
+* Brand Portalは、AEMに公開する前にソーシングフォルダーが 1 つ以上のアセットを含んでいることを検証し、不完全な公開を防ぎます。
+
+## 以前のリリース
+
+### 2024年10月リリース {#oct-2024}
+
+**バグ修正および機能強化**
 
 このリリースには、次のバグ修正が含まれています。
 
@@ -44,8 +55,6 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 * 名前に特殊文字を含むビデオをダウンロードできない。
 * [!DNL Adobe Experience Manager Assets] から Brand Portal へのアセットの公開と非公開が適切に機能しない。
 * Brand Portal からダウンロードしたビデオを再生できない。
-
-## 以前のリリース
 
 ### 2024年2月リリース {#feb-2024}
 
@@ -171,7 +180,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 * NUI で Experience Manager 内のアセットを処理できない場合は、Brand Portal に表示されるアセットのインポートステータスが不正確になります。
 * プレビューアクションが失敗した場合でも、失敗を知らせる通知はありません。
 * 各アセットの `totalUploadedSize` プロパティの不正確な値が修正されました。
-* アセットに使用できるレンディションが多数ある場合に&#x200B;**すべての項目をダウンロード**&#x200B;すると、Brand Portal でダウンロードされる .ZIP ファイルが無効です。
+* アセットに使用できるレンディションが多数ある場合に「**すべての項目をダウンロード**」をクリックすると、Brand Portal で無効の .ZIP ファイルがダウンロードされる。
 * Brand Portal ユーザーインターフェイスで、一部の文字列の翻訳が切り詰められます。
 
 ### 2022年5月リリース {#may-2022}

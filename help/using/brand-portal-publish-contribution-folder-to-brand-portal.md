@@ -6,10 +6,10 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: 9e51048d21c5b4a34696e668309657d2091a8b04
+source-git-commit: 8cde9e84262e25ff22d5b2d06e3c5df9cc2ae557
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 60%
+source-wordcount: '1057'
+ht-degree: 59%
 
 ---
 
@@ -53,13 +53,14 @@ Experience Manager Assets管理者および新しいフォルダーを作成す�
 1. 「**[!UICONTROL 作成]**」をクリックして、新規フォルダーを作成します。「**[!UICONTROL フォルダーを作成]**」ダイアログが開きます。
 
 1. フォルダーの **[!UICONTROL タイトル]** と **[!UICONTROL 名前]** を入力し、「**[!UICONTROL アセット投稿]**」チェックボックスを選択します。
-Adobeでは、フォルダーに名前を付ける場合、スペースを入れずに小文字を使用することをお勧めします。
+Adobeでは、フォルダーの名前には小文字を使用し、スペースを入れないようにすることをお勧めします。
 
 1. 「**[!UICONTROL 作成]**」をクリックします。Experience Manager Assets リポジトリに、投稿フォルダーがリストされます。
 
    >[!NOTE]
    >
-   >管理者以外のユーザーは、アセット投稿フォルダーを作成および共有できますが、変更または削除することはできません。
+   > * Brand PortalからAEMに空のフォルダーを公開することはできないので、ソーシングフォルダーを空にすることはできません。また、ソーシングフォルダーに少なくとも 1 つのアセットを含める必要があります。
+   > * 管理者以外のユーザーは、アセット投稿フォルダーを作成および共有できますが、変更または削除することはできません。
 
 
    ![](assets/create-contribution-folder.png)
@@ -146,7 +147,7 @@ Experience Manager Assets ユーザーは、一連のベースラインアセッ
 1. Experience Manager Assets インスタンスにログインします。
 
 1. **[!UICONTROL Assets／ファイル]**&#x200B;に移動して、Brand Portal に公開する投稿フォルダーを探します。
-1. 投稿フォルダーを選択し、**[!UICONTROL クイックPublish]**/**[!UICONTROL Brand PortalへのPublish]** をクリックします。
+1. 投稿フォルダーを選択し、**[!UICONTROL クイック公開]**/**[!UICONTROL Brand Portalに公開]** をクリックします。
 
    ![](assets/publish-contribution-folder-to-bp.png)
 
