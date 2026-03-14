@@ -50,7 +50,7 @@ Link sharing access is restricted to editors and administrators.
    * 「**[!UICONTROL 有効期限]**」フィールドに、日付選択を使用して、リンクの有効期限を指定します。 デフォルトの有効期限は、リンクを共有した日から 7 日間です。
    * 「**[!UICONTROL 元のファイルのダウンロードを許可]**」チェックボックスをオンにして、受信者が元のレンディションをダウンロードできるようにします。
 
-   リンク共有されるアセットは、「**[!UICONTROL 有効期限]**」フィールドに指定した日時を過ぎると有効期限が切れます。 Brand Portalでの期限切れのアセットの動作と役割ベースのアクティビティの変更について詳しくは、[ アセットのデジタル権限の管理 ](../using/manage-digital-rights-of-assets.md#asset-expiration) を参照してください。
+   リンク共有されるアセットは、「**[!UICONTROL 有効期限]**」フィールドに指定した日時を過ぎると有効期限が切れます。 Brand Portalでの期限切れのアセットの動作と役割ベースのアクティビティの変更について詳しくは、[&#x200B; アセットのデジタル権限の管理 &#x200B;](../using/manage-digital-rights-of-assets.md#asset-expiration) を参照してください。
 
    >[!NOTE]
    >
@@ -96,7 +96,7 @@ Link sharing access is restricted to editors and administrators.
 
    >[!NOTE]
    >
-   >アセットを共有したユーザーを管理者が許可していない場合、共有リンクは元のレンディションをダウンロードしません。 [ 元のレンディションへのアクセス権を持つ管理者によって許可された ](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges) も参照してください。
+   >アセットを共有したユーザーを管理者が許可していない場合、共有リンクは元のレンディションをダウンロードしません。 [&#x200B; 元のレンディションへのアクセス権を持つ管理者によって許可された &#x200B;](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges) も参照してください。
 
 
 >[!NOTE]
