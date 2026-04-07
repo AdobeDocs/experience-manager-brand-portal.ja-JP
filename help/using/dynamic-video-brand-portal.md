@@ -43,7 +43,7 @@ Brand Portal テナントがレプリケートされるExperience Manager オー
 
 ![ビデオエンコードはクラウドから取得される](assets/VideoEncodes.png)
 
-Dynamic Media設定（[ ハイブリッド ](../using/dynamic-video-brand-portal.md#configure-dm-hybrid-settings)または[[!DNL Scene7]](../using/dynamic-video-brand-portal.md#configure-dm-scene7-settings)設定）がBrand Portalで設定されている場合、動的レンディションは&#x200B;**[!DNL Scene7]** サーバーから取得されます。 したがって、ビデオエンコードは遅延や品質の劣化なしにプレビューおよび再生されます。
+Dynamic Media設定（[&#x200B; ハイブリッド &#x200B;](../using/dynamic-video-brand-portal.md#configure-dm-hybrid-settings)または[[!DNL Scene7]](../using/dynamic-video-brand-portal.md#configure-dm-scene7-settings)設定）がBrand Portalで設定されている場合、動的レンディションは&#x200B;**[!DNL Scene7]** サーバーから取得されます。 したがって、ビデオエンコードは遅延や品質の劣化なしにプレビューおよび再生されます。
 
 Brand Portal リポジトリーは、ビデオエンコードを保存せず、**[!DNL Scene7]** サーバーから取得します。 Adobe Experience Manager オーサーインスタンスとBrand Portalの両方のDynamic Media設定が同じであることを確認します。
 
@@ -57,11 +57,11 @@ Brand Portal 上でダイナミックビデオを操作するには、必ず以�
 
 * **Dynamic Media モードでExperience Manager オーサーを起動**
 
-  [Dynamic Media - [!DNL Scene7]  モード ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#enabling-dynamic-media-in-scene-mode)または[Dynamic Media - ハイブリッドモード ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dynamic)のいずれかで（Brand Portalが設定されている）Experience Manager オーサーインスタンスを開始するか
+  [Dynamic Media - [!DNL Scene7]  モード &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#enabling-dynamic-media-in-scene-mode)または[Dynamic Media - ハイブリッドモード &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dynamic)のいずれかで（Brand Portalが設定されている）Experience Manager オーサーインスタンスを開始するか
 
 * **Experience Manager オーサーインスタンスでのDynamic Media Cloud Servicesの設定**
 
-  Experience Manager オーサーが実行中のDynamic Media モード（Scene7 モードまたはハイブリッドモード）に基づいて、**ツール** | **クラウドサービス** | **Dynamic Media**&#x200B;から[Dynamic Media Cloud Services （[!DNL Scene7] モード） ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services)または[Dynamic Media Cloud Services （ハイブリッドモード） ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services)をExperience Manager オーサーに設定します。
+  Experience Manager オーサーが実行中のDynamic Media モード（Scene7 モードまたはハイブリッドモード）に基づいて、**ツール** | **クラウドサービス** | **Dynamic Media**&#x200B;から[Dynamic Media Cloud Services （[!DNL Scene7] モード） &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services)または[Dynamic Media Cloud Services （ハイブリッドモード） &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services)をExperience Manager オーサーに設定します。
 
 * **Brand PortalでのDynamic Mediaの設定**
 
@@ -71,11 +71,11 @@ Brand Portal 上でダイナミックビデオを操作するには、必ず以�
 
 * **ビデオエンコードが適用されたフォルダーをBrand Portalに公開**
 
-  [ ビデオエンコーディング ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/video-profiles)を適用し、リッチメディアアセットを含むフォルダーをExperience Manager オーサーインスタンスからBrand Portalに公開します。
+  [&#x200B; ビデオエンコーディング &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/video-profiles)を適用し、リッチメディアアセットを含むフォルダーをExperience Manager オーサーインスタンスからBrand Portalに公開します。
 
 * **セキュアプレビューが有効になっている場合、SPSでエグレス IPを許可リストに加えるする**
 
-  Dynamic Media-**[!DNL Scene7]** （企業の場合は[ セキュアプレビューが有効](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public)）を使用している場合は、SPS （**[!UICONTROL Scene7]** Publishing System）フラッシュ UIを使用して、各地域の&#x200B;**[!DNL Scene7]**&#x200B;会社管理者[公開エグレス IP](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)を許可リストに加えるすることをお勧めします。
+  Dynamic Media-**[!DNL Scene7]** （企業の場合は[&#x200B; セキュアプレビューが有効](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public)）を使用している場合は、SPS （**[!UICONTROL Scene7]** Publishing System）フラッシュ UIを使用して、各地域の&#x200B;**[!DNL Scene7]**&#x200B;会社管理者[公開エグレス IP](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)を許可リストに加えるすることをお勧めします。
 
   エグレス IP は次のとおりです。
 
@@ -85,7 +85,7 @@ Brand Portal 上でダイナミックビデオを操作するには、必ず以�
   | EMEA | 185.34.189.3、51.132.146.75 |
   | APAC | 172.82.240.74, 172.82.240.75 |
 
-  これらのエグレス IPのいずれかを許可リストに加えるするには、[ セキュアなテストサービスのアカウントの準備](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)を参照してください。
+  これらのエグレス IPのいずれかを許可リストに加えるするには、[&#x200B; セキュアなテストサービスのアカウントの準備](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)を参照してください。
 
 ## ベストプラクティス
 
@@ -112,9 +112,9 @@ Brand Portal と **[!UICONTROL Experience Manager クラウド設定]**&#x200B;�
 
 ### Dynamic Media Scene7 モードの公開エグレス IP を許可リストに登録する
 
-Dynamic Media **[!UICONTROL Scene7]** （[ セキュアプレビューが有効](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public)）を使用してビデオアセットをBrand Portalに配信する場合、**[!UICONTROL Scene7]**はステージング環境または内部アプリケーション用の専用イメージサーバーを確立します。 このサーバーへのリクエストはすべて、発信元 IP アドレスをチェックします。 受信リクエストが IP アドレスの承認済みリストに含まれていない場合は、失敗のレスポンスが返されます。
-したがって、**[!UICONTROL Scene7]**&#x200B;の会社管理者は、**[!UICONTROL SPS]** （Scene7 パブリッシングシステム）フラッシュ UIを使用して、会社の&#x200B;**[!UICONTROL セキュアテスト]**環境用の承認済みIP アドレスのリストを設定します。 該当するそれぞれの地域のエグレス IP（以下を参照）を、その承認済みリストに必ず追加してください。
-これらのエグレス IPのいずれかを許可リストに加えるするには、[ セキュアなテストサービスのアカウントの準備](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)を参照してください。
+Dynamic Media **[!UICONTROL Scene7]** （[&#x200B; セキュアプレビューが有効](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public)）を使用してビデオアセットをBrand Portalに配信する場合、**[!UICONTROL Scene7]**&#x200B;はステージング環境または内部アプリケーション用の専用イメージサーバーを確立します。 このサーバーへのリクエストはすべて、発信元 IP アドレスをチェックします。 受信リクエストが IP アドレスの承認済みリストに含まれていない場合は、失敗のレスポンスが返されます。
+したがって、**[!UICONTROL Scene7]**&#x200B;の会社管理者は、**[!UICONTROL SPS]** （Scene7 パブリッシングシステム）フラッシュ UIを使用して、会社の&#x200B;**[!UICONTROL セキュアテスト]**&#x200B;環境用の承認済みIP アドレスのリストを設定します。 該当するそれぞれの地域のエグレス IP（以下を参照）を、その承認済みリストに必ず追加してください。
+これらのエグレス IPのいずれかを許可リストに加えるするには、[&#x200B; セキュアなテストサービスのアカウントの準備](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)を参照してください。
 エグレス IP は次のとおりです。
 
 | **地域** | **エグレス IP** |
@@ -129,7 +129,7 @@ Experience Manager オーサーインスタンスがDynamic Media ハイブリ�
 
 >[!NOTE]
 >
->[ ビデオエンコーディングプロファイル ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/video-profiles)は、Brand Portalに公開されません。 代わりに、**[!UICONTROL Scene7]** サーバーから取得されます。 そのため、ビデオエンコードが Brand Portal で正常に再生されるためには、設定の詳細を Experience Manager オーサーインスタンスの [Dynamic Media クラウドサービス（[!DNL Scene7] モード）](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services)と同じにする必要があります。
+>[&#x200B; ビデオエンコーディングプロファイル &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/video-profiles)は、Brand Portalに公開されません。 代わりに、**[!UICONTROL Scene7]** サーバーから取得されます。 そのため、ビデオエンコードが Brand Portal で正常に再生されるためには、設定の詳細を Experience Manager オーサーインスタンスの [Dynamic Media クラウドサービス（[!DNL Scene7] モード）](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services)と同じにする必要があります。
 
 Brand Portal テナントで Dynamic Media 設定をセットアップするには：
 
