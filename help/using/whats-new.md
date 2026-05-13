@@ -5,10 +5,32 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 0ef13db15f5282364cf8f2ca86ebefdfe6caca37
+TQID: https://experienceleague.adobe.com/-mH8aSfC9V8seE8ynUPNeJeE2Jt79S6etcyDlK14jL0
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+  - id: e17747bc-9b7b-44e6-a443-f54229a02620
+subfeature_v2:
+  - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
+  - id: d17d085a-e808-49dd-b9a6-85a996b999bd
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+  - id: f0e3b2ca-813f-4b7a-81df-52339e17ddcf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '6645'
-ht-degree: 98%
+source-wordcount: 6645
+ht-degree: 97%
 
 ---
 
@@ -100,17 +122,17 @@ Brand Portal 2021.08.0 は、エンタープライズユーザーやチームユ
 
 ### 参考記事 {#reference-articles}
 
-* [Adobeプロファイルについて](https://helpx.adobe.com/jp/enterprise/kb/introducing-adobe-profiles.html)
+* [Adobe プロファイルの概要](https://helpx.adobe.com/jp/enterprise/kb/introducing-adobe-profiles.html)
 
-* [Adobeプロファイルの管理](https://helpx.adobe.com/jp/enterprise/using/manage-adobe-profiles.html)
+* [Adobe プロファイルの管理](https://helpx.adobe.com/jp/enterprise/using/manage-adobe-profiles.html)
 
-* [ユーザーおよび管理者向けのログインエクスペリエンスの更新](https://helpx.adobe.com/jp/enterprise/using/storage-for-business.html#new-admin-sign-in-exp)
+* [ユーザーおよび管理者向けのサインインエクスペリエンスの更新](https://helpx.adobe.com/jp/enterprise/using/storage-for-business.html#new-admin-sign-in-exp)
 
-* [移行中のログインの制限](https://helpx.adobe.com/jp/enterprise/kb/account-temporarily-unavailable.html)
+* [移行時のログイン制限](https://helpx.adobe.com/jp/enterprise/kb/account-temporarily-unavailable.html)
 
 * [Admin Consoleでのユーザーの管理](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html)
 
-* [エンタープライズユーザーの製品プロファイルの管理](https://helpx.adobe.com/jp/enterprise/using/manage-product-profiles.html#assign-users)
+* [エンタープライズユーザー向け製品プロファイルの管理](https://helpx.adobe.com/jp/enterprise/using/manage-product-profiles.html#assign-users)
 
 * [ドメインの信頼](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/set-up-identity.html#directory-trusting)
 
@@ -481,7 +503,7 @@ Brand Portal 6.4.4 以降では、フィルタリングウィンドウのプロ�
 フィルタリングウィンドウで、検索対象フレーズの一部分（1 つか 2 つの単語）のみを指定してアセットを検索できます。
 
 **ユースケース**
-部分フレーズ検索は、検索対象フレーズに出現する正確な単語の組み合わせが不明な場合に役立ちます。
+部分的なフレーズ検索は、検索したフレーズで発生する単語の正確な組み合わせがわからない場合に役立ちます。
 
 例えば、Brand Portal の検索フォームで、「プロパティの述語」を使用してアセットのタイトルの部分検索を行う場合、「**camp**」という単語を指定すると、タイトルフレーズで「camp」という単語を使用しているアセットがすべて返されます。
 
@@ -515,7 +537,7 @@ Brand Portal 6.4.3 では、アクセス URL の代替エイリアス、新し�
 
 ### 管理者以外のユーザーに表示するフォルダー階層のナビゲーション
 
-管理者は、ログイン時に管理者以外のユーザー（編集者、閲覧者、ゲストユーザー）にフォルダーを表示する方法を設定できるようになりました。[[フォルダー階層を有効にする](../using/brand-portal-general-configuration.md)]構成は、管理ツールパネルの&#x200B;**一般設定**&#x200B;に追加されています。 この設定は次のように動作します。
+管理者以外のユーザー（編集者、閲覧者、ゲストユーザー）がログインしたときにフォルダーをどのように表示するかを管理者が設定できるようになりました。 管理ツールパネルの&#x200B;**一般設定**&#x200B;に「[フォルダー階層を有効化](../using/brand-portal-general-configuration.md)」設定が追加されています。 この設定は次のように動作します。
 
 * **有効**&#x200B;にした場合は、ルートフォルダーから始まるフォルダーツリーが管理者以外のユーザーに表示されます。 これにより、管理者と同じようなナビゲーション体験を提供できます。
 * **無効**&#x200B;にした場合は、共有フォルダーのみランディングページに表示されます。
@@ -768,18 +790,18 @@ Brand Portal 6.4.1 は、プラットフォームのアップグレードリリ�
 
 ### レポート機能の強化
 
-**リンク共有レポートの追加**
-共有リンクの情報を提供する新しいレポートが追加されました。 リンク共有レポートには、内部および外部のユーザーと共有されるすべてのアセットへの URL が示されます。 指定した期間内に組織全体にわたってユーザーについて報告します。 さらに、リンクがいつ共有されたか、誰と共有されたか、いつ期限が切れるかという情報も示されます。
+**リンク共有レポートを導入**
+共有リンクに関する情報を提供するための新しいレポートが導入されました。 リンク共有レポートには、内部および外部のユーザーと共有されるすべてのアセットへの URL が示されます。 指定した期間内に組織全体にわたってユーザーについて報告します。 さらに、リンクがいつ共有されたか、誰と共有されたか、いつ期限が切れるかという情報も示されます。
 
 ![](assets/navigatereport.png)
 
-**使用状況レポートへのアクセスエントリポイントの変更**
-使用状況レポートは他のレポートと統合され、アセットレポートコンソールから表示できるようになりました。 アセットレポートコンソールにアクセスするには、管理ツールパネルから「**レポートを作成 / 管理**」を選択します。
+**使用状況レポートにアクセスするようにエントリポイントを変更しました**
+使用状況レポートが他のレポートと統合され、アセットレポートコンソールから表示できるようになりました。 アセットレポートコンソールにアクセスするには、管理ツールパネルから「**レポートを作成 / 管理**」を選択します。
 
 ![](assets/accessassetreport.png)
 
-**レポート作成のユーザーエクスペリエンスの向上**
-Brand Portal のレポートインターフェイスが、より直観的に使用できるようになり、きめ細かな制御が可能になりました。 レポートは Brand Portal に保存されるので、管理者は、各種レポートを作成できる以外にも、生成済みレポートに再アクセスし、それらをダウンロードまたは削除できます。
+**レポート用のユーザーエクスペリエンスの向上**
+Brand Portalのレポートインターフェイスは、より直感的になり、より詳細に制御できるようになりました。 レポートは Brand Portal に保存されるので、管理者は、各種レポートを作成できる以外にも、生成済みレポートに再アクセスし、それらをダウンロードまたは削除できます。
 
 デフォルトの列を追加または削除することで、各レポートを作成中にカスタマイズできるようになりました。 また、ダウンロード、有効期限および公開レポートにカスタム列を追加して、精度を制御することもできます。
 
@@ -920,7 +942,7 @@ Brand Portal 6.3.1 は、Brand Portal と AEM の統合に向けた新機能と�
 
 ### 追加のメタデータ {#additional-metadata}
 
-Brand Portal 6.3.1では、AEM Assets 6.3と同等のメタデータがさらに導入されています。 「スキーマエディター」フォームを使用して、「アセットのプロパティ」ページに表示するメタデータを制御できます。 アセットメタデータは、外部のリンク共有ユーザーには表示されません。これらのユーザーは、リンク共有 URL を使用して、アセットのプレビューとダウンロードのみ行えます。
+Brand Portal 6.3.1では、AEM Assets 6.3と同等のメタデータが追加されています。 スキーマエディターフォームを使用して、Assetsのプロパティページに表示するメタデータを制御できます。 アセットメタデータは、外部のリンク共有ユーザーには表示されません。これらのユーザーは、リンク共有 URL を使用して、アセットのプレビューとダウンロードのみ行えます。
 
 ![](assets/additionsinmetadata.png)
 

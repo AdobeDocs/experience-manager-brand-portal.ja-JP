@@ -5,18 +5,26 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
+TQID: https://experienceleague.adobe.com/BkJZocCqHqpIIn-BdxmRJWi0bX7afdWEKbzWmPzraDk
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: 1044
 ht-degree: 34%
 
 ---
 
 # Brand Portal でアセットを参照する {#browsing-assets-on-brand-portal}
 
-Experience Manager Assets Brand Portalには、様々な機能やユーザーインターフェイスが用意されており、様々な表示オプションを使用して、リソースの参照、アセット階層の移動、アセットの検索を簡単に行うことができます。
+Experience Manager Assets Brand Portalには、リソースの参照、アセット階層の移動、様々なビューオプションを使用したアセットの検索を容易にする、様々な機能とユーザーインターフェイス要素が用意されています。
 
-上部のツールバーのExperience Managerロゴにより、管理者ユーザーは管理ツールパネルにアクセスできます。
+上部のツールバーにあるExperience Manager ロゴを使用すると、管理者ユーザーは管理ツールパネルにアクセスできます。
 
 ![](assets/aemlogo.png)
 
@@ -24,11 +32,11 @@ Experience Manager Assets Brand Portalには、様々な機能やユーザーイ
 
 ![](assets/bp_subheader.png)
 
-Brand Portalの左上にあるレール選択ドロップダウンでは、アセット階層への移動、検索の効率化、リソースの表示を行うオプションが表示されます。
+Brand Portalの左上にあるレールセレクターのドロップダウンを使用すると、アセット階層への移動、検索の合理化、リソースの表示などのオプションを表示できます。
 
 ![](assets/siderail-1.png)
 
-Brand Portalのビューセレクターで使用可能なビュー（カード、列、リスト）のいずれかを使用して、アセットを表示、移動、選択できます。
+Brand Portalのビューセレクターで利用可能なビュー（カード、列、リスト）を使用して、アセットを表示、移動、選択できます。
 
 ![](assets/viewselector.png)
 
@@ -56,36 +64,36 @@ Brand Portalのビューセレクターで使用可能なビュー（カード�
 * サイズ
 * ディメンション寸法
 
-階層を下に移動するには、カードをクリックするか（クイック操作を回避する必要があります）、ヘッダーの[パンくずを使用して再度上に移動します](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling)。
+階層を下に移動するには、カードをクリックするか（クイックアクションを避けるために注意を払う）、ヘッダー[&#128279;](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling)の パンくずリストを使用して再び上に移動します。
 
 ![](assets/cardquickactions.png)
 
 #### 管理者以外のユーザー向けカード表示
 
-カード表示のフォルダーのカードは、管理者以外のユーザー（編集者、閲覧者、およびゲストユーザー）にフォルダー階層情報を表示します。 この機能により、ユーザーはアクセス中のフォルダーの場所を、親階層に関して知ることができます。
+カード表示のフォルダーのカードは、管理者以外のユーザー（編集者、閲覧者、およびゲストユーザー）にフォルダー階層情報を表示します。 この機能を使用すると、ユーザーはアクセスしているフォルダーの場所を親階層に関して知ることができます。
 
-フォルダー階層情報は、別のフォルダー階層から共有されている他のフォルダーと名前が似ているフォルダーを区別するのに特に役立ちます。 管理者以外のユーザーが、自分たちに共有されているアセットのフォルダー構造を把握していない場合、似たような名前のアセット／フォルダーは紛らわしくなります。
+フォルダー階層情報は、他のフォルダー階層と共有されている他のフォルダーと類似した名前を持つフォルダーを区別する際に特に役立ちます。 管理者以外のユーザーが、自分たちに共有されているアセットのフォルダー構造を把握していない場合、似たような名前のアセット／フォルダーは紛らわしくなります。
 
-* それぞれのカードに表示されるパスは、カードのサイズに合わせて切り詰めて表示されます。 ただし、切り捨てられたパスにカーソルを合わせると、フルパスがツールヒントとして表示されます。
+* それぞれのカードに表示されるパスは、カードのサイズに合わせて切り詰めて表示されます。 ただし、切り捨てられたパスの上にカーソルを置くと、完全なパスがツールヒントとして表示されます。
 
 ![](assets/folder-hierarchy1.png)
 
 **アセットのプロパティを表示する「概要」オプション**
 
-管理者以外のユーザー（エディター、ビューア、ゲストユーザー）は、概要オプションを使用して、選択したアセット/フォルダーのアセットプロパティを表示できます。 「概要」オプションは、次の場所に表示されます。
+管理者以外のユーザー（エディター、ビューアー、ゲストユーザー）が、選択したアセット/フォルダーのアセットプロパティを表示する場合は、「概要」オプションを使用できます。 「概要」オプションは、次の場所に表示されます。
 
 * アセット／フォルダーを選択する際、上部に表示されるツールバー。
-* ドロップダウンで、レールセレクタを選択します。
+* ドロップダウンで、レールセレクターを選択します。
 
-アセットやフォルダーを選択した状態で「**[!UICONTROL 概要]**」オプションを選択すると、ユーザーはアセットのタイトル、パス、作成時刻を確認できます。 一方、アセットの詳細ページで「概要」オプションを選択すると、アセットのメタデータを確認できます。
+アセット/フォルダーが選択されている間に&#x200B;**[!UICONTROL 概要]** オプションを選択すると、ユーザーはアセット作成のタイトル、パス、時間を確認できます。 一方、アセットの詳細ページで「概要」オプションを選択すると、アセットのメタデータを確認できます。
 
 ![](assets/overview-option.png)
 
 ![](assets/overview-rail-selector.png)
 
-#### カード表示で設定を表示
+#### カード表示での設定の表示
 
-表示セレクターから&#x200B;**[!UICONTROL 表示設定]**&#x200B;を選択すると、**[!UICONTROL 表示設定]**&#x200B;ダイアログボックスが開きます。 カードビューでアセットのサムネールのサイズを変更できます。 このようにして、表示をカスタマイズし、表示されるサムネールの数を制御できます。
+**[!UICONTROL 表示設定]** ダイアログボックスが開き、表示セレクターから「**[!UICONTROL 表示設定]**」を選択します。 カード表示でアセットのサムネールのサイズを変更できます。 これにより、ビューをパーソナライズし、表示されるサムネールの数を制御できます。
 
 ![](assets/cardviewsettings.png)
 
@@ -93,7 +101,7 @@ Brand Portalのビューセレクターで使用可能なビュー（カード�
 
 ![](assets/list-view.png)
 
-リストビューには、現在のレベルの各リソースに関する情報が表示されます。 リストビューには次の詳細が表示されます。
+リストビューには、各リソースの情報が現在のレベルで表示されます。 リストビューには、次の詳細が表示されます。
 
 * アセットのサムネール画像
 * 名前
@@ -106,7 +114,7 @@ Brand Portalのビューセレクターで使用可能なビュー（カード�
 * アセット階層画像を示すフォルダーパス
 * Brand Portal 上のアセットの公開日
 
-パス列を使用すると、フォルダー階層内のアセットの場所を簡単に特定できます。 リソース名をクリックして階層を下に移動し、ヘッダーの[ブレッドクラム](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling)を使用して上に戻ることができます。
+パス列を使用すると、フォルダー階層内のアセットの場所を簡単に特定できます。 リソース名をクリックして階層を下に移動し、ヘッダー[&#128279;](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling)の パンくずリストを使用してバックアップできます。
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click the checkbox. When only some items are selected, it appears with a minus sign. To select all, click the checkbox. To deselect all, click the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
@@ -114,7 +122,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### リスト表示の表示設定
 
-リストビューでは、既定でアセット&#x200B;**[!UICONTROL Name]**&#x200B;が最初の列として表示されます。 アセットの&#x200B;**[!UICONTROL タイトル]**、**[!UICONTROL ロケール]**、**[!UICONTROL タイプ]**、**[!UICONTROL ディメンション]**、**[!UICONTROL サイズ]**、**[!UICONTROL レーティング]**、公開状態などの追加情報も表示されます。 ただし、「**[!UICONTROL 表示設定]**」を使用して、表示する列を選択することもできます。
+リストビューには、デフォルトでアセット **[!UICONTROL Name]**&#x200B;が最初の列として表示されます。 アセットの&#x200B;**[!UICONTROL タイトル]**、**[!UICONTROL ロケール]**、**[!UICONTROL タイプ]**、**[!UICONTROL ディメンション]**、**[!UICONTROL サイズ]**、**[!UICONTROL レーティング]**、公開状態などの追加情報も表示されます。 ただし、「**[!UICONTROL 表示設定]**」を使用して、表示する列を選択することもできます。
 
 ![](assets/list-view-setting.png)
 
@@ -122,18 +130,18 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ![](assets/column-view.png)
 
-列表示を使用して、一連のカスケード表示された列間をコンテンツツリーで移動します。 この表示は、アセット階層の視覚化とトラバースに役立ちます。
+列ビューを使用すると、一連のカスケーディング列を通してコンテンツツリーを移動できます。 このビューは、アセット階層を視覚化し、トラバースするのに役立ちます。
 
-最初（一番左）の列でリソースを選択すると、2 番目の列の右側に子リソースが表示されます。 2 列目でリソースを選択すると、右側の 3 列目に子リソースが表示され、以下同様に表示されます。
+最初の（一番左）列でリソースを選択すると、2番目の列の子リソースが右側に表示されます。 2番目の列でリソースを選択すると、3番目の列の子リソースが右側に表示されます。
 
-ツリー内を上下に移動できます。 リソース名またはリソース名の右側にある山形記号をクリックします。
+ツリー内を上下に移動できます。 リソース名またはリソース名の右側にある山形をクリックします。
 
-* リソース名と山形記号は、クリックするとハイライト表示されます。
+* クリックすると、リソース名と山形がハイライト表示されます。
 * サムネールをタップまたはクリックすると、リソースが選択されます。
-* 選択すると、チェックマークがサムネールにオーバーレイ表示され、リソース名がハイライト表示されます。
+* 選択すると、サムネールにチェックマークがオーバーレイされ、リソース名がハイライト表示されます。
 * 選択されたリソースの詳細が最後の列に表示されます。
 
-列表示でアセットを選択すると、アセットが次の詳細と共に最後の列に視覚的に表示されます。
+列ビューでアセットを選択すると、アセットの視覚的な表現が最終列に表示され、次の詳細が表示されます。
 
 * タイトル
 * 名前
@@ -231,7 +239,7 @@ Comment Type: draft
 
 これらの表示に加え、3 つのツリー表示を使用して、目的のアセットやフォルダーを表示および選択しながらアセット階層をドリルダウンします。
 
-ツリービューを開くには、左上のパネルセレクターをクリックし、メニューから **[!UICONTROL コンテンツツリー]** を選択します。
+ツリービューを開くには、左上のレールセレクターをクリックし、メニューから&#x200B;**[!UICONTROL コンテンツツリー]**&#x200B;を選択します。
 
 ![](assets/contenttree.png)
 
@@ -241,15 +249,15 @@ Comment Type: draft
 
 ## アセットの詳細 {#asset-details}
 
-アセットの詳細ページでは、アセットの表示、ダウンロード、アセットのリンクの共有、コレクションへの移動、アセットのプロパティページの表示を行うことができます。 同じフォルダーにある他のアセットの詳細ページを順番に移動することもできます。
+アセットの詳細ページでは、アセットの表示、ダウンロード、アセットのリンクの共有、コレクションへの移動、プロパティ ページの表示を行うことができます。 また、同じフォルダーの他のアセットの詳細ページを連続して移動することもできます。
 
 ![](assets/asset-detail.png)
 
-アセットのメタデータを表示したり、様々なレンディションを表示したりするには、アセットの詳細ページのパネルセレクターを使用します。
+アセットのメタデータを表示したり、様々なレンディションを表示したりするには、アセットの詳細ページのレールセレクターを使用します。
 
 ![](assets/asset-overview.png)
 
-アセットの詳細ページでアセットの利用可能なレンディションをすべて表示し、「**[!UICONTROL レンディション]** パネルからレンディションを選択してプレビューできます。
+アセットの使用可能なすべてのレンディションをアセットの詳細ページで表示し、**[!UICONTROL レンディション]** パネルからレンディションを選択してプレビューできます。
 
 ![](assets/renditions.png)
 
@@ -264,7 +272,7 @@ removed as it is fixed in 2022.02.0 release
 >The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
 -->
 
-アセットのプロパティページを開くには、上部のバーにある **[!UICONTROL プロパティ （p）]** オプションを使用します。
+アセットプロパティページを開くには、上部バーの「**[!UICONTROL プロパティ（p）]**」オプションを使用します。
 
 ![](assets/asset-properties.png)
 

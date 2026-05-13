@@ -5,10 +5,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+TQID: https://experienceleague.adobe.com/WM9-KLF7eGOn0yWToGC6GWNIbZrrXJ1DrCs4BuheKCM
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 97%
+source-wordcount: 315
+ht-degree: 94%
 
 ---
 
@@ -76,11 +85,11 @@ Experience Manager Assets Brand Portal でサポートされるファイル形�
 | TAR | ✓ | 該当なし | ✓ | 該当なし | 該当なし | ✓ | 該当なし | ✕ |
 | Zip | ✓ | ✓ | ✓ | ✓ | 該当なし | ✓ | ✓ | ✕ |
 
-次の凡例は、マトリックスで使用される記号を説明しています。
+次の凡例は、行列で使用される記号について説明しています。
 
-| 記号 | 意味 |
+| シンボル | 意味 |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| ✓ | この機能は、このファイル形式でサポートされています。 |
+| ✓ | このファイル形式はこの機能をサポートしています。 |
 | ✕ | この機能はサポートされていません. |
 | 該当なし | この機能は適用されません. |
 | * | この機能を AEM オーサーインスタンスで使用するには、このファイル形式用のアドオンサポートが必要です。ただし、アセットが Brand Portal に公開された後、Brand Portal で使用する際には不要です. |

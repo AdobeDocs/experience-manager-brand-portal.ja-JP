@@ -5,10 +5,23 @@ content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: ff2dc92ea112a95c90724f06f141221ffdef33a1
+TQID: https://experienceleague.adobe.com/e2-MbP-f0xwBB8JLpb-7V80uNP-0N8cCnJeCLJCfRm0
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: a0cde32c-c339-4649-bd06-f1111bc952fc
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+  - id: f0e3b2ca-813f-4b7a-81df-52339e17ddcf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 96%
+source-wordcount: 1633
+ht-degree: 93%
 
 ---
 
@@ -21,13 +34,13 @@ Adobe Experience Manager Assets Brand Portal 2026.01.01 リリースの新機能
 | 製品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | バージョン | 2026.01.01 |
-| 日付 | 2026 年 1 月 |
+| 日付 | 「Generative AI tool deployment - internal study |
 
 ## 概要 {#overview}
 
-Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを軽減できます。Brand Portal では、アセットの参照、検索、プレビュー、ダウンロードおよび会社で承認された形式での書き出しを、いつでも、どこでも実行できます。
+Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。 アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを軽減できます。 Brand Portal では、アセットの参照、検索、プレビュー、ダウンロードおよび会社で承認された形式での書き出しを、いつでも、どこでも実行できます。
 
-## 2026.01.01 の新機能 {#whats-new-in-2026.01.01}
+## 2026.01.01の新機能 {#whats-new-in-2026.01.01}
 
 ### 修正された重大な問題 {#critical-issues-fixed}
 
@@ -35,9 +48,9 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 このリリースで強化された機能は次のとおりです。
 
-* 管理ツールパネル/Dynamic Media 設定で、「**[!UICONTROL リセット]**」ボタンを使用して、変更を消去、パスワードをリセット、設定をデフォルトの状態に復元できるようになりました。
+* 管理ツールパネル/Dynamic Media設定で、**[!UICONTROL Reset]** ボタンを使用して、変更をクリアし、パスワードをリセットして、設定をデフォルト状態に戻すことができるようになりました。
 
-* Brand Portalは、AEMに公開する前にソーシングフォルダーが 1 つ以上のアセットを含んでいることを検証し、不完全な公開を防ぎます。
+* Brand Portalでは、AEMに公開する前にソーシングフォルダーを検証し、少なくとも1つのアセットが含まれていることを確認することで、不完全な公開を防ぎます。
 
 ## 以前のリリース
 
@@ -73,8 +86,8 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 ### 2023年10月リリース {#oct-2023}
 
-**バグ修正および機能強化**
-このリリースで強化された機能は次のとおりです。
+**バグ修正と機能強化**
+このリリースには、次の機能強化が含まれています。
 
 * [!UICONTROL コレクション]閲覧時のパフォーマンスの向上。
 
@@ -94,8 +107,8 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 ### 2023年8月リリース {#aug-2023}
 
-**バグ修正および機能強化**
-このリリースで強化された機能は次のとおりです。
+**バグ修正と機能強化**
+このリリースには、次の機能強化が含まれています。
 
 * [!UICONTROL ダウンロード]ポップアップでアセットを読み込む際のパフォーマンスの向上。
 * アセットまたはアセットのレンディションをダウンロードする場合、zip ファイルではなく、元のファイルタイプ形式でダウンロードされるようになりました。
@@ -109,7 +122,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 ### 2023年5月リリース {#may-2023}
 
 **バグ修正**
-このリリースでは、次の重大な問題が修正されています。
+このリリースには、次の重要な問題の修正が含まれています。
 
 * 共有リンクからアセットのダウンロード中にエラーが発生した場合、エラープロンプトの `Notice` および `Close` ラベルがローカライズされない。
 * Brand Portal で、`Filter` パネルを使用して検索フィルターにアクセスすると、**リクエストヘッダーフィールドが大きすぎる**&#x200B;というエラーが表示される。
@@ -162,7 +175,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 >[!IMPORTANT]
 >
->AEM Assets Brand Portal の Pulse 通知は、2022年12月1日（PT）以降停止されます。Pulse 通知の代わりに、次のイベントに関するメール通知を引き続き受信できます。
+>AEM Assets Brand Portal の Pulse 通知は、2022年12月1日（PT）以降停止されます。 Pulse 通知の代わりに、次のイベントに関するメール通知を引き続き受信できます。
 >
 >* リンクを介したアセットの共有
 >* アクセスワークフローのリクエスト
@@ -187,7 +200,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 **新機能**
 
-Brand Portal では、12 時間ごとに自動ジョブを実行して、AEM に公開されているすべての Brand Portal アセットを削除するようになりました。その結果、投稿フォルダー内のアセットを手動で削除して、フォルダーサイズをしきい値の制限以下に保つ必要はありません。
+Brand Portal では、12 時間ごとに自動ジョブを実行して、AEM に公開されているすべての Brand Portal アセットを削除するようになりました。 その結果、投稿フォルダー内のアセットを手動で削除して、フォルダーサイズをしきい値の制限以下に保つ必要はありません。
 
 **修正された重大な問題**
 
@@ -195,7 +208,7 @@ Brand Portal では、12 時間ごとに自動ジョブを実行して、AEM に
 
 * カラータグが付いたアセットを含むフォルダーまたはコレクションをダウンロードすると、XML ファイルもダウンロードされる。
 * レンディションを含むビデオをダウンロードすると、Brand Portal によって無効な .ZIP ファイルが作成される。
-* AEM オーサーでプリセットとアセットを作成し、Brand Portal に公開すると、アセットのダウンロード中に動的レンディションを選択できる。ただし、ダウンロードした.ZIP ファイルを抽出することができない。この問題により、ダウンロードしたコンテンツにアクセスできない。
+* AEM オーサーでプリセットとアセットを作成し、Brand Portal に公開すると、アセットのダウンロード中に動的レンディションを選択できる。 ただし、ダウンロードした.ZIP ファイルを抽出することができない。 この問題により、ダウンロードしたコンテンツにアクセスできない。
 * Brand Portal で使用可能な特定のフォルダーからビデオアセットをダウンロードする際の問題。
 * メールを使用して投稿フォルダーの URL を共有すると、閲覧者と編集者の役割を持つユーザーがパンくずリストを使用して親フォルダーにアクセスする際に問題が発生する。
 * 公開されたレポートをソーシングすると、誤ったジョブ開始時刻が表示される。
@@ -206,11 +219,11 @@ Brand Portal では、12 時間ごとに自動ジョブを実行して、AEM に
 
 * ゲストユーザーのセッションタイムアウトのしきい値が 2 時間から 15 分に短縮されました。
 * ユーザーがAdobe Document Cloud ビューアから PDF ページを表示できるようになったため、複数ページの PDF に対する追加の「**[!UICONTROL ページの表示]**」オプションは削除されました。
-* ユーザーがフォルダーを検索、移動または開くことができません。「`Failed to load data`」というエラーメッセージがユーザーインターフェイスに表示されます。
+* ユーザーがフォルダーを検索、移動または開くことができません。 「`Failed to load data`」というエラーメッセージがユーザーインターフェイスに表示されます。
 * Brand Portal に公開されているアセットの静的レンディションの一部が&#x200B;**[!UICONTROL レンディション]**&#x200B;パネルに一覧表示されません。
 * **[!UICONTROL レンディション]**&#x200B;パネルには、アセットのスマート切り抜きレンディションが一覧表示されますが、ユーザーがスマート切り抜きレンディションをプレビューまたはダウンロードできません。
 * ダウンロードダイアログには、選択したアセットのスマート切り抜きレンディションが一覧表示されますが、ユーザーがスマート切り抜きレンディションをダウンロードできません。
-* 管理者以外のユーザーは、アセットのダウンロード時に元のアセットレンディションのみ取得します。システムレンディションとカスタムレンディションはダウンロードされません。
+* 管理者以外のユーザーは、アセットのダウンロード時に元のアセットレンディションのみ取得します。 システムレンディションとカスタムレンディションはダウンロードされません。
 * 検索フィルターを適用してアセットをダウンロードする際に、ダウンロードダイアログで「`Download`」ボタンが無効になっているので、ユーザーがアセットをダウンロードできません。
 * `Smart Tags` および（または）`Color Tags` が有効な場合、ダウンロードダイアログに `json` ファイルがレンディションとして一覧表示され、アーカイブされた zip フォルダーにこれらの `json` ファイルがダウンロードされます。
 * 共有リンクが Brand Portal のログインページにリダイレクトされるので、匿名ユーザーが共有リンクを使用してアセットをダウンロードできません。
@@ -399,12 +412,12 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 
 ## リンク {#links}
 
-* [Adobe Experience Manager 製品ページ（adobe.com）](https://business.adobe.com/jp/products/experience-manager/adobe-experience-manager.html)
-* [Assets Brand Portal のドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-brand-portal/using/home)
+* [Adobe Experience Managerの製品ページ（adobe.com）](https://business.adobe.com/jp/products/experience-manager/adobe-experience-manager.html)
+* [Assets Brand Portal Documentation](https://experienceleague.adobe.com/ja/docs/experience-manager-brand-portal/using/home)
 
 ## 製品のアクセスとサポート（制限付きサイト） {#product-access-and-support-restricted-sites}
 
-これらのサイトはお客様のみが参照できます。アクセス権を必要とするお客様は、アドビのアカウントマネージャーにご連絡ください。
+これらのサイトはお客様のみが参照できます。 アクセス権を必要とするお客様は、アドビのアカウントマネージャーにご連絡ください。
 
 <!--
 * [https://daycare.day.com](https://daycare.day.com) 
