@@ -79,7 +79,7 @@ Brand Portalでは、管理者は期限切れのアセットをコレクショ�
 
 ライセンスで保護されたアセットを Brand Portal からダウンロードするときは、事前に使用許諾契約への同意が求められます。 ライセンス済みアセットに関するこの契約書は、Brand Portalから直接ダウンロードするか、共有リンクを介してダウンロードする場合に適用されます。 有効期限が切れているかどうかにかかわらず、すべてのユーザーはライセンスで保護されたアセットを表示できます。 ただし、使用期限が切れたライセンス済みアセットのダウンロードと使用には制限があります。 使用期限が切れたライセンス済みアセットの動作と、ユーザーの役割に基づく許可されたアクティビティについては、[使用期限が切れたアセットの使用権限](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets)を参照してください。
 
-ライセンスで保護されたアセットには、[&#x200B; ライセンス契約](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm)が添付されています。これは、[!DNL Experience Manager Assets]でアセットのメタデータプロパティを設定することによって行われます。
+ライセンスで保護されたアセットには、[&#x200B; ライセンス契約](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/administer/drm)が添付されています。これは、[!DNL Experience Manager Assets]でアセットのメタデータプロパティを設定することによって行われます。
 
 アセットに次のいずれかまたは両方のメタデータプロパティが含まれている場合、アセットは保護されていると見なされます。
 

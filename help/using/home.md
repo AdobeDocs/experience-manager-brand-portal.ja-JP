@@ -53,7 +53,7 @@ Brand Portal ソリューションワークフローを次の画像に示しま�
 | [サポートされているファイル形式](brand-portal-supported-formats.md) | Brand Portal でプレビューおよびダウンロード用にサポートされるファイル形式。 |
 | [Brand Portal へのアセットの公開](brand-portal-sharing-folders.md) | フォルダー、コレクション、リンク、プリセット、スキーマ、ファセット、タグを Brand Portal に公開する方法。 |
 | [Brand Portal でのアセットソーシング](brand-portal-asset-sourcing.md) | AEM Assets でアセットソーシングを設定し、Brand Portal にアセットをアップロードして、投稿フォルダーを AEM Assets に公開する方法。 |
-| [Brand Portal の注目のビデオ](https://experienceleague.adobe.com/?lang=ja&tag=Brand+Portal#recommended/solutions/experience-manager) | ビデオチュートリアルを利用して、Experience Manager Assets Brand Portal の使用方法を学びます。 |
+| [Brand Portal の注目のビデオ](https://experienceleague.adobe.com/ja?lang=ja&tag=Brand+Portal#recommended/solutions/experience-manager) | ビデオチュートリアルを利用して、Experience Manager Assets Brand Portal の使用方法を学びます。 |
 
 ### 役立つリソース
 
