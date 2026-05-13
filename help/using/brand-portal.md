@@ -6,11 +6,18 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
 TQID: https://experienceleague.adobe.com/oBDmsUsNSLapEzQa9r4J-vZqTz2qe0cPW6hU1EYzrXU
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 1714
@@ -26,7 +33,7 @@ ht-degree: 61%
 
 **Adobe Experience Manager（AEM） Assets Brand Portal**&#x200B;は、アセット配信機能とアセット貢献機能を提供することで、マーケターがグローバルに分散しているBrand Portal ユーザーと効果的にコラボレーションする必要性に注目しています。
 
-アセット配布を使用すると、承認されたクリエイティブアセットを取得、制御し、デバイス間で外部の関係者や社内のビジネスユーザーに安全に配布できます。 ただし、Brand Portal ユーザーは、アセットをBrand PortalにアップロードしてExperience Manager Assetsに公開できます。その際、オーサー環境にアクセスする必要はありません。 投稿機能は、**Brand Portal でのアセットソーシング**と呼ばれます。 これらにより、Brand Portal ユーザー（外部の代理店／チーム）からのアセット配布および投稿の全体的な Brand Portal エクスペリエンスを向上させ、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。
+アセット配布を使用すると、承認されたクリエイティブアセットを取得、制御し、デバイス間で外部の関係者や社内のビジネスユーザーに安全に配布できます。 ただし、Brand Portal ユーザーは、アセットをBrand PortalにアップロードしてExperience Manager Assetsに公開できます。その際、オーサー環境にアクセスする必要はありません。 投稿機能は、**Brand Portal でのアセットソーシング**&#x200B;と呼ばれます。 これらにより、Brand Portal ユーザー（外部の代理店／チーム）からのアセット配布および投稿の全体的な Brand Portal エクスペリエンスを向上させ、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。
 [Brand Portal でのアセットソーシング](brand-portal-asset-sourcing.md)を参照してください。
 
 ブラウザーベースのポータル環境では、承認済みの形式でアセットを簡単にアップロード、参照、検索、プレビュー、エクスポートできます。
@@ -95,7 +102,7 @@ Experience Manager Assets Brand Portal では、Brand Portal への[ゲストに
 
 * [[!UICONTROL Lightbox] へのアセットの追加](brand-portal-light-box.md#add-assets-to-lightbox)
 
-詳しくは、「[Brand Portalへのゲストアクセス ](../using/guest-access.md)」を参照してください。
+詳しくは、「[Brand Portalへのゲストアクセス &#x200B;](../using/guest-access.md)」を参照してください。
 
 ### 閲覧者 {#viewer}
 
@@ -177,7 +184,7 @@ Brand Portal 6.4.3以降、組織は、Brand Portal テナントの既存のURL�
    **シナリオ 1**
 
    1. [!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID] または [!UICONTROL Federated ID] を持っている場合は、「**[!UICONTROL ログイン]**」をクリックします。
-[!UICONTROL  ログイン ] ページが開きます。
+[!UICONTROL &#x200B; ログイン &#x200B;] ページが開きます。
 
    1. [!UICONTROL Adobe ID]の資格情報を入力し、**[!UICONTROL ログイン]**&#x200B;をクリックします。
 
@@ -188,7 +195,7 @@ Brand Portal 6.4.3以降、組織は、Brand Portal テナントの既存のURL�
    **シナリオ 2**
 
    1. [!UICONTROL Adobe ID] を持っていない場合は、[!UICONTROL アクセスを申請]ページの「**[!UICONTROL Adobe ID を取得]**」をクリックして、Adobe ID を作成します。
-[!UICONTROL  ログイン ] ページが開きます。
+[!UICONTROL &#x200B; ログイン &#x200B;] ページが開きます。
    1. 「**[!UICONTROL Adobe ID を取得]**」をクリックします。
 [!UICONTROL 登録] ページが開きます。
    1. 名前、メール ID およびパスワードを入力します。
@@ -208,10 +215,10 @@ Brand Portal 製品管理者は Brand Portal の通知領域および自分の�
 
 ![アクセス申請の通知](assets/bplogin_request_access_7.png)
 
-アクセス権を付与するには、製品管理者がBrand Portalの通知領域で関連する通知をクリックし、**[!UICONTROL アクセス権を付与]**をクリックする必要があります。
+アクセス権を付与するには、製品管理者がBrand Portalの通知領域で関連する通知をクリックし、**[!UICONTROL アクセス権を付与]**&#x200B;をクリックする必要があります。
 または、アクセス要求メールに記載されているリンクに従って、Adobe [!UICONTROL Admin Console]にアクセスし、関連する製品設定にユーザーを追加することもできます。
 
-[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) ホームページにリダイレクトされます。 Adobe [!UICONTROL Admin Console]を使用してユーザーを作成し、Brand Portalでグループとして表示される製品プロファイル（旧製品設定）に割り当てます。 [!UICONTROL Admin Console]でのユーザーの追加について詳しくは、[ ユーザーの追加](brand-portal-adding-users.md#add-a-user)を参照してください（ユーザーの追加手順4 ～ 7に従ってください）。
+[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) ホームページにリダイレクトされます。 Adobe [!UICONTROL Admin Console]を使用してユーザーを作成し、Brand Portalでグループとして表示される製品プロファイル（旧製品設定）に割り当てます。 [!UICONTROL Admin Console]でのユーザーの追加について詳しくは、[&#x200B; ユーザーの追加](brand-portal-adding-users.md#add-a-user)を参照してください（ユーザーの追加手順4 ～ 7に従ってください）。
 
 ## Brand Portal の言語 {#brand-portal-language}
 

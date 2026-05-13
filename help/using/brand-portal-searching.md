@@ -7,11 +7,18 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
 TQID: https://experienceleague.adobe.com/KzFwzaIiTMjBh9fMsgu2MQWTAOaOAm-yMtEFnv0WvXU
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 1361
@@ -62,8 +69,8 @@ Brand Portal 上でアセットを検索するには、次のようにします�
 
 ![Brand Portal のフィルターパネル](assets/file-type-search.png "Brand Portal のフィルターパネル")
 
-**[!UICONTROL フィルター]** パネルには、**[!UICONTROL パスブラウザー]**、**[!UICONTROL ファイルタイプ]**、**[!UICONTROL ファイルサイズ]**、**[!UICONTROL ステータス]**、**[!UICONTROL 方向]**など、いくつかの標準ファセットが含まれています。
-ただし、[ カスタム検索ファセット ](../using/brand-portal-search-facets.md)を追加したり、**[!UICONTROL フィルター]** パネルから特定のファセットを削除したりできます。 基礎となる検索フォームで述語を編集するだけです。 詳しくは、[Brand Portal で利用可能な検索用述語の一覧](../using/brand-portal-search-facets.md#list-of-search-predicates)を参照してください。
+**[!UICONTROL フィルター]** パネルには、**[!UICONTROL パスブラウザー]**、**[!UICONTROL ファイルタイプ]**、**[!UICONTROL ファイルサイズ]**、**[!UICONTROL ステータス]**、**[!UICONTROL 方向]**&#x200B;など、いくつかの標準ファセットが含まれています。
+ただし、[&#x200B; カスタム検索ファセット &#x200B;](../using/brand-portal-search-facets.md)を追加したり、**[!UICONTROL フィルター]** パネルから特定のファセットを削除したりできます。 基礎となる検索フォームで述語を編集するだけです。 詳しくは、[Brand Portal で利用可能な検索用述語の一覧](../using/brand-portal-search-facets.md#list-of-search-predicates)を参照してください。
 
 利用可能な[検索ファセット](../using/brand-portal-search-facets.md)を使用して検索にフィルターを適用するには、次のようにします。
 
@@ -78,7 +85,7 @@ Brand Portal 上でアセットを検索するには、次のようにします�
 
    >[!NOTE]
    >
-   >管理者以外のユーザーの場合、[!UICONTROL  フィルター] パネルの[!UICONTROL  パスブラウザー]には、共有されているフォルダー（およびその祖先フォルダー）のコンテンツ構造のみが表示されます。\
+   >管理者以外のユーザーの場合、[!UICONTROL &#x200B; フィルター] パネルの[!UICONTROL &#x200B; パスブラウザー]には、共有されているフォルダー（およびその祖先フォルダー）のコンテンツ構造のみが表示されます。\
    >管理者ユーザーは、パスブラウザーを使用して、Brand Portal の任意のフォルダーに移動できます。
 
    * **[!UICONTROL ファイルタイプ]**：検索するアセットファイルのタイプ（画像、ドキュメント、マルチメディア、アーカイブ）を指定します。 さらに、例えば画像の MIME タイプ（Tiff、ビットマップ、GIMP 画像）やドキュメントの形式（PDF、MS® Word）を指定して、検索の範囲を絞り込むことができます。

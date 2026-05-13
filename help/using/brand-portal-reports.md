@@ -7,10 +7,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
 TQID: https://experienceleague.adobe.com/4p-phv75ZqbWNLAxXeZ-QEpZxSTgv-oV8AEIbue9Zvw
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: cda65036-5305-4f01-89da-9b3506ae8c50
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 1010
@@ -44,7 +50,7 @@ ht-degree: 34%
 
    レポートを表示するには、レポートのリンクをクリックします。 または、レポートを選択し、ツールバーの表示アイコンをクリックします。
 
-   **[!UICONTROL 使用状況レポート]**&#x200B;には、アクティブなBrand Portal ユーザーの数、すべてのアセットが占めるストレージ容量、Brand Portalの合計アセット数に関する情報が表示されます。 Admin Console でどの製品プロファイルにも割り当てられていない Brand Portal ユーザーは、非アクティブユーザーと見なされ、**[!UICONTROL 使用状況レポート]**には反映されません。
+   **[!UICONTROL 使用状況レポート]**&#x200B;には、アクティブなBrand Portal ユーザーの数、すべてのアセットが占めるストレージ容量、Brand Portalの合計アセット数に関する情報が表示されます。 Admin Console でどの製品プロファイルにも割り当てられていない Brand Portal ユーザーは、非アクティブユーザーと見なされ、**[!UICONTROL 使用状況レポート]**&#x200B;には反映されません。
 また、それぞれの情報指標で許可されている容量も表示されます。
 
    ![](assets/usage-report.png)
@@ -85,7 +91,7 @@ ht-degree: 34%
 
 ## レポートの生成 {#generate-reports}
 
-管理者は、次の標準レポートを生成および管理できます。 生成後、レポートは[以降のアクセス ](../using/brand-portal-reports.md#main-pars-header)用に保存されます。
+管理者は、次の標準レポートを生成および管理できます。 生成後、レポートは[以降のアクセス &#x200B;](../using/brand-portal-reports.md#main-pars-header)用に保存されます。
 
 * ユーザーログイン
 * ダウンロード
@@ -127,7 +133,7 @@ ht-degree: 34%
 
    カスタム列を「ダウンロード」、「公開」または「有効期限」レポートに追加するには、次の操作を行います。
 
-   1. カスタム列を表示するには、[!UICONTROL  カスタム列]内の&#x200B;**[!UICONTROL 追加]**&#x200B;をクリックします。
+   1. カスタム列を表示するには、[!UICONTROL &#x200B; カスタム列]内の&#x200B;**[!UICONTROL 追加]**&#x200B;をクリックします。
    1. **[!UICONTROL 列名]** フィールドに列の名前を指定します。
    1. プロパティピッカーを使用して、列のマッピング先となるプロパティを選択します。
 

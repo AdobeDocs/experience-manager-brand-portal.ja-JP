@@ -8,9 +8,13 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
 TQID: https://experienceleague.adobe.com/KfAwxHD9kHk-EdnUkYPfbHyJlJr0uQwyeFTXokO3lic
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 969
@@ -54,7 +58,7 @@ Link sharing access is restricted to editors and administrators.
    * 「**[!UICONTROL 有効期限]**」フィールドに、日付選択を使用して、リンクの有効期限を指定します。 デフォルトの有効期限は、リンクを共有した日から 7 日間です。
    * 「**[!UICONTROL 元のファイルのダウンロードを許可]**」チェックボックスをオンにして、受信者が元のレンディションをダウンロードできるようにします。
 
-   リンク共有されるアセットは、「**[!UICONTROL 有効期限]**」フィールドに指定した日時を過ぎると有効期限が切れます。 Brand Portalでの期限切れのアセットの動作とロールベースのアクティビティの変更について詳しくは、[ アセットのデジタル権限の管理](../using/manage-digital-rights-of-assets.md#asset-expiration)を参照してください。
+   リンク共有されるアセットは、「**[!UICONTROL 有効期限]**」フィールドに指定した日時を過ぎると有効期限が切れます。 Brand Portalでの期限切れのアセットの動作とロールベースのアクティビティの変更について詳しくは、[&#x200B; アセットのデジタル権限の管理](../using/manage-digital-rights-of-assets.md#asset-expiration)を参照してください。
 
    >[!NOTE]
    >

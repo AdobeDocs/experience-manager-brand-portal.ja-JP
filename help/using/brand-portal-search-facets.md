@@ -7,10 +7,17 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
 TQID: https://experienceleague.adobe.com/SYuZB0vfNFNK55QKcIQeROLmufoUIXMrgtXEPGkTo8A
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: cda65036-5305-4f01-89da-9b3506ae8c50
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: ce44533e-8ec8-4e11-a9e9-78b0fe561832id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 1363
@@ -22,7 +29,7 @@ ht-degree: 59%
 
 管理者は、[!UICONTROL フィルター]パネルに検索用述語を追加することで、検索をカスタマイズして、多目的な検索機能を設定できます。
 
-Brand Portalでは、承認済みブランドアセットの詳細な検索に対して[ ファセット検索](../using/brand-portal-searching.md#search-using-facets-in-filters-panel)をサポートしています。これは、[**フィルター** パネル ](../using/brand-portal-searching.md#search-using-facets-in-filters-panel)が原因で可能です。 検索ファセットは、管理者ツールの&#x200B;**[!UICONTROL 検索フォーム]**&#x200B;を通じてフィルターパネルで利用できます。 Asset Admin Search Railという名前のデフォルトの検索フォームが、管理ツールのFormsの検索ページに存在します。 ただし、管理者はデフォルトのフィルターパネルをカスタマイズできます。 デフォルトの検索フォーム（アセット管理者の検索レール）を編集するには、検索述語を追加、編集、または削除します。これにより、検索機能が多機能になります。
+Brand Portalでは、承認済みブランドアセットの詳細な検索に対して[&#x200B; ファセット検索](../using/brand-portal-searching.md#search-using-facets-in-filters-panel)をサポートしています。これは、[**フィルター** パネル &#x200B;](../using/brand-portal-searching.md#search-using-facets-in-filters-panel)が原因で可能です。 検索ファセットは、管理者ツールの&#x200B;**[!UICONTROL 検索フォーム]**&#x200B;を通じてフィルターパネルで利用できます。 Asset Admin Search Railという名前のデフォルトの検索フォームが、管理ツールのFormsの検索ページに存在します。 ただし、管理者はデフォルトのフィルターパネルをカスタマイズできます。 デフォルトの検索フォーム（アセット管理者の検索レール）を編集するには、検索述語を追加、編集、または削除します。これにより、検索機能が多機能になります。
 
 様々な検索用述語を使用して、**[!UICONTROL フィルター]**&#x200B;パネルをカスタマイズできます。 例えば、プロパティの述語を使用すると、この述語内でユーザーが指定した 1 つのプロパティと一致するアセットを検索できます。 オプションの述語を追加すると、特定のプロパティについてユーザーが指定した 1 つ以上の値と一致するアセットを検索できます。 日付範囲の述語を追加すると、指定した期間内に作成されたアセットを検索できます。
 

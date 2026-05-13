@@ -8,9 +8,13 @@ content-type: reference
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
 TQID: https://experienceleague.adobe.com/3ZH-bkACyy-0XGHZu4uxJCXGgAKCoD4JmcCd1vBBxLA
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 904
@@ -75,7 +79,7 @@ Brand Portalでは、管理者は期限切れのアセットをコレクショ�
 
 ライセンスで保護されたアセットを Brand Portal からダウンロードするときは、事前に使用許諾契約への同意が求められます。 ライセンス済みアセットに関するこの契約書は、Brand Portalから直接ダウンロードするか、共有リンクを介してダウンロードする場合に適用されます。 有効期限が切れているかどうかにかかわらず、すべてのユーザーはライセンスで保護されたアセットを表示できます。 ただし、使用期限が切れたライセンス済みアセットのダウンロードと使用には制限があります。 使用期限が切れたライセンス済みアセットの動作と、ユーザーの役割に基づく許可されたアクティビティについては、[使用期限が切れたアセットの使用権限](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets)を参照してください。
 
-ライセンスで保護されたアセットには、[ ライセンス契約](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm)が添付されています。これは、[!DNL Experience Manager Assets]でアセットのメタデータプロパティを設定することによって行われます。
+ライセンスで保護されたアセットには、[&#x200B; ライセンス契約](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm)が添付されています。これは、[!DNL Experience Manager Assets]でアセットのメタデータプロパティを設定することによって行われます。
 
 アセットに次のいずれかまたは両方のメタデータプロパティが含まれている場合、アセットは保護されていると見なされます。
 
@@ -106,4 +110,4 @@ Brand Portalでは、管理者は期限切れのアセットをコレクショ�
 
 ![](assets/assets-expired.png)
 
-レポート機能について詳しくは、[ レポートの操作](../using/brand-portal-reports.md#work-with-reports)を参照してください。
+レポート機能について詳しくは、[&#x200B; レポートの操作](../using/brand-portal-reports.md#work-with-reports)を参照してください。

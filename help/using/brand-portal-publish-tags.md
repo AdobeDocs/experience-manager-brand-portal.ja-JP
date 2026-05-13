@@ -6,9 +6,13 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
 TQID: https://experienceleague.adobe.com/5U3958LUe-Pw2LMcX9fEDKIYHU6IVQ-J4CeKlmBFuKo
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 639
@@ -35,7 +39,7 @@ Experience Manager Assets から Brand Portal にタグを公開する方法に�
 AEMでタグを作成し、Brand Portalでタグを公開し、タグを適切なアセット（またはコレクション）に関連付けるには、次の手順に従います。
 
 1. **タグを作成**
-管理者権限でAEM オーサーインスタンスにログインし、グローバルナビゲーションから**[!UICONTROL AEM Tags]** コンソールにアクセスします。
+管理者権限でAEM オーサーインスタンスにログインし、グローバルナビゲーションから&#x200B;**[!UICONTROL AEM Tags]** コンソールにアクセスします。
 
    1. 「**[!UICONTROL ツール]**」を選択します
 
@@ -61,11 +65,11 @@ AEMでタグを作成し、Brand Portalでタグを公開し、タグを適切�
 
 1. **タグを Brand Portal に公開します**。
 
-   **[!UICONTROL AEM Tags]** コンソール （[!UICONTROL  ツール | タグ付け| AEM Tags]）に移動し、目的のタグを選択してBrand Portalに公開します。
+   **[!UICONTROL AEM Tags]** コンソール （[!UICONTROL &#x200B; ツール | タグ付け| AEM Tags]）に移動し、目的のタグを選択してBrand Portalに公開します。
 
 1. **タグをアセット（またはコレクション）に関連付けます**。
 
-   アセット（またはコレクション）を選択し、そのアセットの「プロパティ」セクションまたは「タグを管理」セクションを使用して、目的のタグを添付します。 AEM Assetsでアセットにタグを割り当てる方法について詳しくは、[ タグを使用したアセットの整理](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/organize-assets)を参照してください。
+   アセット（またはコレクション）を選択し、そのアセットの「プロパティ」セクションまたは「タグを管理」セクションを使用して、目的のタグを添付します。 AEM Assetsでアセットにタグを割り当てる方法について詳しくは、[&#x200B; タグを使用したアセットの整理](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/organize-assets)を参照してください。
 
 1. **アセット（またはコレクション）を Brand Portal に公開します**。\
    アセット（またはコレクション）を Brand Portal に公開すると、関連付けられているタグも Brand Portal 上で利用できるようになります。

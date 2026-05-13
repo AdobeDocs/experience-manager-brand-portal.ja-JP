@@ -8,10 +8,15 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
 TQID: https://experienceleague.adobe.com/7CFDihMZL-A0aWNO37Gf4C-3l4YwqHd39lnl-PSI6NA
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 1513
@@ -34,7 +39,7 @@ Brand Portal に関する FAQ では、最新の Experience Manager Assets Brand
 
 **回答：**&#x200B;はい、Adobe Developer Console を介して Experience Manager Assets 6.5.4 に投稿フォルダーのアセットを公開する際に既知の問題が発生します。
 
-この問題は、Experience Manager Assets 6.5.5で修正されています。 Experience Manager Assets インスタンスを最新のサービスパックにアップグレードし、Adobe Developer Consoleで[設定をアップグレード ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65)できます。
+この問題は、Experience Manager Assets 6.5.5で修正されています。 Experience Manager Assets インスタンスを最新のサービスパックにアップグレードし、Adobe Developer Consoleで[設定をアップグレード &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65)できます。
 
 
 **質問：Brand Portal から公開された投稿フォルダーのコンテンツが Experience Manager Assets に表示されません。 考えられる理由は何でしょうか？**
@@ -77,7 +82,7 @@ Brand Portal に関する FAQ では、最新の Experience Manager Assets Brand
 
 **質問：新しいバージョンの Brand Portal にはいつ移行しますか？**
 
-**回答：**Brand Portal 6.4.5 は、2019年10月に実稼動環境へリリースされました。 また、次の Brand Portal バージョンは、2020年3月にリリースされる予定です。
+**回答：**&#x200B;Brand Portal 6.4.5 は、2019年10月に実稼動環境へリリースされました。 また、次の Brand Portal バージョンは、2020年3月にリリースされる予定です。
 アップデートとバージョンの変更について詳しくは、アドビでは、[リリースノート](brand-portal-release-notes.md)と [Brand Portal の新機能](whats-new.md)を参照することをお勧めします。
 
 
@@ -96,7 +101,7 @@ Brand Portal に関する FAQ では、最新の Experience Manager Assets Brand
 
 **質問：投稿フォルダーを作成できるのは誰ですか？**
 
-**回答：** Experience Manager Assets でフォルダーを作成する権限を持つ Experience Manager Assets ユーザーであれば、誰でも&#x200B;**投稿**&#x200B;フォルダーを作成できます。 **投稿**&#x200B;フォルダーを作成するには、**アセット投稿**タイプのフォルダーを作成します。
+**回答：** Experience Manager Assets でフォルダーを作成する権限を持つ Experience Manager Assets ユーザーであれば、誰でも&#x200B;**投稿**&#x200B;フォルダーを作成できます。 **投稿**&#x200B;フォルダーを作成するには、**アセット投稿**&#x200B;タイプのフォルダーを作成します。
 このフォルダーは、投稿用として、アクティブな Brand Portal ユーザーと共有されます。
 
 
@@ -104,13 +109,13 @@ Brand Portal に関する FAQ では、最新の Experience Manager Assets Brand
 **質問：投稿フォルダーには何が含まれますか？**
 
 **回答：** **投稿**&#x200B;フォルダーには、**NEW** と **SHARED** の 2 つのサブフォルダーが含まれます。 始めは、NEW フォルダーは空で、SHARED フォルダーには Brand Portal ユーザーの参照コンテンツ（再利用可能なアセット）が含まれます。
-Brand Portal ユーザーは**投稿**&#x200B;フォルダーにアクセスし、**NEW** フォルダーにコンテンツをアップロードします。
+Brand Portal ユーザーは&#x200B;**投稿**&#x200B;フォルダーにアクセスし、**NEW** フォルダーにコンテンツをアップロードします。
 
 
 
 **質問：既存の投稿フォルダーの名前を変更できますか？**
 
-**回答：****いいえ**、既存の&#x200B;**投稿**&#x200B;フォルダーの名前は変更できません。
+**回答：**&#x200B;**いいえ**、既存の&#x200B;**投稿**&#x200B;フォルダーの名前は変更できません。
 
 
 
@@ -126,7 +131,7 @@ Brand Portal ユーザーは**投稿**&#x200B;フォルダーにアクセスし�
 
 **質問：投稿フォルダーにアクセスするにはどうすればよいですか？**
 
-**回答：****投稿**&#x200B;フォルダーには、自分と共有されている場合にのみアクセスできます。 投稿フォルダーが自分と共有されるたびに、メール／パルス通知が届きます。 メールで共有されたリンクを介して投稿フォルダーにアクセスできます。 または、Brand Portal インスタンスにログインし、通知のベルアイコンに移動して、投稿フォルダーにアクセスすることもできます。
+**回答：**&#x200B;**投稿**&#x200B;フォルダーには、自分と共有されている場合にのみアクセスできます。 投稿フォルダーが自分と共有されるたびに、メール／パルス通知が届きます。 メールで共有されたリンクを介して投稿フォルダーにアクセスできます。 または、Brand Portal インスタンスにログインし、通知のベルアイコンに移動して、投稿フォルダーにアクセスすることもできます。
 
 >[!NOTE]
 >

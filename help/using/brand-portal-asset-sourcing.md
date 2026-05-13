@@ -13,10 +13,15 @@ version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
 TQID: https://experienceleague.adobe.com/52tECcTrEZL6eSx--nL07mGMJ94Tf7B6ZlHQ8BlqNvY
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 662
@@ -53,7 +58,7 @@ ht-degree: 53%
 >
 >Experience Manager Assets 6.5.4には既知の問題があります。 Brand Portal ユーザーは、Adobe Developer Consoleにアップグレードする際に、Experience Manager Assetsに投稿フォルダーのアセットを公開できません。
 >
->この問題は、Experience Manager Assets 6.5.5で修正されています。 Experience Manager Assets インスタンスを最新のサービスパックにアップグレードし、Adobe Developer Consoleで[設定をアップグレード ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65)できます。
+>この問題は、Experience Manager Assets 6.5.5で修正されています。 Experience Manager Assets インスタンスを最新のサービスパックにアップグレードし、Adobe Developer Consoleで[設定をアップグレード &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65)できます。
 
 <!--
 
@@ -114,15 +119,15 @@ Experience Manager Assets 管理者は、アクティブな Brand Portal ユー�
 >
 >CSV ファイルの形式は、Admin Consoleでサポートされている一括ユーザーインポートと同じです。 メールと氏名は必須です。
 
-管理者は、Admin Consoleに新しいユーザーを追加できます。 詳細については、[ ユーザーの管理](brand-portal-adding-users.md)にアクセスしてください。 Admin Consoleでユーザーを追加した後、これらのユーザーをBrand Portal ユーザー設定ファイルに追加し、投稿フォルダーにアクセスする権限を割り当てることができます。
+管理者は、Admin Consoleに新しいユーザーを追加できます。 詳細については、[&#x200B; ユーザーの管理](brand-portal-adding-users.md)にアクセスしてください。 Admin Consoleでユーザーを追加した後、これらのユーザーをBrand Portal ユーザー設定ファイルに追加し、投稿フォルダーにアクセスする権限を割り当てることができます。
 
 **Brand Portal ユーザーリストをアップロードするには：**
 
 1. Experience Manager Assets インスタンスにログインします。
-1. [!UICONTROL  ツール ] パネルから、**[!UICONTROL Assets]** > **[!UICONTROL Brand Portal ユーザー]**&#x200B;に移動します。
+1. [!UICONTROL &#x200B; ツール &#x200B;] パネルから、**[!UICONTROL Assets]** > **[!UICONTROL Brand Portal ユーザー]**&#x200B;に移動します。
 
 1. Brand Portal 投稿者をアップロードウィンドウが開きます。
-ローカルマシンから参照し、アクティブなBrand Portal ユーザーリストを含む**設定（.csv） ファイル**&#x200B;をアップロードします。
+ローカルマシンから参照し、アクティブなBrand Portal ユーザーリストを含む&#x200B;**設定（.csv） ファイル**&#x200B;をアップロードします。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/upload-user-list2.png)
