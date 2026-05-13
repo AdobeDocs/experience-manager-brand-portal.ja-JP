@@ -1,15 +1,19 @@
 ---
 title: アセットをリンクとして共有
-description: Adobe Experience Manager Assets Brand Portal管理者が、承認済みの内部ユーザーや外部関係者（パートナーやベンダーなど）と複数のアセットのリンクを共有する方法について説明します。 編集者は、管理者によって共有されたアセットのみを閲覧および共有できます。
+description: Adobe Experience Manager Assets Brand Portal管理者が、承認済みの内部ユーザーや外部エンティティ（パートナーやベンダーを含む）と複数のアセットのリンクを共有する方法について説明します。 編集者は、管理者によって共有されたアセットのみを閲覧および共有できます。
 contentOwner: bdhar
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
+TQID: https://experienceleague.adobe.com/KfAwxHD9kHk-EdnUkYPfbHyJlJr0uQwyeFTXokO3lic
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: 969
 ht-degree: 72%
 
 ---
@@ -50,7 +54,7 @@ Link sharing access is restricted to editors and administrators.
    * 「**[!UICONTROL 有効期限]**」フィールドに、日付選択を使用して、リンクの有効期限を指定します。 デフォルトの有効期限は、リンクを共有した日から 7 日間です。
    * 「**[!UICONTROL 元のファイルのダウンロードを許可]**」チェックボックスをオンにして、受信者が元のレンディションをダウンロードできるようにします。
 
-   リンク共有されるアセットは、「**[!UICONTROL 有効期限]**」フィールドに指定した日時を過ぎると有効期限が切れます。 Brand Portalでの期限切れのアセットの動作と役割ベースのアクティビティの変更について詳しくは、[&#x200B; アセットのデジタル権限の管理 &#x200B;](../using/manage-digital-rights-of-assets.md#asset-expiration) を参照してください。
+   リンク共有されるアセットは、「**[!UICONTROL 有効期限]**」フィールドに指定した日時を過ぎると有効期限が切れます。 Brand Portalでの期限切れのアセットの動作とロールベースのアクティビティの変更について詳しくは、[ アセットのデジタル権限の管理](../using/manage-digital-rights-of-assets.md#asset-expiration)を参照してください。
 
    >[!NOTE]
    >
@@ -66,7 +70,7 @@ Link sharing access is restricted to editors and administrators.
 
 ## 共有リンクからのアセットのダウンロード {#download-assets-from-shared-links}
 
-メールに含まれているリンクをクリックして、共有アセットにアクセスします。 AEM リンク共有ページが開きます。
+メール内のリンクをクリックして、共有アセットにアクセスします。 AEM リンク共有ページが開きます。
 
 共有アセットをダウンロードするには：
 
@@ -82,7 +86,7 @@ Link sharing access is restricted to editors and administrators.
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
-1. デフォルトでは「**[!UICONTROL ダウンロード設定]**」の「**[!UICONTROL 高速ダウンロード]**」設定が有効になっています。 そのため、IBM® Aspera Connect を使用してダウンロードを続行するための確認ボックスが表示されます。
+1. デフォルトでは「**[!UICONTROL ダウンロード設定]**」の「**[!UICONTROL 高速ダウンロード]**」設定が有効になっています。 そのため、IBM® Aspera Connectを使用してダウンロードを続行する確認ボックスが表示されます。
 
    「**[!UICONTROL 高速ダウンロード]**」を引き続き使用するには、「**[!UICONTROL 許可]**」をクリックします。
 
@@ -92,16 +96,16 @@ Link sharing access is restricted to editors and administrators.
    >
    >共有リンクからアセットをダウンロードする際、アセットごとに個別のフォルダーが作成されます。
    >
-   >フォルダー、コレクション、20 個を超えるアセットのいずれかを選択した場合、「**[!UICONTROL ダウンロード]**」ダイアログボックスはスキップされます。 また、アクセス可能なすべてのアセットレンディション（動的なレンディションを除く）は、アセットごとに別個のフォルダーを持つ zip フォルダーにダウンロードされます。
+   >フォルダー、コレクション、または20個を超えるアセットを選択すると、**[!UICONTROL ダウンロード]** ダイアログボックスはスキップされます。 また、アクセス可能なすべてのアセットレンディション（動的なものを除く）は、各アセットごとに個別のフォルダーを含むzip フォルダーにダウンロードされます。
 
    >[!NOTE]
    >
-   >アセットを共有したユーザーを管理者が許可していない場合、共有リンクは元のレンディションをダウンロードしません。 [&#x200B; 元のレンディションへのアクセス権を持つ管理者によって許可された &#x200B;](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges) も参照してください。
+   >管理者がアセットを共有したユーザーを承認していない場合、共有リンクは元のレンディションをダウンロードしません。 元のレンディションへのアクセス権を管理者が許可した[も参照してください](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges)。
 
 
 >[!NOTE]
 >
->Brand Portalでは、リンク共有を使用して、サイズが 5 GB を超えるフォルダーやアセットをダウンロードすることは制限されています。
+>Brand Portalでは、リンク共有を使用して、サイズが5 GBを超えるフォルダーまたはアセットのダウンロードを制限しています。
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.
@@ -126,9 +130,9 @@ Link sharing access is restricted to editors and administrators.
 
 ## プレビューおよびサムネールをサポートするアセット形式 {#preview-thumbnail-support}
 
-次のマトリクスは、Brand Portalがサムネールとプレビューをサポートするアセット形式の一覧です。
+次のマトリックスは、Brand Portalがサムネールとプレビューをサポートするアセットのフォーマットを示しています。
 
-| アセット形式 | サムネールのサポート | プレビューのサポート |
+| アセット形式 | サムネールのサポート | プレビューサポート |
 |--------------|-------------------|-----------------|
 | PNG | ✓ | ✓ |
 | GIF | ✓ | ✓ |
@@ -187,7 +191,7 @@ Link sharing access is restricted to editors and administrators.
 | TAR | 該当なし | ✕ |
 | ZIP | ✓ | ✕ |
 
-次の凡例は、マトリックスで使用される記号を説明しています。
+次の凡例は、行列で使用される記号について説明しています。
 
 | シンボル | 意味 |
 |---|---|
@@ -200,7 +204,7 @@ Link sharing access is restricted to editors and administrators.
 
 リンクとして共有されているアセットの共有を解除するには、以下の手順を実行します。
 
-1. Brand Portalにログインすると、デフォルトで **[!UICONTROL ファイル]** ビューが開きます。 リンクとして共有したアセットを表示するには、**[!UICONTROL 共有リンク]**&#x200B;表示に移動します。
+1. Brand Portalにログインすると、デフォルトで&#x200B;**[!UICONTROL ファイル]** ビューが開きます。 リンクとして共有したアセットを表示するには、**[!UICONTROL 共有リンク]**&#x200B;表示に移動します。
 
 1. 表示されたリストから共有したリンクを確認します。
 
@@ -212,6 +216,6 @@ Link sharing access is restricted to editors and administrators.
 
    >[!NOTE]
    >
-   >共有リンクの表示は、ユーザーごとに異なります。 この機能には、テナントのすべてのユーザーが共有するすべてのリンクは表示されません。
+   >共有リンクの表示は、ユーザー固有です。 この機能では、テナントのすべてのユーザーが共有しているすべてのリンクは表示されません。
 
 1. 警告メッセージボックスで「**[!UICONTROL 続行]**」をクリックして、共有を解除することを確認します。 指定したリンク項目が、共有リンクの一覧から削除されます。

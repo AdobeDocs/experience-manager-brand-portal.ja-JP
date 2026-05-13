@@ -6,10 +6,16 @@ topic-tags: download-install, download assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
+TQID: https://experienceleague.adobe.com/4YwbUZ1PopjlrANgrvsKdf1EczcUTD2VR4PPyfRs1f4
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 69%
+source-wordcount: 1078
+ht-degree: 71%
 
 ---
 
@@ -17,11 +23,11 @@ ht-degree: 69%
 
 <!-- This topic is woefully out of date. It talks at length about using a third party application whose URLs have a variety of problems. Topic should either be deleted or updated entirely to not talk about a specific third party application that Adobe has no control over. It also appears that the third party app is NOT free anymore. -->
 
-Adobe Experience Manager Assets Brand Portal では、インストールオンデマンドアプリケーションである IBM® Aspera Connect との連携により、大きなアセットファイルのダウンロードパフォーマンスを向上させることができます。 このアプリケーションは、TCP オーバーヘッドを削除するために独自の技術を使用し、アセットファイルの転送速度を向上させるのに役立ちます。 この統合により、ダウンロード機能が強化されます。
+Adobe Experience Manager Assets Brand Portal では、インストールオンデマンドアプリケーションである IBM® Aspera Connect との連携により、大きなアセットファイルのダウンロードパフォーマンスを向上させることができます。 このアプリケーションは、独自のテクノロジーを使用してTCP オーバーヘッドを削除し、アセットファイルの転送速度を向上させるのに役立ちます。 この統合により、ダウンロード体験が強化されます。
 
 >[!NOTE]
 >
->ダウンロード速度は、ネットワーク帯域幅、サーバーの待ち時間、クライアントの地理的な場所などの要因によって異なるので、ユーザーによって異なります。
+>ダウンロード速度は、ネットワーク帯域幅、サーバーの遅延、クライアントの地理的位置などの要因に依存するため、ユーザーによって異なります。
 
 「**[!UICONTROL 高速ダウンロード]**」設定はデフォルトで有効になっているので、Brand Portal から目的のアセットファイルをダウンロードするのにかかる時間が大幅に短縮されます。
 
@@ -52,7 +58,7 @@ Adobe Experience Manager Assets Brand Portal では、インストールオン�
 
 ## ファイルアクセラレーターを使用した場合のダウンロードパフォーマンス例 {#expected-download-performance-using-file-accelerator}
 
-Aspera Connect ファイルダウンロードアクセラレーターを使用した場合の 2 GB ファイルのダウンロードパフォーマンスを次の表に示します。
+次の表は、Aspera Connect ファイルダウンロードアクセラレータを使用した2 GBのファイルのダウンロードパフォーマンスを示しています。
 
 *Brand Portal サーバーがオレゴン州（米国）にあることを考慮すると、ネットワーク帯域幅、サーバーのレイテンシ、クライアントの所在地などの要因によって測定結果は異なります。*
 
@@ -83,17 +89,17 @@ Brand Portal より早くアセットをダウンロードするには：
 
      ![select-asset](assets/select-asset.png)
 
-1. 選択したすべてのアセットが一覧表示された **[!UICONTROL ダウンロード]** ダイアログボックスが開きます。
+1. 選択したすべてのアセットを一覧表示する&#x200B;**[!UICONTROL ダウンロード]** ダイアログボックスが開きます。
 
-   アセットのダウンロード時にBrand Portal フォルダーの階層を保持するには、「**[!UICONTROL `Create separate folder for each asset`]**」チェックボックスをオンにします。
+   アセットのダウンロード中にBrand Portal フォルダーの階層を保持するには、**[!UICONTROL `Create separate folder for each asset`]** チェックボックスをオンにします。
 
-   ダウンロードボタンは、選択した項目の数を反映しています。 ルールの適用が完了したら、「**[!UICONTROL 項目をダウンロード]**」をクリックします。 ルールの適用方法について詳しくは、「[&#x200B; アセットのダウンロード &#x200B;](../using/brand-portal-download-assets.md#download-assets)」を参照してください。
+   ダウンロードボタンは、選択した項目の数を反映しています。 ルールの適用が完了したら、「**[!UICONTROL 項目をダウンロード]**」をクリックします。 ルールの適用方法について詳しくは、[ アセットのダウンロード ](../using/brand-portal-download-assets.md#download-assets)を参照してください。
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
 1. デフォルトでは「**[!UICONTROL ダウンロード設定]**」の「**[!UICONTROL 高速ダウンロード]**」設定が有効になっています。 したがって、IBM® Aspera Connect を使用してアセットをダウンロードするための確認ボックスが表示されます。
 
-   初めてアセットをダウンロードしたときに、ブラウザーにIBM® Aspera Connect がインストールされていない場合は、インストールを促すプロンプトが表示されます。 既存のバージョンが古い場合は、[Aspera ダウンロードアクセラレーター &#x200B;](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all) をインストールするように求められます。
+   初めてアセットをダウンロードし、ブラウザーにIBM® Aspera Connectがインストールされていない場合は、インストールを求めるメッセージが表示されます。 既存のバージョンが古い場合は、[Aspera ダウンロードアクセラレーター](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all)のインストールも求められます。
 
    ![](assets/aspera-not-launched.png)
 
@@ -176,11 +182,11 @@ On successful completion of the download, a dialog box shows the location where 
 
 ## Microsoft® Edge ブラウザーでのファイルアクセラレーターの使用 {#using-file-accelerator-on-microsoft-edge-browser}
 
-Microsoft® Edgeは拡張保護モード（EPM）で動作しており、同じプライベートネットワーク上にあるときや信頼済みサイトとの通信時に、Aspera Connect サーバーとの通信を防ぎます。 そのため、サーバーとの接続が確立されるたびにポップアップが表示されます。
+Microsoft® Edgeは、拡張保護モード（EPM）で動作し、同じプライベートネットワークまたは信頼できるサイトでのAspera Connect サーバーとの通信を防ぎます。 そのため、サーバーとの接続が確立されるたびにポップアップが表示されます。
 
 ![](assets/switchapps-msedge.png)
 
-Microsoft® Edgeで高速ダウンロード機能を使用するには、信頼済みサイト リストからBrand Portal サイトを削除します。
+Microsoft® Edgeで高速ダウンロード機能を使用するには、Brand Portal サイトを信頼できるサイト リストから削除します。
 
 1. コントロールパネルを開きます（**[!UICONTROL Windows キー + X]** を押し、「**[!UICONTROL コントロールパネル]**」を選択します）。
 1. **[!UICONTROL ネットワークとインターネット]**／**[!UICONTROL インターネットオプション]**&#x200B;に移動します。 「**[!UICONTROL セキュリティ]**」タブをクリックします。
@@ -189,7 +195,7 @@ Microsoft® Edgeで高速ダウンロード機能を使用するには、信頼�
 
 ## Aspera Connect クライアントの環境設定 {#aspera-connect-client-preferences}
 
-IBM® Aspera Connect クライアントの環境設定では、アイコンを右クリックして **[!UICONTROL 環境設定]** を選択すると、便利な環境設定をいくつか設定できます。
+IBM® Aspera Connect クライアントの環境設定では、アイコンを右クリックし、**[!UICONTROL 環境設定]**&#x200B;を選択することで、いくつかの便利な環境設定を設定できます。
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
@@ -197,7 +203,7 @@ IBM® Aspera Connect クライアントの環境設定では、アイコンを�
 
 ![](assets/aspera-preferences.png)
 
-また、Aspera Connect クライアントは、システムの起動時に自動的に起動するようにマークできます。 また、Connect クライアントが実行され、ダウンロードが高速に開始できます。
+また、Aspera Connect クライアントは、システム起動時に自動的に起動するようにマークできます。 また、Connect クライアントが実行され、ダウンロードを迅速に開始できます。
 
 ![](assets/aspera-automaticallylaunch.png)
 
@@ -205,11 +211,11 @@ IBM® Aspera Connect クライアントの環境設定では、アイコンを�
 
 ダウンロードアクセラレーションが機能しない場合は、次の提案事項を試してください。
 
-1. そのポートがブロックされていないことを確認します。 Google検索を使用して、使用しているオペレーティングシステムに応じて、ポートがブロックされているかどうかを確認できるオプションを見つけます。  <!-- THIS URL IS 404 AND DOES NOT REDIRECT [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) from your computer. -->
+1. そのポートがブロックされていないことを確認します。 Google 検索を使用して、使用しているオペレーティングシステムに応じて、ポートがブロックされているかどうかを確認できるオプションを見つけます。<!-- THIS URL IS 404 AND DOES NOT REDIRECT [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) from your computer. -->
 
    ポートに問題がある場合は、ネットワークチームに連絡して、ポート 33001（TCP と UDP の両方）がファイアウォールでブロックされていないことを確認します。
 
-1. ポートに問題がない場合は、[https://www.speedtest.net/](https://www.speedtest.net/) を使用して使用可能な帯域幅を測定し、ネットワークが低速になっていないかどうかを確認します。
+1. ポートが正常な場合は、[https://www.speedtest.net/](https://www.speedtest.net/)を使用して使用可能な帯域幅を測定して、ネットワークの速度が遅くないことを確認します。
 
    帯域幅が少ない（1～10 Mbps）または Kbps 単位の場合、Aspera の環境設定を使用して、利用可能な帯域幅と同じ帯域幅に制限してみてください。
 

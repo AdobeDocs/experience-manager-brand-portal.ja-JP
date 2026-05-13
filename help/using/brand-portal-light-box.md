@@ -1,21 +1,24 @@
 ---
-title: Lightbox コレクションの管理
-description: Lightbox は、アセットに容易にアクセスするための特別なタイプのコレクションです。各ユーザーには、初めてBrand Portalにログインしたときに自動的に作成される専用の Lightbox があります。 Lightbox コレクションは削除できません。
+title: ライトボックスコレクションの管理
+description: Lightbox は、アセットに容易にアクセスするための特別なタイプのコレクションです。 各ユーザーには、Brand Portalに初めてログインしたときに自動的に作成される専用のライトボックスがあります。 Lightbox コレクションは削除できません。
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 role: Admin
 exl-id: 84160b81-e321-4920-9a86-e4cce3fa874c
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+TQID: https://experienceleague.adobe.com/L2E-5TOIkUJ0eC73It7IY9FLcvq9NrFnzw-lFUu6FKc
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: 241
 ht-degree: 76%
 
 ---
 
 # Lightbox コレクションの管理 {#manage-the-lightbox-collection}
 
-**[!UICONTROL Lightbox]** は、アセットに容易にアクセスするための特別なタイプのコレクションです。Brand Portal に初めてログインすると、各ユーザー専用の **[!UICONTROL Lightbox]** が自動的に作成されます。**[!UICONTROL Lightbox]** コレクションは削除できません。
+**[!UICONTROL Lightbox]** は、アセットに容易にアクセスするための特別なタイプのコレクションです。 Brand Portal に初めてログインすると、各ユーザー専用の **[!UICONTROL Lightbox]** が自動的に作成されます。 **[!UICONTROL Lightbox]** コレクションは削除できません。
 
 ## Lightbox へのアセットの追加 {#add-assets-to-lightbox}
 
@@ -25,13 +28,13 @@ ht-degree: 76%
 
    ![](assets/link_sharing_assetselection.png)
 
-1. 上部のツールバーで、「**コレクションに追加** アイコンをクリックします。
+1. 上部のツールバーで、**コレクションに追加** アイコンをクリックします。
 
    ![](assets/add_to_collection.png)
 
 1. **[!UICONTROL コレクションに追加]**&#x200B;ページでは、**[!UICONTROL Lightbox]** コレクションがデフォルトで選択されています。
 
-   「**[!UICONTROL 追加]**」をクリックします。選択したアセットが **[!UICONTROL Lightbox]** に追加されます。
+   「**[!UICONTROL 追加]**」をクリックします。 選択したアセットが **[!UICONTROL Lightbox]** に追加されます。
 
    ![](assets/add_to_collectionlightbox.png)
 
@@ -49,7 +52,7 @@ ht-degree: 76%
 
    ![](assets/collections_lightbox-1.png)
 
-1. コレクションから削除するフォルダーを選択し、上部のツールバーで **[!UICONTROL 削除]** をクリックします。
+1. コレクションから削除するフォルダーを選択し、上部のツールバーから「**[!UICONTROL 削除]**」をクリックします。
 
    ![](assets/collections_lightboxdelete.png)
 
