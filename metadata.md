@@ -5,16 +5,17 @@ solution: Experience Manager, Experience Manager Assets
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+usetq: true
 feature-set: Experience Manager Assets
 landing-page-name: experience-manager
 landing-page-breadcrumb-title: AEM
 type: Documentation
 index: true
 recommendations: noDisplay
-source-git-commit: 3178e1d35f5817e90a6554a370e9636008aeab3e
+source-git-commit: a3401b28f2a2509472d5b8f1e0af395939c029ff
 workflow-type: tm+mt
-source-wordcount: 130
-ht-degree: 0%
+source-wordcount: 85
+ht-degree: 1%
 
 ---
 
