@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+source-git-commit: 870850fd29819d96017608f1db48d46b38c62bff
 workflow-type: tm+mt
-source-wordcount: 1714
-ht-degree: 61%
+source-wordcount: 1549
+ht-degree: 55%
 
 ---
 
@@ -33,8 +33,8 @@ ht-degree: 61%
 
 **Adobe Experience Manager（AEM） Assets Brand Portal**&#x200B;は、アセット配信機能とアセット貢献機能を提供することで、マーケターがグローバルに分散しているBrand Portal ユーザーと効果的にコラボレーションする必要性に注目しています。
 
-アセット配布を使用すると、承認されたクリエイティブアセットを取得、制御し、デバイス間で外部の関係者や社内のビジネスユーザーに安全に配布できます。 ただし、Brand Portal ユーザーは、アセットをBrand PortalにアップロードしてExperience Manager Assetsに公開できます。その際、オーサー環境にアクセスする必要はありません。 投稿機能は、**Brand Portal でのアセットソーシング**&#x200B;と呼ばれます。 これらにより、Brand Portal ユーザー（外部の代理店／チーム）からのアセット配布および投稿の全体的な Brand Portal エクスペリエンスを向上させ、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。
-[Brand Portal でのアセットソーシング](brand-portal-asset-sourcing.md)を参照してください。
+アセット配布を使用すると、承認されたクリエイティブアセットを取得、制御し、デバイス間で外部の関係者や社内のビジネスユーザーに安全に配布できます。ただし、Brand Portal ユーザーは、アセットをBrand PortalにアップロードしてExperience Manager Assetsに公開できます。その際、オーサー環境にアクセスする必要はありません。貢献機能は、Brand Portalの&#x200B;**Assets ソーシング**&#x200B;と呼ばれます。また、Brand Portalのユーザー（外部代理店/チーム）によるアセット配信と提供の全体的なエクスペリエンスを向上させ、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減します。
+Brand Portalでの[&#x200B; アセットソーシング &#x200B;](brand-portal-asset-sourcing.md)を参照してください。
 
 ブラウザーベースのポータル環境では、承認済みの形式でアセットを簡単にアップロード、参照、検索、プレビュー、エクスポートできます。
 
@@ -50,7 +50,7 @@ Adobe Experience Manager Assets と Brand Portal の連携を設定すると、B
 >
 > * Brand Portal はメンテナンスモードです。 すべての新しい製品イノベーションは[コンテンツハブ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)で使用できます。
 > * Brand Portal を引き続きアクティベートする必要がある場合、ユースケースやその他の特定の要件について詳しくは、アドビ担当者にお問い合わせください。
-> * Brand Portal は、[Assets Prime](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/assets-prime) または [Assets Ultimate](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview) では使用できません。 ただし、既に Brand Portal へのアクセス権を持つ既存の Assets as a Cloud Service のお客様は、Assets Ultimate に移行しても Brand Portal を引き続き使用できます。
+> * Brand Portal は、[Assets Prime](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/assets-prime) または [Assets Ultimate](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview) では使用できません。 ただし、既にBrand Portalにアクセスしている既存のAssets as a Cloud Serviceのお客様は、Assets Ultimateに移行するときに引き続きを使用できます。
 
 <!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
@@ -92,7 +92,7 @@ Brand Portal では次のユーザー役割をサポートしています。
 
 Experience Manager Assets Brand Portal では、Brand Portal への[ゲストによるアクセス](#request-access-to-brand-portal)を許可します。 ゲストユーザーは資格情報がなくてもポータルに入ることができ、公開フォルダー（およびコレクション）にアクセスできます。 ゲストユーザーは、アセットの詳細を参照し、公開フォルダーとコレクションのメンバーの完全なアセットビューを持つことができます。 公開アセットを検索、ダウンロードして、[!UICONTROL Lightbox] コレクションに追加できます。
 
-ただし、ゲストセッションでは、コレクションや保存済み検索の作成が制限され、さらに共有されます。 ゲストセッション中のユーザーはフォルダーやコレクションの設定にアクセスしたり、アセットをリンクとして共有したりすることはできません。 次に、ゲストユーザーが実行できるタスクの一覧を示します。
+ただし、ゲストセッションでは、コレクションの作成と検索条件の保存が制限されています。 ゲストセッションのユーザーは、フォルダーとコレクションの設定にアクセスできず、アセットをリンクとして共有できません。 次に、ゲストユーザーが実行できるタスクの一覧を示します。
 
 * [公開アセットの参照および公開アセットへのアクセス](browse-assets-brand-portal.md)
 
@@ -153,15 +153,15 @@ AEM Assets の作成者は、上記のタスクに加えて、次のタスクを
 
 Brand Portal 6.4.3以降、組織は、Brand Portal テナントの既存のURLごとに1つの代替（エイリアス） URLを持つことができます。 エイリアス URL を作成するには、既存の URL に代替接頭辞を含めます。\
 テナント名が32文字を超える場合は、テナントエイリアスを作成する必要があります。
-カスタマイズできるのは Brand Portal URL の接頭辞のみであり、URL 全体でないことに注意してください。 例えば、`geomettrix.brand-portal.adobe.com` という既存ドメインを持つ組織は、アドビに依頼することで `geomettrixinc.brand-portal.adobe.com` という URL を作成できます。
+Brand Portal URLのプレフィックスのみがカスタマイズでき、URL全体はカスタマイズできないことに注意してください。例えば、既存のドメイン `geomettrix.brand-portal.adobe.com`を持つ組織は、リクエストに応じて`geomettrixinc.brand-portal.adobe.com`を作成できます。
 
 ただし、AEM オーサーインスタンスは、テナント ID URLのみで[設定](../using/configure-aem-assets-with-brand-portal.md)でき、テナントエイリアス（代替） URLでは設定できません。
 
 >[!NOTE]
 >
->既存のポータル URLでテナント名のエイリアスを取得するには、新しいテナントエイリアス作成リクエストをカスタマーサポートに連絡する必要があります。 まず、エイリアスが使用可能かどうかを確認し、このリクエストを処理するエイリアスを作成します。
+>既存のポータル URLでテナント名のエイリアスを取得するには、新しいテナントエイリアス作成要求をカスタマーサポートに連絡する必要があります。 まず、エイリアスが使用可能かどうかを確認し、このリクエストを処理するエイリアスを作成します。
 >
->古いエイリアスを置き換えたり、削除したりするには、同じ手続きに従う必要があります。
+>古いエイリアスを置換または削除するには、同じプロセスに従う必要があります。
 
 ## Brand Portal へのアクセス権の申請 {#request-access-to-brand-portal}
 
@@ -183,7 +183,7 @@ Brand Portal 6.4.3以降、組織は、Brand Portal テナントの既存のURL�
 
    **シナリオ 1**
 
-   1. [!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID] または [!UICONTROL Federated ID] を持っている場合は、「**[!UICONTROL ログイン]**」をクリックします。
+   1. [!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID]、または[!UICONTROL Federated ID]をお持ちの場合は、**[!UICONTROL ログイン]**&#x200B;をクリックしてください。
 [!UICONTROL &#x200B; ログイン &#x200B;] ページが開きます。
 
    1. [!UICONTROL Adobe ID]の資格情報を入力し、**[!UICONTROL ログイン]**&#x200B;をクリックします。
@@ -194,9 +194,9 @@ Brand Portal 6.4.3以降、組織は、Brand Portal テナントの既存のURL�
 
    **シナリオ 2**
 
-   1. [!UICONTROL Adobe ID] を持っていない場合は、[!UICONTROL アクセスを申請]ページの「**[!UICONTROL Adobe ID を取得]**」をクリックして、Adobe ID を作成します。
+   1. [!UICONTROL Adobe ID]をお持ちでない場合は、作成するには、[!UICONTROL &#x200B; アクセスをリクエスト &#x200B;] ページから&#x200B;**[!UICONTROL Adobe ID]**&#x200B;を取得するをクリックしてください。
 [!UICONTROL &#x200B; ログイン &#x200B;] ページが開きます。
-   1. 「**[!UICONTROL Adobe ID を取得]**」をクリックします。
+   1. 「**[!UICONTROL Adobe IDを入手]**」をクリックします。
 [!UICONTROL 登録] ページが開きます。
    1. 名前、メール ID およびパスワードを入力します。
    1. 「**[!UICONTROL 新規登録]**」をクリックします。
@@ -205,7 +205,7 @@ Brand Portal 6.4.3以降、組織は、Brand Portal テナントの既存のURL�
 
    [!UICONTROL アクセスを申請]ページにリダイレクトされます。
 
-1. アクセスの申請に使用する現在のユーザーの名前とメール ID が次のページに表示されます。 管理者のコメントは空欄のまま、「**[!UICONTROL 送信]**」をクリックします。
+1. アクセスの申請に使用する現在のユーザーの名前とメール ID が次のページに表示されます。 管理者にコメントを残し、**[!UICONTROL 送信]**&#x200B;をクリックします。
 
    ![](assets/bplogin-request-access.png)
 
