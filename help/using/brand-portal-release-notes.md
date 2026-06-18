@@ -6,19 +6,11 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 TQID: https://experienceleague.adobe.com/e2-MbP-f0xwBB8JLpb-7V80uNP-0N8cCnJeCLJCfRm0
-product_v2:
-  - id: d09181b5-a36a-43de-ba01-36641440bc43
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
-  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2:
-  - id: a0cde32c-c339-4649-bd06-f1111bc952fc
-  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
-  - id: f0e3b2ca-813f-4b7a-81df-52339e17ddcf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: bd0d2470-932c-4269-8eca-6d939b72d9efid: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: a0cde32c-c339-4649-bd06-f1111bc952fcid: e00c7c12-7035-41fe-ad76-1ec82c8c3f01id: f0e3b2ca-813f-4b7a-81df-52339e17ddcf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
 workflow-type: tm+mt
 source-wordcount: 1633
 ht-degree: 93%
@@ -44,7 +36,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 ### 修正された重大な問題 {#critical-issues-fixed}
 
-#### 機能強化 {#enhancements}
+#### 機能強化
 
 このリリースで強化された機能は次のとおりです。
 
@@ -230,7 +222,7 @@ Brand Portal では、12 時間ごとに自動ジョブを実行して、AEM に
 * アクティブな同時使用ユーザー数の正しい値がシステムに表示されません。
 
 <!--
-### New Features {#new-features}
+### New Features
 
 This release includes the following new features:
 
@@ -263,7 +255,7 @@ Brand Portal users can exclude specific renditions which are not required and di
 -->
 
 <!--
-### Enhancements {#enhancements}
+### Enhancements
 
 Brand Portal 2021.08.0 is an internal release that introduces Business profiles for enterprise and teams customers to give organizations better control over their assets. 
 
@@ -301,7 +293,7 @@ This release includes the following enhancements:
 -->
 
 <!--
-### New features {#new-features}
+### New features
 
 Brand Portal now executes automatic jobs every twelve hours to delete all Brand Portal assets that are published to AEM. As a result, you do not need to delete the assets in the Contribution folder manually to keep the folder size below the threshold limit. See [What's new in Experience Manager Assets Brand Portal](whats-new.md).
 -->

@@ -7,16 +7,11 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
 TQID: https://experienceleague.adobe.com/JDFqy51bnJFV-WNbr9gA61jykF-DJXl90SF1Xn-WGJI
-product_v2:
-  - id: d09181b5-a36a-43de-ba01-36641440bc43
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2:
-  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
 workflow-type: tm+mt
 source-wordcount: 689
 ht-degree: 75%
@@ -29,7 +24,7 @@ ht-degree: 75%
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-コレクションは、電子メールを介してリンクとして共有されます。 共有リンクにアクセスできるすべてのユーザーがコレクションを開くことができます。 ただし、共有メールは誰にでも転送できます。 さらに、[共有リンク](https://experienceleague.adobe.com/ja/docs/experience-manager-brand-portal/using/share/brand-portal-link-share)は一時的で、一定期間のみアクセスできます。 また、ユーザーを永続的なメンバーとしてコレクションに招待することもできます。 コレクションには、次のタイプのユーザーが存在します。
+コレクションは、電子メールを介してリンクとして共有されます。 共有リンクにアクセスできるすべてのユーザーがコレクションを開くことができます。 ただし、共有メールは誰にでも転送できます。 さらに、[共有リンク](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share)は一時的で、一定期間のみアクセスできます。 また、ユーザーを永続的なメンバーとしてコレクションに招待することもできます。 コレクションには、次のタイプのユーザーが存在します。
 
 * **管理者**&#x200B;は、承認された Brand Portal ユーザーとコレクションを共有および共有解除できます。 他のユーザーを特定のコレクションに招待し、そのコレクションでの役割を定義できます。 また、管理者は公開コレクションを作成できます。
 
@@ -79,7 +74,7 @@ ht-degree: 75%
    >
    >コレクション内のアセットやフォルダーへのアクセスは、ユーザーの役割によって決まります。 アセットへのアクセス権を持たないユーザーは、空のコレクションを共有します。 また、コレクションに対して実行できるアクションも、ユーザーの役割によって決まります。
 
-## コレクションの共有解除 {#unshare-a-collection}
+## コレクションの共有解除
 
 以前に共有したコレクションを共有解除するには、次の手順に従います。
 
@@ -138,7 +133,7 @@ ht-degree: 75%
    >
    >A user's role governs access to the assets and folders inside a collection. If a user does not have access to assets, an empty collection is shared with the user. Also, a user's role governs the actions available for collections.
 
-## Unshare a collection {#unshare-a-collection}
+## Unshare a collection
 
 To unshare a previously shared collection, do the following:
 
