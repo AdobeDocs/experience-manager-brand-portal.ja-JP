@@ -171,7 +171,7 @@ Brand Portal インターフェイスからアセットまたはアセットを�
      >
      >ダウンロードしたアセットにライセンス済みのアセットも含まれている場合は、**[!UICONTROL 著作権管理]** ページにリダイレクトされます。 このページで、アセットを選択し、「**[!UICONTROL 同意する]**」をクリックし、「**[!UICONTROL ダウンロード]**」をクリックします。 「同意しない」を選択した場合は、ライセンスが必要なアセットはダウンロードされません。
      > 
-     >ライセンスで保護されたアセットには[&#x200B; ライセンス契約](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm)が添付されています。これは、Experience Manager Assetsでアセットの[&#x200B; メタデータプロパティ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm)を設定することによって行われます。
+     >ライセンスで保護されたアセットには[&#x200B; ライセンス契約](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/administer/drm)が添付されています。これは、Experience Manager Assetsでアセットの[&#x200B; メタデータプロパティ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/administer/drm)を設定することによって行われます。
 
 
      ![licensed-asset](assets/licensed-asset-new.png)
