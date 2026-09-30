@@ -8,23 +8,29 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 TQID: https://experienceleague.adobe.com/e2-MbP-f0xwBB8JLpb-7V80uNP-0N8cCnJeCLJCfRm0
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+    internal-label: Dynamic Media
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
 subfeature_v2:
   - id: a0cde32c-c339-4649-bd06-f1111bc952fc
+    internal-label: Smart Crop
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
   - id: f0e3b2ca-813f-4b7a-81df-52339e17ddcf
+    internal-label: Smart Tags
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
 workflow-type: tm+mt
-source-wordcount: 1633
+source-wordcount: '1633'
 ht-degree: 93%
-
 ---
-
 # リリースノート {#release-notes}
 
 Adobe Experience Manager Assets Brand Portal 2026.01.01 リリースの新機能、機能強化、修正された重大な問題および既知の問題について説明します。
@@ -111,12 +117,12 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 このリリースには、次の機能強化が含まれています。
 
 * [!UICONTROL ダウンロード]ポップアップでアセットを読み込む際のパフォーマンスの向上。
-* アセットまたはアセットのレンディションをダウンロードする場合、zip ファイルではなく、元のファイルタイプ形式でダウンロードされるようになりました。
+* アセットまたはアセットのレンディションをダウンロードする場合、zip ファイルではなく、元のファイル形式でダウンロードされるようになりました。
 
 このリリースには、次のバグ修正が含まれています。
 
 * 長いラベルまたはタグが、検索フィルターでは適切に表示されない。
-* ダウンロードダイアログボックスに長いレンディション名を表示できない。
+* ダウンロードダイアログに長いレンディション名を表示できない。
 * カード表示でビデオアセットをプレビューできない。
 
 ### 2023年5月リリース {#may-2023}
@@ -141,7 +147,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 * Brand Portal でプロファイル画像を更新できません。
 * コンテンツツリーパネルはサイズ変更できません。 ファイル名がコンテンツツリーのデフォルトの幅より長い場合、コンテンツツリーを水平および垂直にドラッグすることはできません。 その結果、長いファイル名は読み取れなくなります。
-* 検索フォーム内で 2 回使用されているのと同じプロパティの述語で、一致しない検索結果が表示される。
+* 検索フォームで同じプロパティ述語を 2 回使用すると、検索結果に一貫性がありません。
 * 中間ログインページのテキストがローカライズされていない言語がある。
 
 **機能強化**
@@ -175,13 +181,13 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 >[!IMPORTANT]
 >
->AEM Assets Brand Portal の Pulse 通知は、2022年12月1日（PT）以降停止されます。 Pulse 通知の代わりに、次のイベントに関するメール通知を引き続き受信できます。
+>AEM Assets Brand Portal の Pulse 通知は、2022年12月1日から廃止されます。 Pulse 通知の代わりに、次のイベントに関するメール通知を引き続き受信できます。
 >
 >* リンクを介したアセットの共有
 >* アクセスワークフローのリクエスト
 >* 投稿フォルダーの共有
 >* AEM への書き出しの開始
->* AEM への書き出しが完了しました
+>* AEM への書き出し完了
 >
 
 ### 2022年8月リリース {#aug-2022}
@@ -210,7 +216,7 @@ Brand Portal では、12 時間ごとに自動ジョブを実行して、AEM に
 * レンディションを含むビデオをダウンロードすると、Brand Portal によって無効な .ZIP ファイルが作成される。
 * AEM オーサーでプリセットとアセットを作成し、Brand Portal に公開すると、アセットのダウンロード中に動的レンディションを選択できる。 ただし、ダウンロードした.ZIP ファイルを抽出することができない。 この問題により、ダウンロードしたコンテンツにアクセスできない。
 * Brand Portal で使用可能な特定のフォルダーからビデオアセットをダウンロードする際の問題。
-* メールを使用して投稿フォルダーの URL を共有すると、閲覧者と編集者の役割を持つユーザーがパンくずリストを使用して親フォルダーにアクセスする際に問題が発生する。
+* メールを使用して投稿フォルダーの URL を共有すると、閲覧者および編集者の役割では、パンくずリストを使用して親フォルダーにアクセスする際に問題が発生する。
 * 公開されたレポートをソーシングすると、誤ったジョブ開始時刻が表示される。
 
 ### 2022年2月リリース {#feb-2022}
