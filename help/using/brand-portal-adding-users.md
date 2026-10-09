@@ -61,7 +61,7 @@ Comment Type: draft
 
 >[!NOTE]
 >
->Brand Portalにアクセスできない新規ユーザーは、Brand Portalのログイン画面からアクセスをリクエストできます。 詳しくは、[Brand Portalへのアクセスをリクエスト ](../using/brand-portal.md#request-access-to-brand-portal)を参照してください。 管理者は、通知領域にアクセス権申請の通知が届いたら、関連する通知をクリックして「**[!UICONTROL アクセス権を付与]**」をクリックします。 または、アクセス権申請のメールが届いたら、そこに記載されているリンクをクリックします。 その後、[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) からユーザーを追加するには、以下の手順 4～7 を行います。
+>Brand Portalにアクセスできない新規ユーザーは、Brand Portalのログイン画面からアクセスをリクエストできます。 詳しくは、[Brand Portalへのアクセスをリクエスト &#x200B;](../using/brand-portal.md#request-access-to-brand-portal)を参照してください。 管理者は、通知領域にアクセス権申請の通知が届いたら、関連する通知をクリックして「**[!UICONTROL アクセス権を付与]**」をクリックします。 または、アクセス権申請のメールが届いたら、そこに記載されているリンクをクリックします。 その後、[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) からユーザーを追加するには、以下の手順 4～7 を行います。
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Comment Type: draft
 
    ![Admin Console の概要](assets/admin_console_overviewadduser.png)
 
-   * 上部のツールバーの「**[!UICONTROL ユーザー]**」をクリックします。 [!UICONTROL  ユーザー] ページでは、左側のパネルの[!UICONTROL  ユーザー]がデフォルトで選択されています。 「**[!UICONTROL ユーザーを追加]**」をクリックします。
+   * 上部のツールバーの「**[!UICONTROL ユーザー]**」をクリックします。 [!UICONTROL &#x200B; ユーザー] ページでは、左側のパネルの[!UICONTROL &#x200B; ユーザー]がデフォルトで選択されています。 「**[!UICONTROL ユーザーを追加]**」をクリックします。
 
    ![Admin Console でユーザーを追加](assets/admin_console_adduseruserpage.png)
 
@@ -100,7 +100,7 @@ Comment Type: draft
    >
    >ユーザーがBrand Portalにログオンできない場合は、Adobe [!UICONTROL Admin Console]にアクセスする必要があります。 ユーザーが存在し、少なくとも1つの製品プロファイルに追加されているかどうかを確認します。
 
-   ユーザーに管理者権限を付与する方法について詳しくは、[ ユーザーに管理者権限を提供する](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers)を参照してください。
+   ユーザーに管理者権限を付与する方法について詳しくは、[&#x200B; ユーザーに管理者権限を提供する](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers)を参照してください。
 
 ## 製品プロファイルの追加 {#add-a-product-profile}
 
@@ -123,7 +123,7 @@ Comment Type: draft
    ![Admin Console の起動](assets/launch_admin_console.png)
 
 1. 上部のツールバーの「**[!UICONTROL 製品]**」をクリックします。
-1. [!UICONTROL 製品] ページでは、[!UICONTROL 製品プロファイル ]がデフォルトで選択されています。 「**[!UICONTROL 新しいプロファイル]**」をクリックします。
+1. [!UICONTROL 製品] ページでは、[!UICONTROL 製品プロファイル &#x200B;]がデフォルトで選択されています。 「**[!UICONTROL 新しいプロファイル]**」をクリックします。
 
    ![新しい製品プロファイルの追加](assets/admin_console_addproductprofile.png)
 
@@ -156,7 +156,7 @@ Brand Portal グループにユーザーを追加するには、[!UICONTROL Admi
    ![[!DNL Admin Console]](assets/launch_admin_console.png) の起動
 
 1. 上部のツールバーの「**[!UICONTROL 製品]**」をクリックします。
-1. [!UICONTROL 製品] ページでは、[!UICONTROL 製品プロファイル ]がデフォルトで選択されています。 ユーザーを追加する製品プロファイル（例：[!UICONTROL Sales group]）を開きます。
+1. [!UICONTROL 製品] ページでは、[!UICONTROL 製品プロファイル &#x200B;]がデフォルトで選択されています。 ユーザーを追加する製品プロファイル（例：[!UICONTROL Sales group]）を開きます。
 
    ![製品プロファイル](assets/admin_console_productprofileadded.png)
 
@@ -190,7 +190,7 @@ Brand Portal グループにユーザーを追加するには、[!UICONTROL Admi
 
 ## ユーザーに管理者権限を提供する {#provide-administrator-privileges-to-users}
 
-Brand Portal ユーザーには、システム管理者権限または製品管理者権限を付与できます。 ただし、[!UICONTROL Admin Console]で使用可能な他の管理ロールを割り当てないでください。 たとえば、製品プロファイル管理者、ユーザーグループ管理者、サポート管理者などです。 [管理ロール ](https://helpx.adobe.com/jp/enterprise/using/admin-roles.html)を参照してください。
+Brand Portal ユーザーには、システム管理者権限または製品管理者権限を付与できます。 ただし、[!UICONTROL Admin Console]で使用可能な他の管理ロールを割り当てないでください。 たとえば、製品プロファイル管理者、ユーザーグループ管理者、サポート管理者などです。 [管理ロール &#x200B;](https://helpx.adobe.com/jp/enterprise/using/admin-roles.html)を参照してください。
 
 >[!NOTE]
 >
@@ -209,7 +209,7 @@ Brand Portal ユーザーには、システム管理者権限または製品管�
    ![Admin Console の起動](assets/launch_admin_console.png)
 
 1. 上部のツールバーの「**[!UICONTROL ユーザー]**」をクリックします。
-1. [!UICONTROL  ユーザー] ページの左側のパネルで、[!UICONTROL  ユーザー]がデフォルトで選択されています。 管理者権限を付与するユーザーの名前をクリックします。
+1. [!UICONTROL &#x200B; ユーザー] ページの左側のパネルで、[!UICONTROL &#x200B; ユーザー]がデフォルトで選択されています。 管理者権限を付与するユーザーの名前をクリックします。
 
    ![Admin Console でのユーザーの追加](assets/admin_console_adduseruserpage.png)
 
@@ -246,7 +246,7 @@ Brand Portal ユーザーには、システム管理者権限または製品管�
 管理者ロールに加えて、Brand Portalでは次のロールをサポートしています。
 
 * [!UICONTROL 閲覧者]：この役割を持つユーザーは、管理者から共有されたファイルやフォルダーを表示できます。 また、アセットの検索とダウンロードも可能です。 ただし、他のユーザーとコンテンツ（ファイル、フォルダー、[!UICONTROL コレクション]）を共有することはできません。
-* [!UICONTROL  エディター]：この役割を持つユーザーには、ビューアーのすべての権限があります。 さらに、他のユーザーとコンテンツ（フォルダー、[!UICONTROL コレクション]、リンク）を共有できます。
+* [!UICONTROL &#x200B; エディター]：この役割を持つユーザーには、ビューアーのすべての権限があります。 さらに、他のユーザーとコンテンツ（フォルダー、[!UICONTROL コレクション]、リンク）を共有できます。
 
 1. 上部の AEM ツールバーでアドビのロゴをクリックして、管理ツールにアクセスします。
 

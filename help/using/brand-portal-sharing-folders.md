@@ -121,7 +121,7 @@ Brand Portal は、アセットの取り込みをサポートしていません�
 
    ![](assets/share_icon.png)
 
-   [!UICONTROL  フォルダープロパティ ] コンソールが表示されます。
+   [!UICONTROL &#x200B; フォルダープロパティ &#x200B;] コンソールが表示されます。
 
    ![](assets/folder_properties.png)
 

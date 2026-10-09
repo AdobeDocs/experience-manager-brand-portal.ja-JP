@@ -145,7 +145,7 @@ Brand Portalには、ゲストユーザーが選択したアセット/フォル�
 
 ![](assets/download-on-guest.png)
 
-[!UICONTROL  ダウンロード ] ダイアログボックスで「**[!UICONTROL ダウンロードアクセラレーションを有効にする]**」を選択すると、[ ダウンロードパフォーマンスを向上させることができます](../using/accelerated-download.md)。
+[!UICONTROL &#x200B; ダウンロード &#x200B;] ダイアログボックスで「**[!UICONTROL ダウンロードアクセラレーションを有効にする]**」を選択すると、[&#x200B; ダウンロードパフォーマンスを向上させることができます](../using/accelerated-download.md)。
 
 ## ゲストセッションの終了 {#exit-guest-session}
 

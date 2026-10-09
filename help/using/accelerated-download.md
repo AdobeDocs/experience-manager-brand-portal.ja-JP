@@ -107,7 +107,7 @@ Brand Portal より早くアセットをダウンロードするには：
 
    アセットのダウンロード中にBrand Portal フォルダーの階層を保持するには、**[!UICONTROL `Create separate folder for each asset`]** チェックボックスをオンにします。
 
-   ダウンロードボタンは、選択した項目の数を反映しています。 ルールの適用が完了したら、「**[!UICONTROL 項目をダウンロード]**」をクリックします。 ルールの適用方法について詳しくは、[ アセットのダウンロード ](../using/brand-portal-download-assets.md#download-assets)を参照してください。
+   ダウンロードボタンは、選択した項目の数を反映しています。 ルールの適用が完了したら、「**[!UICONTROL 項目をダウンロード]**」をクリックします。 ルールの適用方法について詳しくは、[&#x200B; アセットのダウンロード &#x200B;](../using/brand-portal-download-assets.md#download-assets)を参照してください。
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
