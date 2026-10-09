@@ -6,26 +6,33 @@ topic-tags: download-install, download assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-TQID: https://experienceleague.adobe.com/4YwbUZ1PopjlrANgrvsKdf1EczcUTD2VR4PPyfRs1f4
+TQID: 'https://experienceleague.adobe.com/4YwbUZ1PopjlrANgrvsKdf1EczcUTD2VR4PPyfRs1f4'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Security
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1078
+source-wordcount: '1078'
 ht-degree: 71%
-
 ---
-
 # Brand Portal のダウンロードの高速化 {#guide-to-accelerate-downloads-from-brand-portal}
 
 <!-- This topic is woefully out of date. It talks at length about using a third party application whose URLs have a variety of problems. Topic should either be deleted or updated entirely to not talk about a specific third party application that Adobe has no control over. It also appears that the third party app is NOT free anymore. -->
@@ -40,9 +47,9 @@ Adobe Experience Manager Assets Brand Portal では、インストールオン�
 
 ![](assets/download-settings-new.png)
 
-## ファイルのダウンロードを高加速化するための前提条件 {#prerequisites-to-accelerate-file-download}
+## ファイルのダウンロードを高速化するための前提条件 {#prerequisites-to-accelerate-file-download}
 
-ファイルのダウンロードを高速化するには、必ず以下を行います。
+ファイルのダウンロードを高速化するには、以下を確認します。
 
 * **[!UICONTROL ツール]**／**[!UICONTROL ダウンロード]**&#x200B;に移動し、**[!UICONTROL ダウンロード設定]**&#x200B;で、「**[!UICONTROL 高速ダウンロード]**」設定が有効になっていることを確認します。
 * ファイアウォールのポート 33001（TCP と UDP の両方）が開いていることを確認します。
@@ -100,7 +107,7 @@ Brand Portal より早くアセットをダウンロードするには：
 
    アセットのダウンロード中にBrand Portal フォルダーの階層を保持するには、**[!UICONTROL `Create separate folder for each asset`]** チェックボックスをオンにします。
 
-   ダウンロードボタンは、選択した項目の数を反映しています。 ルールの適用が完了したら、「**[!UICONTROL 項目をダウンロード]**」をクリックします。 ルールの適用方法について詳しくは、[&#x200B; アセットのダウンロード &#x200B;](../using/brand-portal-download-assets.md#download-assets)を参照してください。
+   ダウンロードボタンは、選択した項目の数を反映しています。 ルールの適用が完了したら、「**[!UICONTROL 項目をダウンロード]**」をクリックします。 ルールの適用方法について詳しくは、[ アセットのダウンロード ](../using/brand-portal-download-assets.md#download-assets)を参照してください。
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
@@ -118,7 +125,7 @@ Brand Portal より早くアセットをダウンロードするには：
 
 1. クライアントが正常にインストールされたら、ブラウザーページを更新し、ダウンロード手順を再度開始します。
 
-1. 「**[!UICONTROL 高速ダウンロード]**」を引き続き使用するには、「**[!UICONTROL 許可]**」をクリックします。 選択したすべてのレンディションが、IBM® Aspera Connect を使用して zip フォルダーにダウンロードされます。
+1. 「**[!UICONTROL 高速ダウンロード]**」を引き続き使用するには、「**[!UICONTROL 許可]**」をクリックします。 選択したすべてのレンディションが、IBM® Aspera Connect を使用して zip ファイルにダウンロードされます。
 
    ダウンロードが正常に完了すると、ユーザーのシステム上にある、アセットのダウンロード先がダイアログボックスに表示されます。
 
@@ -206,7 +213,7 @@ IBM® Aspera Connect クライアントの環境設定では、アイコンを�
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
-デフォルトのダウンロード場所を設定できます。
+デフォルトのダウンロード先を設定できます。
 
 ![](assets/aspera-preferences.png)
 
@@ -216,9 +223,9 @@ IBM® Aspera Connect クライアントの環境設定では、アイコンを�
 
 ## ダウンロードアクセラレーションに関する問題のトラブルシューティング {#troubleshoot-issues-with-download-acceleration}
 
-ダウンロードアクセラレーションが機能しない場合は、次の提案事項を試してください。
+ダウンロードアクセラレーションが機能しない場合は、次の提案を試してください。
 
-1. そのポートがブロックされていないことを確認します。 Google 検索を使用して、使用しているオペレーティングシステムに応じて、ポートがブロックされているかどうかを確認できるオプションを見つけます。<!-- THIS URL IS 404 AND DOES NOT REDIRECT [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) from your computer. -->
+1. ポートがブロックされていないことを確認します。 Google 検索を使用して、使用しているオペレーティングシステムに応じて、ポートがブロックされているかどうかを確認できるオプションを見つけます。<!-- THIS URL IS 404 AND DOES NOT REDIRECT [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) from your computer. -->
 
    ポートに問題がある場合は、ネットワークチームに連絡して、ポート 33001（TCP と UDP の両方）がファイアウォールでブロックされていないことを確認します。
 

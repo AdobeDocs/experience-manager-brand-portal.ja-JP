@@ -6,7 +6,7 @@ contentOwner: Vishabh Gupta
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download, download-install, download assets
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-TQID: https://experienceleague.adobe.com/RxwM021BfmZtMB1oi-EtwMuHinMTOKclwEUNjcQu6o4
+TQID: 'https://experienceleague.adobe.com/RxwM021BfmZtMB1oi-EtwMuHinMTOKclwEUNjcQu6o4'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -17,6 +17,8 @@ feature_v2:
     internal-label: Dynamic Media
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
     internal-label: Hybrid mode
@@ -30,7 +32,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: d2c6731ba328a0acc2d95354d2e2490f5cf0b320
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
 source-wordcount: '1957'
 ht-degree: 65%
@@ -42,7 +44,7 @@ Adobe Experience Manager Assets Brand Portalを使用すると、Brand Portalか
 
 >[!NOTE]
 >
->Brand Portal 2020.10.0 （およびそれ以降）では、**[!UICONTROL 高速ダウンロード]**&#x200B;設定がデフォルトで有効になっており、IBM® Aspera Connectを使用してアセットを高速ダウンロードします。 Brand Portalからアセットをダウンロードする前に、ブラウザーの拡張機能にIBM® Aspera Connect 3.9.9 （`https://www.ibm.com/docs/en/aspera-connect/3.9.9`）をインストールします。 Brand Portalからのダウンロードを高速化する方法については、[&#x200B; ガイドを参照してください](../using/accelerated-download.md)。
+>Brand Portal 2020.10.0 （およびそれ以降）では、**[!UICONTROL 高速ダウンロード]**&#x200B;設定がデフォルトで有効になっており、IBM® Aspera Connectを使用してアセットを高速ダウンロードします。 Brand Portalからアセットをダウンロードする前に、ブラウザーの拡張機能にIBM® Aspera Connect 3.9.9 （`https://www.ibm.com/docs/en/aspera-connect/3.9.9`）をインストールします。 Brand Portalからのダウンロードを高速化する方法については、[ ガイドを参照してください](../using/accelerated-download.md)。
 >
 >IBM®Aspera Connectを使用せず、通常のダウンロードプロセスを続行する場合は、Brand Portal管理者に連絡して、**[!UICONTROL 高速ダウンロード]**&#x200B;設定をオフにします。
 
@@ -178,7 +180,7 @@ Brand Portal インターフェイスからアセットまたはアセットを�
      >
      >ダウンロードしたアセットにライセンス済みのアセットも含まれている場合は、**[!UICONTROL 著作権管理]** ページにリダイレクトされます。 このページで、アセットを選択し、「**[!UICONTROL 同意する]**」をクリックし、「**[!UICONTROL ダウンロード]**」をクリックします。 「同意しない」を選択した場合は、ライセンスが必要なアセットはダウンロードされません。
      > 
-     >ライセンスで保護されたアセットには[&#x200B; ライセンス契約](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/administer/drm)が添付されています。これは、Experience Manager Assetsでアセットの[&#x200B; メタデータプロパティ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/administer/drm)を設定することによって行われます。
+     >ライセンスで保護されたアセットには[ ライセンス契約](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm)が添付されています。これは、Experience Manager Assetsでアセットの[ メタデータプロパティ ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm)を設定することによって行われます。
 
 
      ![licensed-asset](assets/licensed-asset-new.png)
@@ -236,7 +238,7 @@ Brand Portal インターフェイスからアセットまたはアセットを�
 >
 >ダイナミックレンディションをプレビューまたはダウンロードするには、ダイナミックメディアを有効にします。 アセットのピラミッド tiff レンディションが、アセットが公開されたExperience Manager Assets オーサーインスタンスに存在することを確認します。 Experience Manager Assets から Brand Portal にアセットを公開すると、そのピラミッド TIFF レンディションも公開されます。
 
-[管理者が元のレンディション &#x200B;](../using/brand-portal-adding-users.md#main-pars-procedure-202029708)へのアクセスを許可していない場合、選択したアセットの元のレンディションをダウンロードできません。
+[管理者が元のレンディション ](../using/brand-portal-adding-users.md#main-pars-procedure-202029708)へのアクセスを許可していない場合、選択したアセットの元のレンディションをダウンロードできません。
 
 ![no-access-message](assets/no-access-message.png)
 

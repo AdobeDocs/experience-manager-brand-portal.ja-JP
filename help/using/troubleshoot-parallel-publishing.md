@@ -6,25 +6,31 @@ content-type: reference
 topic-tags: brand-portal
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-TQID: https://experienceleague.adobe.com/1Lui1NdyGzMArtIFPix9hzBzwBwtwfoxb8K3u4b9Aeo
+TQID: 'https://experienceleague.adobe.com/1Lui1NdyGzMArtIFPix9hzBzwBwtwfoxb8K3u4b9Aeo'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Troubleshooting
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 953
+source-wordcount: '954'
 ht-degree: 51%
-
 ---
-
 # Brand Portal への並列公開における問題のトラブルシューティング {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
 Brand Portal と Experience Manager Assets の連携を設定すると、承認済みブランドアセットを Experience Manager Assets オーサーインスタンスからシームレスに取り込む（または公開する）ことができます。 [設定](../using/configure-aem-assets-with-brand-portal.md)が完了すると、Experience Manager オーサーはレプリケーションエージェントを使用して、選択した1つ以上のアセットをBrand Portal クラウドサービスにレプリケートし、Brand Portal ユーザーによる承認済みの使用に使用します。 複数のレプリケーションエージェントは、Experience Manager 6.2 SP1-CFP5、Experience Manager CFP 6.3.0.2以降で使用され、高速な並列公開が可能になります。
@@ -79,7 +85,7 @@ ii. `/etc/cloudservices/mediaportal/<config_name>` の削除
 
 1. localhost:4502/useradminに移動：\
    私は。 ユーザーを検索 `mac-<tenantid>replication`
-ii. このユーザーを削除
+   ii. このユーザーを削除
 
 これでシステムはすべてクリーンアップされました。 これで、クラウドサービス設定を作成しても、既存のJWT アプリケーションを使用できます。 アプリケーションを作成する必要はなく、新しく作成したクラウド設定から公開鍵を更新するだけです。
 
@@ -129,7 +135,7 @@ permission
 
 エラーに基づいて、Brand Portal エンジニアリングチームが問題の解決を支援できるように、サポートチケットを記録することをお勧めします。
 
-## Brand Portal IMS 設定トークンの期限が切れました {#token-expired}
+## Brand Portal IMS 設定トークンの有効期限切れ {#token-expired}
 
 Brand Portal 環境が突然停止した場合は、IMS 設定が正しく動作していない可能性があります。 システムは異常な IMS 設定を表示し、（以下のような）アクセストークンの有効期限が切れたというエラーメッセージを反映します。
 
