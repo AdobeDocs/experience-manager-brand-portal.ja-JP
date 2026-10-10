@@ -5,25 +5,30 @@ content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: null
+discoiquuid:
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-TQID: https://experienceleague.adobe.com/7CFDihMZL-A0aWNO37Gf4C-3l4YwqHd39lnl-PSI6NA
+TQID: 'https://experienceleague.adobe.com/7CFDihMZL-A0aWNO37Gf4C-3l4YwqHd39lnl-PSI6NA'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: User
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1513
+source-wordcount: '1519'
 ht-degree: 97%
-
 ---
-
 # よくある質問 {#frequently-asked-questions}
 
 Brand Portal に関する FAQ では、最新の Experience Manager Assets Brand Portal 6.4.6 リリース以前のバージョンでの作業中にエンドユーザーに発生する可能性がある質問や問題に焦点を当てています。
@@ -193,7 +198,7 @@ Brand Portal ユーザーは&#x200B;**投稿**&#x200B;フォルダーにアク�
 >リリーススケジュールは暫定的で、変更される可能性があります。 更新されたリリーススケジュールを取得するには、アドビアカウントマネージャーまたはカスタマーサポートにお問い合わせください。
 
 
-## 製品のアクセスとサポート（制限付きサイト） {#product-access-and-support-restricted-sites}
+## 製品へのアクセスとサポート（制限付きサイト） {#product-access-and-support-restricted-sites}
 
 これらのサイトはお客様のみが参照できます。 お客様がアクセス権を必要とする場合は、アドビアカウントマネージャーにお問い合わせください。
 

@@ -5,28 +5,34 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-TQID: https://experienceleague.adobe.com/zcuaWI7GsV39hpBMfzoB9Oiep5IVgmmfz79J-cOm32g
+TQID: 'https://experienceleague.adobe.com/zcuaWI7GsV39hpBMfzoB9Oiep5IVgmmfz79J-cOm32g'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Security
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1108
+source-wordcount: '1112'
 ht-degree: 50%
-
 ---
+# Brand Portal でのフォルダー共有 {#share-folders}
 
-# Brand Portal でフォルダーを共有する {#share-folders}
-
-Brand Portal は、アセットの取り込みをサポートしていません。したがって、事前設定済みの Experience Manager オーサーインスタンスから Brand Portal にアセットを公開する必要があります。
+Brand Portal は、アセットの取り込みをサポートしていません。したがって、事前設定済みの Adobe Experience Manager オーサーインスタンスから Brand Portal にアセットを公開する必要があります。
 
 ## Brand Portalのフォルダー共有ワークフロー {#folder-sharing-workflow-in-brand-portal}
 
@@ -38,7 +44,7 @@ Brand Portal は、アセットの取り込みをサポートしていません�
 
 * ユーザーの役割や権限に関係なく、ユーザーがBrand Portalにログインすると、すべての公開フォルダーと、ユーザーと直接共有されているフォルダー、またはユーザーが属するグループと共有されているフォルダーが表示されます。 プライベートフォルダー、または他のユーザーと共有されているフォルダーは、すべてのユーザーには表示されません。
 
-### Brand Portal 上でフォルダーをユーザーグループと共有する {#sharing-folders-with-user-groups-on-brand-portal}
+### Brand Portal 上でのフォルダーのユーザーグループとの共有 {#sharing-folders-with-user-groups-on-brand-portal}
 
 フォルダーのアセットに対するアクセス権は、その親フォルダーに対するアクセス権に依存します。子フォルダーの設定には関係ありません。 AEMの[ACL](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/security/security)がこのビヘイビアーを管理し、子フォルダーは親フォルダーからACLを継承します。 例えば、フォルダーAにフォルダーBがあり、フォルダーCが含まれているとします。次に、フォルダーAにアクセス権を持つユーザーグループ（またはユーザー）は、フォルダーBとフォルダーCにも同じアクセス権を持ちます。フォルダーBはAの子フォルダーであり、フォルダーCはBの子フォルダーはそのACLを継承します。
 
@@ -65,7 +71,7 @@ Brand Portal は、アセットの取り込みをサポートしていません�
 | 管理者 | はい | はい | はい |
 | 編集者 | 不可* | 可。ただし、そのユーザーと共有されている場合、またはそのユーザーの所属グループと共有されている場合のみ。 | 可。ただし、そのユーザーと共有されているフォルダー、またはそのユーザーの所属グループと共有されているフォルダーのみ。 |
 | 閲覧者 | 不可* | 可。ただし、そのユーザーと共有されている場合、またはそのユーザーの所属グループと共有されている場合のみ。 | 不可 |
-| ゲストユーザー | 不可* | 可。ただし、そのユーザーと共有されている場合、またはそのユーザーの所属グループと共有されている場合のみ。 | いいえ |
+| ゲストユーザー | 不可* | 可。ただし、そのユーザーと共有されている場合、またはそのユーザーの所属グループと共有されている場合のみ。 | 不可 |
 
 >[!NOTE]
 >

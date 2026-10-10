@@ -5,7 +5,7 @@ content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-TQID: https://experienceleague.adobe.com/e2-MbP-f0xwBB8JLpb-7V80uNP-0N8cCnJeCLJCfRm0
+TQID: 'https://experienceleague.adobe.com/e2-MbP-f0xwBB8JLpb-7V80uNP-0N8cCnJeCLJCfRm0'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -16,6 +16,8 @@ feature_v2:
     internal-label: Dynamic Media
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: a0cde32c-c339-4649-bd06-f1111bc952fc
     internal-label: Smart Crop
@@ -26,7 +28,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
 source-wordcount: '1633'
 ht-degree: 93%

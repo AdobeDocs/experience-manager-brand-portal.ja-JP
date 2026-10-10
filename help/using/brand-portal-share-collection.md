@@ -6,23 +6,28 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-TQID: https://experienceleague.adobe.com/JDFqy51bnJFV-WNbr9gA61jykF-DJXl90SF1Xn-WGJI
+TQID: 'https://experienceleague.adobe.com/JDFqy51bnJFV-WNbr9gA61jykF-DJXl90SF1Xn-WGJI'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
+    internal-label: User
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 689
+source-wordcount: '689'
 ht-degree: 75%
-
 ---
-
 # コレクションの共有 {#share-collections}
 
 コレクションは、Adobe Experience Manager Assets Brand Portal にまとめて保存される関連アセットのグループを表します。 ユーザーは、[オムニサーチまたはファセット検索を適用して関連アセットをフィルター](brand-portal-searching.md)し一緒に保存することでスマートコレクションを作成し、アクセスしやすくしたり、さらに他の Brand Portal ユーザーと共有したりできます。

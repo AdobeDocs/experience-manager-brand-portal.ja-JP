@@ -6,33 +6,44 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: download-install
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-TQID: https://experienceleague.adobe.com/LZ7QHhEUSQtnreqQNBHt89LDjuHGAEHKy-e4zh3xKjU
+TQID: 'https://experienceleague.adobe.com/LZ7QHhEUSQtnreqQNBHt89LDjuHGAEHKy-e4zh3xKjU'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+    internal-label: Dynamic Media
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: b112da9a-40c7-4e3d-8f68-114cdbd87ae4
+    internal-label: Video encoding
   - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
+    internal-label: Hybrid mode
   - id: d17d085a-e808-49dd-b9a6-85a996b999bd
+    internal-label: Viewers
   - id: d8e79b3c-92b5-4c4d-a46c-5f16d63a14dc
+    internal-label: Viewer presets
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
   - id: ee69dd13-2aba-4eb0-912b-399e82368d73
+    internal-label: Scene7 mode
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4b423f850ccbdf8c2c2da14a7cd5ab844502883a
+    internal-label: User
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1412
+source-wordcount: '1412'
 ht-degree: 40%
-
 ---
-
 # Brand Portal でのダイナミックビデオのサポート {#dynamic-video-support-on-brand-portal}
 
 Dynamic Media をサポートしている Brand Portal でビデオをアダプティブにプレビューおよび再生します。 また、ポータルおよび共有リンクから動的レンディションをダウンロードします。
-Brand Portal を使用すると、次のことが可能になります。
+Brand Portal ユーザーは、次のことができます。
 
 * アセットの詳細ページ、カード表示、リンク共有プレビューページのビデオをプレビューします。
 * アセットの詳細ページでビデオエンコードを再生します。
@@ -65,7 +76,7 @@ Brand Portal リポジトリーは、ビデオエンコードを保存せず、*
 
 >[!NOTE]
 >
->Brand Portal では、ビデオビューアとビューアプリセットはサポートされません。 ビデオは Brand Portal のデフォルトのビューアでプレビューおよび再生されます。
+>Brand Portal では、ビデオビューアとビューアプリセットはサポートされません。 ビデオは Brand Portal のデフォルトのビューアーでプレビューおよび再生されます。
 
 ## 前提条件 {#prerequisites}
 

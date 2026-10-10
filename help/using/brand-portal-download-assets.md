@@ -6,7 +6,7 @@ contentOwner: Vishabh Gupta
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download, download-install, download assets
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-TQID: https://experienceleague.adobe.com/RxwM021BfmZtMB1oi-EtwMuHinMTOKclwEUNjcQu6o4
+TQID: 'https://experienceleague.adobe.com/RxwM021BfmZtMB1oi-EtwMuHinMTOKclwEUNjcQu6o4'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -17,6 +17,8 @@ feature_v2:
     internal-label: Dynamic Media
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
     internal-label: Hybrid mode
@@ -30,7 +32,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: d2c6731ba328a0acc2d95354d2e2490f5cf0b320
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
 source-wordcount: '1957'
 ht-degree: 65%

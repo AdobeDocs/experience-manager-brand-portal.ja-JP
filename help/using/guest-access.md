@@ -6,32 +6,40 @@ topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-TQID: https://experienceleague.adobe.com/oyNPb7pxN7VLKQJko76nRzM2H1xL7e-s3E--FDTREf0
+TQID: 'https://experienceleague.adobe.com/oyNPb7pxN7VLKQJko76nRzM2H1xL7e-s3E--FDTREf0'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Insights
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: '1056'
 ht-degree: 54%
-
 ---
-
 # Brand Portal へのゲストによるアクセス {#guest-access-to-brand-portal}
 
 Experience Manager Assets Brand Portal では、ゲストによるポータルへのアクセスを許可します。 ゲストユーザーは資格情報がなくてもポータルに入ることができ、ポータルの公開アセット（およびコレクション）にアクセスできます。 ゲストセッション中のユーザーは Lightbox（非公開コレクション）にアセットを追加でき、セッションが終了するまで、またはゲストユーザーが[[!UICONTROL セッションの終了]](#exit-guest-session)を選択した場合を除いて、同様にダウンロードすることができます。 ゲストユーザーセッションは 15 分間アクティブのままになります。
 
-ゲストアクセス機能により、組織はオンボーディングすることなく、承認済みアセットを[迅速に](../using/brand-portal-sharing-folders.md#how-to-share-folders)大規模に共有できます。 Brand Portal 6.4.2 以降には、複数の同時ゲストユーザー（組織あたりの合計ユーザークォータの 10%）に対応する機能が搭載されています。 ゲストによるアクセスを許可することで、Brand Portal の限られた機能を使用するユーザーのスコアの管理やオンボーディングにかかる時間を節約できます。\
+ゲストアクセス機能により、組織はオンボーディングすることなく、承認済みアセットを[迅速に](../using/brand-portal-sharing-folders.md#how-to-share-folders)大規模に共有できます。 Brand Portal 6.4.2 以降には、複数の同時ゲストユーザー（組織あたりの合計ユーザークォータの 10%）に対応する機能が搭載されています。 ゲストによるアクセスを許可することで、Brand Portal の限られた機能を使用する多数のユーザーの管理やオンボーディングにかかる時間を節約できます。\
 組織は、管理ツールパネルの&#x200B;**[!UICONTROL アクセス]**&#x200B;設定から&#x200B;**[!UICONTROL ゲストアクセスを許可]** オプションを使用して、組織のBrand Portal アカウントでゲストアクセスを有効または無効にできます。
 
 <!--
@@ -54,7 +62,7 @@ Brand Portalを匿名で入力するには、Brand Portalのウェルカム画�
 ゲストユーザーセッションは 15 分間アクティブのままになります。
 このプロセスは、セッション開始時間から15分間、**[!UICONTROL ライトボックス]**&#x200B;の状態を保持します。 その後、現在のゲストセッションが再起動し、ライトボックスの状態が失われます。
 
-例えば、ゲストユーザーは1500時間でBrand Portalにログインし、15:05時間でダウンロードできるように&#x200B;**[!UICONTROL Lightbox]**&#x200B;にアセットを追加します。 ユーザーが15:15時間前（ログイン後15分以内）に&#x200B;**[!UICONTROL Lightbox]** コレクション（またはそのアセット）をダウンロードしない場合、ユーザーはセッションを再起動する必要があります。 **[!UICONTROL ライトボックス]**&#x200B;が空です。つまり、セッションが失われた場合、アップロードされたアセットは使用できなくなります。
+例えば、ゲストユーザーが1500時間でBrand Portalにログインし、15:05時間にダウンロードできるように&#x200B;**[!UICONTROL Lightbox]**&#x200B;にアセットを追加します。 ユーザーが15:15時間（ログイン後15分以内）までに&#x200B;**[!UICONTROL Lightbox]** コレクション（またはそのアセット）をダウンロードしない場合、ユーザーはセッションを再起動する必要があります。 **[!UICONTROL ライトボックス]**&#x200B;が空です。つまり、セッションが失われた場合、アップロードされたアセットは使用できなくなります。
 
 ## 許可されている同時ゲストセッション {#concurrent-guest-sessions-allowed}
 
@@ -96,7 +104,7 @@ Brand Portalを匿名で入力するには、Brand Portalのウェルカム画�
 Brand Portalには、ゲストユーザーが選択したアセット/フォルダーの&#x200B;**[!UICONTROL アセットプロパティ]**&#x200B;を表示するための&#x200B;**[!UICONTROL 概要]** オプションが用意されています。 「**[!UICONTROL 概要]**」オプションは、次の場所に表示されます。
 
 * ツールバーの上部で、アセットまたはフォルダーを選択します。
-* パネルセレクターを選択する際のドロップダウン。
+* パネルセレクターを選択すると表示されるドロップダウン内。
 
 アセットまたはフォルダーが選択されている間に&#x200B;**[!UICONTROL 概要]** オプションを選択すると、ユーザーはアセット作成のタイトル、パス、時間を確認できます。 一方、アセットの詳細ページでは、**[!UICONTROL 概要]** オプションを選択すると、ユーザーはアセットのメタデータを表示できます。
 
@@ -114,7 +122,7 @@ Brand Portalには、ゲストユーザーが選択したアセット/フォル�
 
 **ゲストユーザーが実行できる操作**：
 
-* すべての Brand Portal ユーザー向けのすべての公開フォルダーと公開コレクションにアクセスする。
+* すべての Brand Portal ユザ向けのすべての公開フォルダーと公開コレクションにアクセスする。
 * メンバー、詳細ページを参照し、すべての公開フォルダーとコレクションのメンバーの完全なアセットビューを持ちます。
 * 公開フォルダーおよび公開コレクション全体でアセットを検索する。
 * Lightbox コレクションにアセットを追加する。 コレクションに対するこれらの変更は、セッションの間保持されます。
